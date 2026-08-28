@@ -297,37 +297,134 @@ draw_epoch_header <- function(title, subtitle) {
   )
 }
 
-draw_epoch_footer <- function() {
-  icon_x <- 0.056
-  icon_y <- 0.040
-  icon_col <- gray_400
-  grid.lines(
-    x = unit(c(icon_x, icon_x + 0.019), "npc"),
-    y = unit(c(icon_y - 0.006, icon_y + 0.006), "npc"),
-    gp = gpar(col = icon_col, lwd = 3.4, lineend = "round")
-  )
-  grid.lines(
-    x = unit(c(icon_x, icon_x + 0.026), "npc"),
-    y = unit(c(icon_y + 0.002, icon_y + 0.018), "npc"),
-    gp = gpar(col = icon_col, lwd = 3.4, lineend = "round")
-  )
-  grid.lines(
-    x = unit(c(icon_x, icon_x + 0.010), "npc"),
-    y = unit(c(icon_y + 0.015, icon_y + 0.021), "npc"),
-    gp = gpar(col = icon_col, lwd = 3.4, lineend = "round")
-  )
-  grid.text(
-    "EPOCH AI  |  CC-BY",
-    x = unit(0.088, "npc"), y = unit(icon_y + 0.006, "npc"),
-    just = c("left", "center"),
-    gp = gpar(
-      fontfamily = font_family, fontface = "bold", fontsize = 11,
-      col = gray_400
+# Draw the official Epoch wordmark as vector geometry.  The source asset is
+# copied from epoch.ai's epoch-full-standard.svg so every export format uses the
+# real logo rather than a hand-drawn approximation.
+parse_svg_path <- function(path_data, curve_steps = 18) {
+  token_pattern <- "[A-Za-z]|[-+]?(?:[0-9]*\\.[0-9]+|[0-9]+\\.?)(?:[eE][-+]?[0-9]+)?"
+  tokens <- regmatches(path_data, gregexpr(token_pattern, path_data, perl = TRUE))[[1]]
+  paths <- list()
+  active <- NULL
+  current <- c(0, 0)
+  start <- c(0, 0)
+  command <- NULL
+  index <- 1
+
+  finish_path <- function() {
+    if (!is.null(active) && nrow(active) >= 3) paths[[length(paths) + 1]] <<- active
+    active <<- NULL
+  }
+  add_point <- function(point) {
+    active <<- rbind(active, point)
+    current <<- point
+  }
+  number <- function(offset = 0) as.numeric(tokens[[index + offset]])
+
+  while (index <= length(tokens)) {
+    if (grepl("^[A-Za-z]$", tokens[[index]])) {
+      command <- tokens[[index]]
+      index <- index + 1
+      if (command == "Z") {
+        if (!is.null(active) && any(active[nrow(active), ] != start)) active <- rbind(active, start)
+        current <- start
+        finish_path()
+        command <- NULL
+      }
+      next
+    }
+    if (command == "M") {
+      finish_path()
+      point <- c(number(), number(1))
+      index <- index + 2
+      active <- matrix(point, nrow = 1)
+      current <- point
+      start <- point
+      command <- "L"
+    } else if (command == "L") {
+      add_point(c(number(), number(1)))
+      index <- index + 2
+    } else if (command == "H") {
+      add_point(c(number(), current[[2]]))
+      index <- index + 1
+    } else if (command == "V") {
+      add_point(c(current[[1]], number()))
+      index <- index + 1
+    } else if (command == "C") {
+      control_1 <- c(number(), number(1))
+      control_2 <- c(number(2), number(3))
+      endpoint <- c(number(4), number(5))
+      origin <- current
+      for (time in seq(1 / curve_steps, 1, length.out = curve_steps)) {
+        add_point(
+          (1 - time)^3 * origin +
+            3 * (1 - time)^2 * time * control_1 +
+            3 * (1 - time) * time^2 * control_2 +
+            time^3 * endpoint
+        )
+      }
+      index <- index + 6
+    } else {
+      stop(sprintf("Unsupported SVG path command: %s", command))
+    }
+  }
+  finish_path()
+  paths
+}
+
+load_epoch_wordmark <- function() {
+  logo_path <- file.path(repo_root, "assets/epoch-full-standard.svg")
+  svg <- paste(readLines(logo_path, warn = FALSE), collapse = "")
+  path_tags <- regmatches(svg, gregexpr("<path\\b[^>]*>", svg, perl = TRUE))[[1]]
+  lapply(path_tags, function(tag) {
+    list(
+      paths = parse_svg_path(sub('.*\\bd="([^"]+)".*', "\\1", tag)),
+      fill = sub('.*\\bfill="([^"]+)".*', "\\1", tag)
     )
+  })
+}
+
+epoch_wordmark <- load_epoch_wordmark()
+
+draw_epoch_wordmark <- function(x, y, height = unit(17 / 96, "in")) {
+  width <- height * (75 / 13)
+  pushViewport(viewport(
+    x = x, y = y, just = c("left", "center"),
+    width = width, height = height,
+    xscale = c(0, 75), yscale = c(0, 13)
+  ))
+  for (shape in epoch_wordmark) {
+    coordinates <- do.call(rbind, shape$paths)
+    path_ids <- rep(seq_along(shape$paths), vapply(shape$paths, nrow, integer(1)))
+    grid.path(
+      x = unit(coordinates[, 1], "native"),
+      y = unit(13 - coordinates[, 2], "native"),
+      id = path_ids,
+      rule = "evenodd",
+      gp = gpar(fill = shape$fill, col = NA)
+    )
+  }
+  popViewport()
+  invisible(width)
+}
+
+draw_epoch_footer <- function() {
+  footer_x <- unit(0.055, "npc")
+  footer_y <- unit(0.046, "npc")
+  logo_width <- draw_epoch_wordmark(footer_x, footer_y)
+  separator <- textGrob(
+    "|", gp = gpar(fontfamily = font_family, fontsize = 10.5, col = charcoal_500)
+  )
+  separator_x <- footer_x + logo_width + unit(10 / 96, "in")
+  grid.draw(editGrob(separator, x = separator_x, y = footer_y, just = c("left", "center")))
+  grid.text(
+    "CC-BY",
+    x = separator_x + grobWidth(separator) + unit(6 / 96, "in"), y = footer_y,
+    just = c("left", "center"),
+    gp = gpar(fontfamily = font_family, fontsize = 10.5, col = charcoal_500)
   )
   grid.text(
     "epoch.ai",
-    x = unit(0.955, "npc"), y = unit(icon_y + 0.006, "npc"),
+    x = unit(0.955, "npc"), y = footer_y,
     just = c("right", "center"),
     gp = gpar(fontfamily = font_family, fontsize = 11, col = gray_500)
   )
