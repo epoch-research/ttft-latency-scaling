@@ -1,0 +1,200 @@
+[
+  {
+    "mode": "cached",
+    "target": 50000,
+    "counted": 50000,
+    "end": 214186,
+    "split": 171856,
+    "new_estimate": 10000,
+    "cache_estimate": 40000,
+    "prompt_sha256": "f0c704995ac8f70255bdc88cb36d59987d65899ae1bba3499e28dfd2f14d09b6",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 50000,
+    "counted": 50000,
+    "end": 214188,
+    "split": 0,
+    "new_estimate": 50000,
+    "cache_estimate": 0,
+    "prompt_sha256": "b057dd7bc7163c5b037ab0c535b6d630f881e8d13af417c6b0bf8507d3001ff6",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 100000,
+    "counted": 100000,
+    "end": 429918,
+    "split": 387271,
+    "new_estimate": 10000,
+    "cache_estimate": 90000,
+    "prompt_sha256": "44948be66769c3cd0dacbd19a3706918edd39bc726d4a8dc9668f844c25d5898",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 100000,
+    "counted": 100000,
+    "end": 429925,
+    "split": 0,
+    "new_estimate": 100000,
+    "cache_estimate": 0,
+    "prompt_sha256": "06ae060255937eecc637b42f9ef3dbf64740d9e00ede4806f9a8e4c583323de6",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 175000,
+    "counted": 175000,
+    "end": 750012,
+    "split": 706395,
+    "new_estimate": 10000,
+    "cache_estimate": 165000,
+    "prompt_sha256": "8a69280190b20a0204fd1d34accbeb17b12e4dabeb12fe7fa241839a332ea628",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 175000,
+    "counted": 175000,
+    "end": 750015,
+    "split": 0,
+    "new_estimate": 175000,
+    "cache_estimate": 0,
+    "prompt_sha256": "c52809d9ae91c6559e30b8dba8aabc0c8612d86282d3908b88de042dc2ca8f0d",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 250000,
+    "counted": 250000,
+    "end": 1044865,
+    "split": 1005602,
+    "new_estimate": 10000,
+    "cache_estimate": 240000,
+    "prompt_sha256": "18645a479a39d33119650daa26c173f071404d05c5e9a7e6423c44b68a40485a",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 250000,
+    "counted": 250000,
+    "end": 1044865,
+    "split": 0,
+    "new_estimate": 250000,
+    "cache_estimate": 0,
+    "prompt_sha256": "5e6c482d7100c48b465473d7a558cc08566d30f3eb0137c53a3f37d77f871d6c",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 275000,
+    "counted": 274999,
+    "end": 1142947,
+    "split": 1106287,
+    "new_estimate": 10000,
+    "cache_estimate": 264999,
+    "prompt_sha256": "479e27638f6b96db2d07cffa3239ee7ca9136f2d270bc3e21b69e5605a521f60",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 275000,
+    "counted": 275000,
+    "end": 1142955,
+    "split": 0,
+    "new_estimate": 275000,
+    "cache_estimate": 0,
+    "prompt_sha256": "56f0bda9116f1806c5056402cde3510670ffcec1f29db7789eeeca4a6cdbb6ef",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 375000,
+    "counted": 374997,
+    "end": 1551624,
+    "split": 1511384,
+    "new_estimate": 10000,
+    "cache_estimate": 364997,
+    "prompt_sha256": "6d3c27227e0a125e5b9c8833f07cc974b5c5f0e4618b76ecb5d9d8a7d90c8044",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 375000,
+    "counted": 375000,
+    "end": 1551631,
+    "split": 0,
+    "new_estimate": 375000,
+    "cache_estimate": 0,
+    "prompt_sha256": "87b35abfe27dab2ee49ac54d1f1ef016b32457b7ce2ffbf367aea73aa92e53f2",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 550000,
+    "counted": 550000,
+    "end": 2270860,
+    "split": 2228277,
+    "new_estimate": 10000,
+    "cache_estimate": 540000,
+    "prompt_sha256": "a7eca0fedd2673093c95e855b97030c2f7a49788794fbc9ba8b36852787eb5c2",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 550000,
+    "counted": 550000,
+    "end": 2270860,
+    "split": 0,
+    "new_estimate": 550000,
+    "cache_estimate": 0,
+    "prompt_sha256": "c80547d0793d8d97806a218c23d6f638ef911013688305c19b5127842ac64258",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 750000,
+    "counted": 749999,
+    "end": 3097789,
+    "split": 3058785,
+    "new_estimate": 10000,
+    "cache_estimate": 739999,
+    "prompt_sha256": "7a273b9b1cb2d05c9a55226ea592b079aa10452fdc8111f49bb911f06057bed5",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 750000,
+    "counted": 750000,
+    "end": 3097796,
+    "split": 0,
+    "new_estimate": 750000,
+    "cache_estimate": 0,
+    "prompt_sha256": "078b55289ea4aabce56df7de84c0cb689cba5480ce414a2afd386ff8f23251e2",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 850000,
+    "counted": 849999,
+    "end": 3507164,
+    "split": 3466803,
+    "new_estimate": 10000,
+    "cache_estimate": 839999,
+    "prompt_sha256": "89a27c4301492646e2e66473720a9ee3e73d75d18c3366dffce82905f57addef",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 850000,
+    "counted": 850000,
+    "end": 3507175,
+    "split": 0,
+    "new_estimate": 850000,
+    "cache_estimate": 0,
+    "prompt_sha256": "910917c66032fa1033a5abfb39cf41268c4f13471fdbb0e15da5ba46780e6f75",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  }
+]

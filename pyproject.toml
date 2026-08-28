@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ttft-latency-scaling"
+version = "0.1.0"
+description = "Collection and analysis code for long-context API TTFT scaling"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "httpx==0.28.1",
+  "python-dotenv==1.2.2",
+]
+
+[project.scripts]
+ttft-bench = "ttft_bench.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ttft_bench"]
+

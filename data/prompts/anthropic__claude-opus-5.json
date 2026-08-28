@@ -1,0 +1,222 @@
+[
+  {
+    "mode": "cached",
+    "target": 50000,
+    "counted": 50000,
+    "end": 146856,
+    "split": 118288,
+    "new_estimate": 10000,
+    "cache_estimate": 40000,
+    "prompt_sha256": "206d2a2613cc8f1a03e468d6f7d23868e3610d9795b9f30bf08373ad44c94bc5",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 50000,
+    "counted": 50000,
+    "end": 146856,
+    "split": 0,
+    "new_estimate": 50000,
+    "cache_estimate": 0,
+    "prompt_sha256": "5b2bd359c32e06d06741d36669952fd4602c95aaaf5aa75e91ba54ec5b24a139",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 100000,
+    "counted": 100000,
+    "end": 293384,
+    "split": 264450,
+    "new_estimate": 10000,
+    "cache_estimate": 90000,
+    "prompt_sha256": "ca473ffb30e64e53f9689c1a28065180e45dcbdbec5796f7055f76397e77af43",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 100000,
+    "counted": 100000,
+    "end": 293384,
+    "split": 0,
+    "new_estimate": 100000,
+    "cache_estimate": 0,
+    "prompt_sha256": "970df0ffa3527c3d5b33ad2ad7e79dd88332ee6d4d814adfa929f9e16e166782",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 175000,
+    "counted": 175000,
+    "end": 517031,
+    "split": 487409,
+    "new_estimate": 10000,
+    "cache_estimate": 165000,
+    "prompt_sha256": "7a9de595e55828236c3caf749a0b2cb0d383b17eb053f932707e3fcb4902a1cf",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 175000,
+    "counted": 175000,
+    "end": 517031,
+    "split": 0,
+    "new_estimate": 175000,
+    "cache_estimate": 0,
+    "prompt_sha256": "f290e0951e35f1e0d982304232b7155e0f44bb836ba9c027c9df35f7a162fab9",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 250000,
+    "counted": 250000,
+    "end": 738062,
+    "split": 708652,
+    "new_estimate": 10000,
+    "cache_estimate": 240000,
+    "prompt_sha256": "7dbb643ecf5dd6fb8a5c2965da1a477ee2783a21175fad6394f07ce94043359f",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 250000,
+    "counted": 250000,
+    "end": 738062,
+    "split": 0,
+    "new_estimate": 250000,
+    "cache_estimate": 0,
+    "prompt_sha256": "4832b686e7d0c82e58b397a44fef217236949d404627b57ddf610d16d464d7f4",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 375000,
+    "counted": 375000,
+    "end": 1082332,
+    "split": 1054270,
+    "new_estimate": 10000,
+    "cache_estimate": 365000,
+    "prompt_sha256": "569ba058ef40336616a9cf91b8644359b6c1cc2519f824b00ebf034bd3beca45",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 375000,
+    "counted": 375000,
+    "end": 1082332,
+    "split": 0,
+    "new_estimate": 375000,
+    "cache_estimate": 0,
+    "prompt_sha256": "ef9ca9e6a4796c87ba2e94c36487639d2f188ddf021feab71aadde236fd1b892",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 500000,
+    "counted": 500000,
+    "end": 1437027,
+    "split": 1408278,
+    "new_estimate": 10000,
+    "cache_estimate": 490000,
+    "prompt_sha256": "a488b03531984cd6f9a85be0152d0eda7d181fa7c915fa1496bb1978863948cb",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 500000,
+    "counted": 500000,
+    "end": 1437027,
+    "split": 0,
+    "new_estimate": 500000,
+    "cache_estimate": 0,
+    "prompt_sha256": "d502ec8b68e98abb250938263a1600dd4d56a8b2ebaf6d4e70eaaa55a6e442fa",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 550000,
+    "counted": 550000,
+    "end": 1579804,
+    "split": 1550539,
+    "new_estimate": 10000,
+    "cache_estimate": 540000,
+    "prompt_sha256": "c21a510467a0a3a1c0b4da20a353454f104c9d19024952187c99378b39137233",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 550000,
+    "counted": 550000,
+    "end": 1579804,
+    "split": 0,
+    "new_estimate": 550000,
+    "cache_estimate": 0,
+    "prompt_sha256": "c00a6793224deda8c0f0df8b0f9be8872adc3d97226ea1d47e89b774bc50fd5f",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 625000,
+    "counted": 625000,
+    "end": 1790584,
+    "split": 1763371,
+    "new_estimate": 10000,
+    "cache_estimate": 615000,
+    "prompt_sha256": "fc799723f79a953665623f86ad5f0d0795f6e7e0fb96e7e7a926a6a9d125d9ff",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 625000,
+    "counted": 625000,
+    "end": 1790584,
+    "split": 0,
+    "new_estimate": 625000,
+    "cache_estimate": 0,
+    "prompt_sha256": "217df341aabead1826911724ca535c84f565397911a5f1c3a5bda62b7ed2f459",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 750000,
+    "counted": 750000,
+    "end": 2146359,
+    "split": 2116877,
+    "new_estimate": 10000,
+    "cache_estimate": 740000,
+    "prompt_sha256": "62f672866a971db455c161354ec7ffbd707d265e48f1016d791ce78ac4146c0d",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 750000,
+    "counted": 750000,
+    "end": 2146359,
+    "split": 0,
+    "new_estimate": 750000,
+    "cache_estimate": 0,
+    "prompt_sha256": "34882bdf21cd118b4c9a6409e89f9390a66b3c3d45deaa06bbedc3663620f885",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "cached",
+    "target": 900000,
+    "counted": 900000,
+    "end": 2589836,
+    "split": 2560562,
+    "new_estimate": 10000,
+    "cache_estimate": 890000,
+    "prompt_sha256": "26490221599b4ae81d4508446bbc440a1b3548defe0124609ebe34f09c2b36df",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  },
+  {
+    "mode": "uncached",
+    "target": 900000,
+    "counted": 900000,
+    "end": 2589836,
+    "split": 0,
+    "new_estimate": 900000,
+    "cache_estimate": 0,
+    "prompt_sha256": "470de99d07d651a85b16fd70f8ee8d931376c5cd51358befdee6e1de18f16d95",
+    "corpus_sha256": "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75"
+  }
+]

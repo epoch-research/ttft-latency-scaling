@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "description": "Pinned Project Gutenberg UTF-8 plain-text corpus, downloaded 2026-08-12",
+  "documents": [
+    {
+      "id": "pg1342",
+      "title": "Pride and Prejudice",
+      "url": "https://www.gutenberg.org/cache/epub/1342/pg1342.txt",
+      "sha256": "74f2665d6e6925fc2c17dec644bec9e87df478a0f1836822125e8acbb3777806"
+    },
+    {
+      "id": "pg2701",
+      "title": "Moby-Dick",
+      "url": "https://www.gutenberg.org/cache/epub/2701/pg2701.txt",
+      "sha256": "9a6844ac0703853720010787c7b6c70b0020f1ab1862dcd74452fa46474d1215"
+    },
+    {
+      "id": "pg84",
+      "title": "Frankenstein",
+      "url": "https://www.gutenberg.org/cache/epub/84/pg84.txt",
+      "sha256": "7810cd483cffcf2cc8a1d8f0d5807931e69d4f48cd14149b8c76f88af82fead3"
+    },
+    {
+      "id": "pg1661",
+      "title": "The Adventures of Sherlock Holmes",
+      "url": "https://www.gutenberg.org/cache/epub/1661/pg1661.txt",
+      "sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0"
+    },
+    {
+      "id": "pg11",
+      "title": "Alice's Adventures in Wonderland",
+      "url": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+      "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e"
+    },
+    {
+      "id": "pg98",
+      "title": "A Tale of Two Cities",
+      "url": "https://www.gutenberg.org/cache/epub/98/pg98.txt",
+      "sha256": "d54c2b80d40a40b982cd88852c6180bb944d95acdb028af3d0e01a1750681784"
+    },
+    {
+      "id": "pg2600",
+      "title": "War and Peace",
+      "url": "https://www.gutenberg.org/cache/epub/2600/pg2600.txt",
+      "sha256": "2d5bb2ad5f422765e714617e21fa31bbaf8958aa79682c86fca6660fcc5d1b2b"
+    }
+  ]
+}
+

@@ -1,0 +1,12 @@
+.env
+.venv/
+renv/library/
+renv/staging/
+live-results/
+build/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.DS_Store
+

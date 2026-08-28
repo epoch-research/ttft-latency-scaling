@@ -1,0 +1,5 @@
+"model","session_id","session_label","requests","chronological_blocks","minimum_total_input_tokens","maximum_total_input_tokens","target_context_lengths","exact_total_input_lengths","repetitions"
+"GPT-5.6 Terra","20260813T155415Z-6998d614","terra-shared-prefix-scaling-large",72,8,49998,849998,"50000;100000;175000;250000;275000;375000;550000;750000;850000","49998;99998;174998;249998;274998;374998;549998;749998;849998","8 per context length"
+"GPT-5.6 Sol","20260814T140715Z-bee825d8","sol-morning-shared-prefix-repeat",30,5,49998,849998,"50000;175000;250000;275000;550000;850000","49998;174998;249998;274998;549998;849998","5 per context length"
+"Claude Sonnet 5","20260814T154718Z-5dc271b9","sonnet-shared-prefix-more-blocks",112,14,49994,899994,"50000;100000;175000;250000;375000;550000;750000;900000","49994;99994;174994;249994;374994;549994;749994;899994","14 per context length"
+"Claude Opus 5","20260813T163222Z-b3406d60","opus-shared-prefix-scaling-large",48,6,49994,899994,"50000;100000;175000;250000;375000;550000;750000;900000","49994;99994;174994;249994;374994;549994;749994;899994","6 per context length"

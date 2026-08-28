@@ -1,0 +1,42 @@
+{
+  "note": "Equivalent collection specifications reconstructed from finalized session headers and raw request order. Historical prices in benchmark.toml must be reviewed before new paid runs.",
+  "common": {
+    "shared_cache_prefix_tokens": 2048,
+    "shared_cache_min_interval_seconds": 4.0,
+    "max_output_tokens": 32,
+    "fixed_output": true,
+    "leading_nonce": true,
+    "skip_warmup": true,
+    "sequential": true
+  },
+  "sessions": [
+    {
+      "model": "openai_terra",
+      "label": "terra-shared-prefix-scaling-large",
+      "lengths": [50000, 100000, 175000, 250000, 275000, 375000, 550000, 750000, 850000],
+      "repetitions": 8,
+      "observed_schedule": "data/schedules/20260813T155415Z-6998d614.csv"
+    },
+    {
+      "model": "openai_sol",
+      "label": "sol-morning-shared-prefix-repeat",
+      "lengths": [50000, 175000, 250000, 275000, 550000, 850000],
+      "repetitions": 5,
+      "observed_schedule": "data/schedules/20260814T140715Z-bee825d8.csv"
+    },
+    {
+      "model": "anthropic_sonnet",
+      "label": "sonnet-shared-prefix-more-blocks",
+      "lengths": [50000, 100000, 175000, 250000, 375000, 550000, 750000, 900000],
+      "repetitions": 14,
+      "observed_schedule": "data/schedules/20260814T154718Z-5dc271b9.csv"
+    },
+    {
+      "model": "anthropic_opus",
+      "label": "opus-shared-prefix-scaling-large",
+      "lengths": [50000, 100000, 175000, 250000, 375000, 550000, 750000, 900000],
+      "repetitions": 6,
+      "observed_schedule": "data/schedules/20260813T163222Z-b3406d60.csv"
+    }
+  ]
+}

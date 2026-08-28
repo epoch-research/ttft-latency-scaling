@@ -1,0 +1,1601 @@
+"model","estimator","iteration","gamma","any_parameter_boundary"
+"GPT-5.6 Terra","Stochastic frontier",1,7.18356328917256,FALSE
+"GPT-5.6 Terra","Stochastic frontier",2,6.65720486205064,FALSE
+"GPT-5.6 Terra","Stochastic frontier",3,7.52310507791794,FALSE
+"GPT-5.6 Terra","Stochastic frontier",4,7.26870404856865,FALSE
+"GPT-5.6 Terra","Stochastic frontier",5,7.06806931127244,FALSE
+"GPT-5.6 Terra","Stochastic frontier",6,6.93012844333427,FALSE
+"GPT-5.6 Terra","Stochastic frontier",7,7.47707765217285,FALSE
+"GPT-5.6 Terra","Stochastic frontier",8,8.06719621663667,FALSE
+"GPT-5.6 Terra","Stochastic frontier",9,7.35963652742088,FALSE
+"GPT-5.6 Terra","Stochastic frontier",10,8.19964310541621,FALSE
+"GPT-5.6 Terra","Stochastic frontier",11,7.42679559572164,FALSE
+"GPT-5.6 Terra","Stochastic frontier",12,7.1574429814365,FALSE
+"GPT-5.6 Terra","Stochastic frontier",13,8.64114701375672,FALSE
+"GPT-5.6 Terra","Stochastic frontier",14,7.19498621818125,FALSE
+"GPT-5.6 Terra","Stochastic frontier",15,8.15207706078927,FALSE
+"GPT-5.6 Terra","Stochastic frontier",16,7.29580716898876,FALSE
+"GPT-5.6 Terra","Stochastic frontier",17,7.57088986612798,FALSE
+"GPT-5.6 Terra","Stochastic frontier",18,7.45432105629907,FALSE
+"GPT-5.6 Terra","Stochastic frontier",19,7.56571534455445,FALSE
+"GPT-5.6 Terra","Stochastic frontier",20,7.61042865735074,FALSE
+"GPT-5.6 Terra","Stochastic frontier",21,7.85424421985089,FALSE
+"GPT-5.6 Terra","Stochastic frontier",22,7.27436216617813,FALSE
+"GPT-5.6 Terra","Stochastic frontier",23,6.68359737940831,TRUE
+"GPT-5.6 Terra","Stochastic frontier",24,7.76778210924851,FALSE
+"GPT-5.6 Terra","Stochastic frontier",25,6.93883463878969,FALSE
+"GPT-5.6 Terra","Stochastic frontier",26,7.08368815471773,FALSE
+"GPT-5.6 Terra","Stochastic frontier",27,7.80944505388871,FALSE
+"GPT-5.6 Terra","Stochastic frontier",28,7.77522003796558,FALSE
+"GPT-5.6 Terra","Stochastic frontier",29,7.16631901940527,TRUE
+"GPT-5.6 Terra","Stochastic frontier",30,7.15155869049856,FALSE
+"GPT-5.6 Terra","Stochastic frontier",31,8.2067816703324,FALSE
+"GPT-5.6 Terra","Stochastic frontier",32,7.44184528017933,FALSE
+"GPT-5.6 Terra","Stochastic frontier",33,7.29143851178722,FALSE
+"GPT-5.6 Terra","Stochastic frontier",34,7.32649565373278,FALSE
+"GPT-5.6 Terra","Stochastic frontier",35,7.14561172082999,FALSE
+"GPT-5.6 Terra","Stochastic frontier",36,7.57921515986015,FALSE
+"GPT-5.6 Terra","Stochastic frontier",37,7.70151051913408,FALSE
+"GPT-5.6 Terra","Stochastic frontier",38,8.29269735572517,FALSE
+"GPT-5.6 Terra","Stochastic frontier",39,6.88449690271734,FALSE
+"GPT-5.6 Terra","Stochastic frontier",40,7.4469615487132,FALSE
+"GPT-5.6 Terra","Stochastic frontier",41,7.55178860674223,FALSE
+"GPT-5.6 Terra","Stochastic frontier",42,7.44974607966415,FALSE
+"GPT-5.6 Terra","Stochastic frontier",43,7.85150459102509,FALSE
+"GPT-5.6 Terra","Stochastic frontier",44,7.11130843106542,FALSE
+"GPT-5.6 Terra","Stochastic frontier",45,6.76224110152626,FALSE
+"GPT-5.6 Terra","Stochastic frontier",46,7.55371633958944,FALSE
+"GPT-5.6 Terra","Stochastic frontier",47,7.48141514438257,FALSE
+"GPT-5.6 Terra","Stochastic frontier",48,7.33118956200072,FALSE
+"GPT-5.6 Terra","Stochastic frontier",49,7.56323821656045,FALSE
+"GPT-5.6 Terra","Stochastic frontier",50,8.06280926537178,FALSE
+"GPT-5.6 Terra","Stochastic frontier",51,7.86709442601468,FALSE
+"GPT-5.6 Terra","Stochastic frontier",52,7.19849202846038,FALSE
+"GPT-5.6 Terra","Stochastic frontier",53,7.94728067471845,FALSE
+"GPT-5.6 Terra","Stochastic frontier",54,7.11502186371583,FALSE
+"GPT-5.6 Terra","Stochastic frontier",55,8.40321892763556,FALSE
+"GPT-5.6 Terra","Stochastic frontier",56,6.90403947527815,FALSE
+"GPT-5.6 Terra","Stochastic frontier",57,6.67261939358643,FALSE
+"GPT-5.6 Terra","Stochastic frontier",58,8.07629134264238,FALSE
+"GPT-5.6 Terra","Stochastic frontier",59,6.89163793577961,FALSE
+"GPT-5.6 Terra","Stochastic frontier",60,7.45571810876624,FALSE
+"GPT-5.6 Terra","Stochastic frontier",61,6.64820743283408,FALSE
+"GPT-5.6 Terra","Stochastic frontier",62,7.28426751062432,FALSE
+"GPT-5.6 Terra","Stochastic frontier",63,8.58246888539478,FALSE
+"GPT-5.6 Terra","Stochastic frontier",64,7.5096495329708,FALSE
+"GPT-5.6 Terra","Stochastic frontier",65,6.79338258647658,FALSE
+"GPT-5.6 Terra","Stochastic frontier",66,7.03400686660499,FALSE
+"GPT-5.6 Terra","Stochastic frontier",67,7.47388093652048,FALSE
+"GPT-5.6 Terra","Stochastic frontier",68,6.86607342954164,FALSE
+"GPT-5.6 Terra","Stochastic frontier",69,7.03461398712947,FALSE
+"GPT-5.6 Terra","Stochastic frontier",70,7.0457184046141,FALSE
+"GPT-5.6 Terra","Stochastic frontier",71,7.11133972582624,FALSE
+"GPT-5.6 Terra","Stochastic frontier",72,7.28526831717356,FALSE
+"GPT-5.6 Terra","Stochastic frontier",73,7.40906424884078,FALSE
+"GPT-5.6 Terra","Stochastic frontier",74,6.92769862794415,FALSE
+"GPT-5.6 Terra","Stochastic frontier",75,8.50365104625396,FALSE
+"GPT-5.6 Terra","Stochastic frontier",76,7.59444588709232,FALSE
+"GPT-5.6 Terra","Stochastic frontier",77,8.32875333015581,FALSE
+"GPT-5.6 Terra","Stochastic frontier",78,7.45509145068548,FALSE
+"GPT-5.6 Terra","Stochastic frontier",79,8.12742241432928,FALSE
+"GPT-5.6 Terra","Stochastic frontier",80,7.76670168342299,FALSE
+"GPT-5.6 Terra","Stochastic frontier",81,6.92459002283777,TRUE
+"GPT-5.6 Terra","Stochastic frontier",82,7.19745785419546,FALSE
+"GPT-5.6 Terra","Stochastic frontier",83,6.65348362523855,FALSE
+"GPT-5.6 Terra","Stochastic frontier",84,7.19025130947078,FALSE
+"GPT-5.6 Terra","Stochastic frontier",85,7.65381385658043,FALSE
+"GPT-5.6 Terra","Stochastic frontier",86,7.19498621821563,FALSE
+"GPT-5.6 Terra","Stochastic frontier",87,6.7652207376782,FALSE
+"GPT-5.6 Terra","Stochastic frontier",88,7.13119797411491,FALSE
+"GPT-5.6 Terra","Stochastic frontier",89,7.64679660400814,FALSE
+"GPT-5.6 Terra","Stochastic frontier",90,8.19850313596634,FALSE
+"GPT-5.6 Terra","Stochastic frontier",91,7.66101950367172,FALSE
+"GPT-5.6 Terra","Stochastic frontier",92,6.78051847535066,FALSE
+"GPT-5.6 Terra","Stochastic frontier",93,7.95491865047337,FALSE
+"GPT-5.6 Terra","Stochastic frontier",94,8.36961927273338,FALSE
+"GPT-5.6 Terra","Stochastic frontier",95,7.17735515726824,FALSE
+"GPT-5.6 Terra","Stochastic frontier",96,7.80470782172,FALSE
+"GPT-5.6 Terra","Stochastic frontier",97,7.3108710289361,FALSE
+"GPT-5.6 Terra","Stochastic frontier",98,7.33714189889626,FALSE
+"GPT-5.6 Terra","Stochastic frontier",99,7.35049751344909,FALSE
+"GPT-5.6 Terra","Stochastic frontier",100,6.5653105380927,FALSE
+"GPT-5.6 Terra","Stochastic frontier",101,7.19773285974816,FALSE
+"GPT-5.6 Terra","Stochastic frontier",102,7.85977534585686,FALSE
+"GPT-5.6 Terra","Stochastic frontier",103,7.11109945838687,FALSE
+"GPT-5.6 Terra","Stochastic frontier",104,7.18866663382484,FALSE
+"GPT-5.6 Terra","Stochastic frontier",105,8.2461578947799,FALSE
+"GPT-5.6 Terra","Stochastic frontier",106,8.38806226540351,FALSE
+"GPT-5.6 Terra","Stochastic frontier",107,8.13652452411727,FALSE
+"GPT-5.6 Terra","Stochastic frontier",108,7.7960623163297,FALSE
+"GPT-5.6 Terra","Stochastic frontier",109,7.35345274728172,FALSE
+"GPT-5.6 Terra","Stochastic frontier",110,7.11131610452408,FALSE
+"GPT-5.6 Terra","Stochastic frontier",111,7.71959232438233,FALSE
+"GPT-5.6 Terra","Stochastic frontier",112,7.24600371113659,FALSE
+"GPT-5.6 Terra","Stochastic frontier",113,6.60185819559834,FALSE
+"GPT-5.6 Terra","Stochastic frontier",114,7.42737045453901,TRUE
+"GPT-5.6 Terra","Stochastic frontier",115,7.93200000362763,FALSE
+"GPT-5.6 Terra","Stochastic frontier",116,6.98492371694483,FALSE
+"GPT-5.6 Terra","Stochastic frontier",117,8.1535258371654,FALSE
+"GPT-5.6 Terra","Stochastic frontier",118,7.5440395485069,FALSE
+"GPT-5.6 Terra","Stochastic frontier",119,7.43688317786971,FALSE
+"GPT-5.6 Terra","Stochastic frontier",120,7.2627846325818,FALSE
+"GPT-5.6 Terra","Stochastic frontier",121,7.80946019107946,FALSE
+"GPT-5.6 Terra","Stochastic frontier",122,8.1386029005342,FALSE
+"GPT-5.6 Terra","Stochastic frontier",123,6.64594232941521,FALSE
+"GPT-5.6 Terra","Stochastic frontier",124,7.19845807305131,FALSE
+"GPT-5.6 Terra","Stochastic frontier",125,7.24797931764192,FALSE
+"GPT-5.6 Terra","Stochastic frontier",126,8.2265089061958,FALSE
+"GPT-5.6 Terra","Stochastic frontier",127,8.52007570094604,FALSE
+"GPT-5.6 Terra","Stochastic frontier",128,7.00993937147601,FALSE
+"GPT-5.6 Terra","Stochastic frontier",129,7.49221141118391,FALSE
+"GPT-5.6 Terra","Stochastic frontier",130,7.14661113950328,FALSE
+"GPT-5.6 Terra","Stochastic frontier",131,7.51199630494604,FALSE
+"GPT-5.6 Terra","Stochastic frontier",132,7.20097355488625,FALSE
+"GPT-5.6 Terra","Stochastic frontier",133,6.72873386268269,FALSE
+"GPT-5.6 Terra","Stochastic frontier",134,6.69373679610896,FALSE
+"GPT-5.6 Terra","Stochastic frontier",135,7.23693401819308,FALSE
+"GPT-5.6 Terra","Stochastic frontier",136,6.69118667562343,FALSE
+"GPT-5.6 Terra","Stochastic frontier",137,7.03660226236557,FALSE
+"GPT-5.6 Terra","Stochastic frontier",138,7.62144233009298,FALSE
+"GPT-5.6 Terra","Stochastic frontier",139,8.59665711624132,FALSE
+"GPT-5.6 Terra","Stochastic frontier",140,7.51995643362291,FALSE
+"GPT-5.6 Terra","Stochastic frontier",141,6.81966797436546,FALSE
+"GPT-5.6 Terra","Stochastic frontier",142,8.24306121186663,FALSE
+"GPT-5.6 Terra","Stochastic frontier",143,7.26334819213571,FALSE
+"GPT-5.6 Terra","Stochastic frontier",144,7.36198536264557,FALSE
+"GPT-5.6 Terra","Stochastic frontier",145,6.99001383002474,FALSE
+"GPT-5.6 Terra","Stochastic frontier",146,6.94683828052161,FALSE
+"GPT-5.6 Terra","Stochastic frontier",147,7.90887793096691,FALSE
+"GPT-5.6 Terra","Stochastic frontier",148,7.72913109184139,FALSE
+"GPT-5.6 Terra","Stochastic frontier",149,6.9671414280764,FALSE
+"GPT-5.6 Terra","Stochastic frontier",150,6.71953655772968,FALSE
+"GPT-5.6 Terra","Stochastic frontier",151,8.29654472672552,FALSE
+"GPT-5.6 Terra","Stochastic frontier",152,8.47103153239705,FALSE
+"GPT-5.6 Terra","Stochastic frontier",153,6.73252838848864,FALSE
+"GPT-5.6 Terra","Stochastic frontier",154,8.54759066827003,FALSE
+"GPT-5.6 Terra","Stochastic frontier",155,7.54730382089678,FALSE
+"GPT-5.6 Terra","Stochastic frontier",156,8.14709433332679,FALSE
+"GPT-5.6 Terra","Stochastic frontier",157,8.59042575896383,FALSE
+"GPT-5.6 Terra","Stochastic frontier",158,7.02515358796467,FALSE
+"GPT-5.6 Terra","Stochastic frontier",159,6.94946831168695,FALSE
+"GPT-5.6 Terra","Stochastic frontier",160,8.34085848589852,FALSE
+"GPT-5.6 Terra","Stochastic frontier",161,7.70115706910655,FALSE
+"GPT-5.6 Terra","Stochastic frontier",162,7.68470438530444,FALSE
+"GPT-5.6 Terra","Stochastic frontier",163,7.37238011332283,FALSE
+"GPT-5.6 Terra","Stochastic frontier",164,8.15584797786294,FALSE
+"GPT-5.6 Terra","Stochastic frontier",165,7.53627436260714,FALSE
+"GPT-5.6 Terra","Stochastic frontier",166,7.26277520129841,FALSE
+"GPT-5.6 Terra","Stochastic frontier",167,7.37490751131152,FALSE
+"GPT-5.6 Terra","Stochastic frontier",168,6.93609071040786,FALSE
+"GPT-5.6 Terra","Stochastic frontier",169,6.99969664061536,FALSE
+"GPT-5.6 Terra","Stochastic frontier",170,6.41826279912358,FALSE
+"GPT-5.6 Terra","Stochastic frontier",171,7.85230099703544,FALSE
+"GPT-5.6 Terra","Stochastic frontier",172,6.99696249409536,FALSE
+"GPT-5.6 Terra","Stochastic frontier",173,7.91644781489708,FALSE
+"GPT-5.6 Terra","Stochastic frontier",174,7.22781948589076,FALSE
+"GPT-5.6 Terra","Stochastic frontier",175,6.93065991638337,FALSE
+"GPT-5.6 Terra","Stochastic frontier",176,7.12447581605876,FALSE
+"GPT-5.6 Terra","Stochastic frontier",177,7.89842237508539,FALSE
+"GPT-5.6 Terra","Stochastic frontier",178,7.27436216613767,FALSE
+"GPT-5.6 Terra","Stochastic frontier",179,7.70236702009283,FALSE
+"GPT-5.6 Terra","Stochastic frontier",180,6.22979228148864,FALSE
+"GPT-5.6 Terra","Stochastic frontier",181,7.00051000911532,FALSE
+"GPT-5.6 Terra","Stochastic frontier",182,8.35496144398501,FALSE
+"GPT-5.6 Terra","Stochastic frontier",183,6.69052032813394,FALSE
+"GPT-5.6 Terra","Stochastic frontier",184,7.01719298015934,FALSE
+"GPT-5.6 Terra","Stochastic frontier",185,8.04270735609911,FALSE
+"GPT-5.6 Terra","Stochastic frontier",186,8.18224236720204,FALSE
+"GPT-5.6 Terra","Stochastic frontier",187,7.02517076089923,FALSE
+"GPT-5.6 Terra","Stochastic frontier",188,7.51995643362563,FALSE
+"GPT-5.6 Terra","Stochastic frontier",189,7.84228595114947,FALSE
+"GPT-5.6 Terra","Stochastic frontier",190,8.27526765547091,FALSE
+"GPT-5.6 Terra","Stochastic frontier",191,7.81520644542505,FALSE
+"GPT-5.6 Terra","Stochastic frontier",192,7.81646610372599,FALSE
+"GPT-5.6 Terra","Stochastic frontier",193,6.94060875820428,FALSE
+"GPT-5.6 Terra","Stochastic frontier",194,7.64460584143197,FALSE
+"GPT-5.6 Terra","Stochastic frontier",195,6.78405546660901,FALSE
+"GPT-5.6 Terra","Stochastic frontier",196,8.27011821918508,FALSE
+"GPT-5.6 Terra","Stochastic frontier",197,7.57993084753208,FALSE
+"GPT-5.6 Terra","Stochastic frontier",198,7.51328118517379,FALSE
+"GPT-5.6 Terra","Stochastic frontier",199,8.82900055112304,FALSE
+"GPT-5.6 Terra","Stochastic frontier",200,8.09953166648471,FALSE
+"GPT-5.6 Terra","Spike + contention",1,6.75023247735022,FALSE
+"GPT-5.6 Terra","Spike + contention",2,7.06554888572568,FALSE
+"GPT-5.6 Terra","Spike + contention",3,7.14984681881108,FALSE
+"GPT-5.6 Terra","Spike + contention",4,8.25849169027652,FALSE
+"GPT-5.6 Terra","Spike + contention",5,8.0829826976901,FALSE
+"GPT-5.6 Terra","Spike + contention",6,6.89265766134031,FALSE
+"GPT-5.6 Terra","Spike + contention",7,8.10210847385009,FALSE
+"GPT-5.6 Terra","Spike + contention",8,7.64493931953156,FALSE
+"GPT-5.6 Terra","Spike + contention",9,8.14315062352711,FALSE
+"GPT-5.6 Terra","Spike + contention",10,8.29174748096202,FALSE
+"GPT-5.6 Terra","Spike + contention",11,7.5919785040999,FALSE
+"GPT-5.6 Terra","Spike + contention",12,7.78407958814911,FALSE
+"GPT-5.6 Terra","Spike + contention",13,6.92768849401509,FALSE
+"GPT-5.6 Terra","Spike + contention",14,6.82813909164128,FALSE
+"GPT-5.6 Terra","Spike + contention",15,8.31625350982608,FALSE
+"GPT-5.6 Terra","Spike + contention",16,7.32650851144432,FALSE
+"GPT-5.6 Terra","Spike + contention",17,7.39602779564967,FALSE
+"GPT-5.6 Terra","Spike + contention",18,8.5893823450501,FALSE
+"GPT-5.6 Terra","Spike + contention",19,8.45193415955501,FALSE
+"GPT-5.6 Terra","Spike + contention",20,7.51858710933939,FALSE
+"GPT-5.6 Terra","Spike + contention",21,6.01942866668589,FALSE
+"GPT-5.6 Terra","Spike + contention",22,7.42886663175905,FALSE
+"GPT-5.6 Terra","Spike + contention",23,7.73941480486299,FALSE
+"GPT-5.6 Terra","Spike + contention",24,8.08078975715596,FALSE
+"GPT-5.6 Terra","Spike + contention",25,7.87323415027285,FALSE
+"GPT-5.6 Terra","Spike + contention",26,6.91586950123425,FALSE
+"GPT-5.6 Terra","Spike + contention",27,8.31375618842885,FALSE
+"GPT-5.6 Terra","Spike + contention",28,7.94204228162033,FALSE
+"GPT-5.6 Terra","Spike + contention",29,6.95739012225676,FALSE
+"GPT-5.6 Terra","Spike + contention",30,8.28251037428977,FALSE
+"GPT-5.6 Terra","Spike + contention",31,8.33286597961524,FALSE
+"GPT-5.6 Terra","Spike + contention",32,7.20680279849285,FALSE
+"GPT-5.6 Terra","Spike + contention",33,8.75639488633842,FALSE
+"GPT-5.6 Terra","Spike + contention",34,7.74946653323375,FALSE
+"GPT-5.6 Terra","Spike + contention",35,6.96395901736813,FALSE
+"GPT-5.6 Terra","Spike + contention",36,6.25498418392852,FALSE
+"GPT-5.6 Terra","Spike + contention",37,8.0258059623938,FALSE
+"GPT-5.6 Terra","Spike + contention",38,7.64547443568803,FALSE
+"GPT-5.6 Terra","Spike + contention",39,6.82897202407266,FALSE
+"GPT-5.6 Terra","Spike + contention",40,8.75924772547476,FALSE
+"GPT-5.6 Terra","Spike + contention",41,7.75469342384191,FALSE
+"GPT-5.6 Terra","Spike + contention",42,7.41056340664605,FALSE
+"GPT-5.6 Terra","Spike + contention",43,6.36667231498262,FALSE
+"GPT-5.6 Terra","Spike + contention",44,7.06163247908487,FALSE
+"GPT-5.6 Terra","Spike + contention",45,6.19095470307018,FALSE
+"GPT-5.6 Terra","Spike + contention",46,6.98443145958702,FALSE
+"GPT-5.6 Terra","Spike + contention",47,8.14654464677875,FALSE
+"GPT-5.6 Terra","Spike + contention",48,6.9632474480265,FALSE
+"GPT-5.6 Terra","Spike + contention",49,8.09046567498631,FALSE
+"GPT-5.6 Terra","Spike + contention",50,7.22868722610292,FALSE
+"GPT-5.6 Terra","Spike + contention",51,8.84951657265319,FALSE
+"GPT-5.6 Terra","Spike + contention",52,7.95246839209897,FALSE
+"GPT-5.6 Terra","Spike + contention",53,7.09052128072932,FALSE
+"GPT-5.6 Terra","Spike + contention",54,6.93659817446177,FALSE
+"GPT-5.6 Terra","Spike + contention",55,8.89053236214424,FALSE
+"GPT-5.6 Terra","Spike + contention",56,7.35119851911206,FALSE
+"GPT-5.6 Terra","Spike + contention",57,8.16100889901099,FALSE
+"GPT-5.6 Terra","Spike + contention",58,7.23390722382449,FALSE
+"GPT-5.6 Terra","Spike + contention",59,7.42803916121685,FALSE
+"GPT-5.6 Terra","Spike + contention",60,6.43369026026681,FALSE
+"GPT-5.6 Terra","Spike + contention",61,8.96298178851512,FALSE
+"GPT-5.6 Terra","Spike + contention",62,6.7631339329853,FALSE
+"GPT-5.6 Terra","Spike + contention",63,8.03519524792959,FALSE
+"GPT-5.6 Terra","Spike + contention",64,7.14998201884615,FALSE
+"GPT-5.6 Terra","Spike + contention",65,8.0033487598622,FALSE
+"GPT-5.6 Terra","Spike + contention",66,7.50233581567373,FALSE
+"GPT-5.6 Terra","Spike + contention",67,8.44488050787001,FALSE
+"GPT-5.6 Terra","Spike + contention",68,7.66152555117161,FALSE
+"GPT-5.6 Terra","Spike + contention",69,8.42710896561611,FALSE
+"GPT-5.6 Terra","Spike + contention",70,6.9212796066287,FALSE
+"GPT-5.6 Terra","Spike + contention",71,7.12493688786878,FALSE
+"GPT-5.6 Terra","Spike + contention",72,7.82746581831683,FALSE
+"GPT-5.6 Terra","Spike + contention",73,8.65257792039683,FALSE
+"GPT-5.6 Terra","Spike + contention",74,7.52100268654719,FALSE
+"GPT-5.6 Terra","Spike + contention",75,8.49247606335286,FALSE
+"GPT-5.6 Terra","Spike + contention",76,8.31502090259951,FALSE
+"GPT-5.6 Terra","Spike + contention",77,7.47502391569858,FALSE
+"GPT-5.6 Terra","Spike + contention",78,8.3038280948572,FALSE
+"GPT-5.6 Terra","Spike + contention",79,8.64378520748703,FALSE
+"GPT-5.6 Terra","Spike + contention",80,6.35528132460419,FALSE
+"GPT-5.6 Terra","Spike + contention",81,7.50179853637993,FALSE
+"GPT-5.6 Terra","Spike + contention",82,8.22281555272616,FALSE
+"GPT-5.6 Terra","Spike + contention",83,7.23358999250847,FALSE
+"GPT-5.6 Terra","Spike + contention",84,8.24268358297434,FALSE
+"GPT-5.6 Terra","Spike + contention",85,8.64436139363863,FALSE
+"GPT-5.6 Terra","Spike + contention",86,7.64076911434082,FALSE
+"GPT-5.6 Terra","Spike + contention",87,6.61620091227617,FALSE
+"GPT-5.6 Terra","Spike + contention",88,8.51495640319514,FALSE
+"GPT-5.6 Terra","Spike + contention",89,8.35402054445298,FALSE
+"GPT-5.6 Terra","Spike + contention",90,7.3790880720691,FALSE
+"GPT-5.6 Terra","Spike + contention",91,7.91427774466022,FALSE
+"GPT-5.6 Terra","Spike + contention",92,7.0685808224701,FALSE
+"GPT-5.6 Terra","Spike + contention",93,6.97549092752122,FALSE
+"GPT-5.6 Terra","Spike + contention",94,8.83213899220481,FALSE
+"GPT-5.6 Terra","Spike + contention",95,8.5835780815902,FALSE
+"GPT-5.6 Terra","Spike + contention",96,7.77080136627117,FALSE
+"GPT-5.6 Terra","Spike + contention",97,7.32669414574367,FALSE
+"GPT-5.6 Terra","Spike + contention",98,6.9700080051684,FALSE
+"GPT-5.6 Terra","Spike + contention",99,7.66622179327382,FALSE
+"GPT-5.6 Terra","Spike + contention",100,7.78268247786153,FALSE
+"GPT-5.6 Terra","Spike + contention",101,8.51202092074223,FALSE
+"GPT-5.6 Terra","Spike + contention",102,8.24189785037764,FALSE
+"GPT-5.6 Terra","Spike + contention",103,7.19312354582591,FALSE
+"GPT-5.6 Terra","Spike + contention",104,6.77864687818936,FALSE
+"GPT-5.6 Terra","Spike + contention",105,7.16759562735663,FALSE
+"GPT-5.6 Terra","Spike + contention",106,7.15317143569567,FALSE
+"GPT-5.6 Terra","Spike + contention",107,7.72993352461667,FALSE
+"GPT-5.6 Terra","Spike + contention",108,6.74549010141043,FALSE
+"GPT-5.6 Terra","Spike + contention",109,6.95460089429101,FALSE
+"GPT-5.6 Terra","Spike + contention",110,7.87986479630031,FALSE
+"GPT-5.6 Terra","Spike + contention",111,7.6720649947011,FALSE
+"GPT-5.6 Terra","Spike + contention",112,6.7944718687661,FALSE
+"GPT-5.6 Terra","Spike + contention",113,9.06126754735409,FALSE
+"GPT-5.6 Terra","Spike + contention",114,7.30432290917869,FALSE
+"GPT-5.6 Terra","Spike + contention",115,8.21164244315914,FALSE
+"GPT-5.6 Terra","Spike + contention",116,6.94547527738831,FALSE
+"GPT-5.6 Terra","Spike + contention",117,6.37897175198168,FALSE
+"GPT-5.6 Terra","Spike + contention",118,8.4294285858126,FALSE
+"GPT-5.6 Terra","Spike + contention",119,8.38407562222848,FALSE
+"GPT-5.6 Terra","Spike + contention",120,8.67405282423945,FALSE
+"GPT-5.6 Terra","Spike + contention",121,7.14765261831809,FALSE
+"GPT-5.6 Terra","Spike + contention",122,6.66191398385241,FALSE
+"GPT-5.6 Terra","Spike + contention",123,7.77475033412503,FALSE
+"GPT-5.6 Terra","Spike + contention",124,8.46123595816895,FALSE
+"GPT-5.6 Terra","Spike + contention",125,7.5198743146719,FALSE
+"GPT-5.6 Terra","Spike + contention",126,8.36859772803168,FALSE
+"GPT-5.6 Terra","Spike + contention",127,7.78638135027667,FALSE
+"GPT-5.6 Terra","Spike + contention",128,7.74170083467614,FALSE
+"GPT-5.6 Terra","Spike + contention",129,8.35045876030917,FALSE
+"GPT-5.6 Terra","Spike + contention",130,7.68355735868359,FALSE
+"GPT-5.6 Terra","Spike + contention",131,7.30235500191746,FALSE
+"GPT-5.6 Terra","Spike + contention",132,8.15857157839742,FALSE
+"GPT-5.6 Terra","Spike + contention",133,8.60620256458082,FALSE
+"GPT-5.6 Terra","Spike + contention",134,7.28965785692004,FALSE
+"GPT-5.6 Terra","Spike + contention",135,8.03516457991437,FALSE
+"GPT-5.6 Terra","Spike + contention",136,6.55918012390028,FALSE
+"GPT-5.6 Terra","Spike + contention",137,5.72049907113589,FALSE
+"GPT-5.6 Terra","Spike + contention",138,6.89140907094203,FALSE
+"GPT-5.6 Terra","Spike + contention",139,7.80956688827166,FALSE
+"GPT-5.6 Terra","Spike + contention",140,6.86860042038408,FALSE
+"GPT-5.6 Terra","Spike + contention",141,7.80844676577654,FALSE
+"GPT-5.6 Terra","Spike + contention",142,7.83616898945402,FALSE
+"GPT-5.6 Terra","Spike + contention",143,8.57371856375437,FALSE
+"GPT-5.6 Terra","Spike + contention",144,8.12939554049215,FALSE
+"GPT-5.6 Terra","Spike + contention",145,8.13805239712712,FALSE
+"GPT-5.6 Terra","Spike + contention",146,7.83629787003363,FALSE
+"GPT-5.6 Terra","Spike + contention",147,8.16089002463226,FALSE
+"GPT-5.6 Terra","Spike + contention",148,7.43652812626038,FALSE
+"GPT-5.6 Terra","Spike + contention",149,6.12469670108316,FALSE
+"GPT-5.6 Terra","Spike + contention",150,7.91430268780226,FALSE
+"GPT-5.6 Terra","Spike + contention",151,7.87822370856357,FALSE
+"GPT-5.6 Terra","Spike + contention",152,6.66360446457039,FALSE
+"GPT-5.6 Terra","Spike + contention",153,6.26874030008517,FALSE
+"GPT-5.6 Terra","Spike + contention",154,7.84683992517219,FALSE
+"GPT-5.6 Terra","Spike + contention",155,8.11601845041724,FALSE
+"GPT-5.6 Terra","Spike + contention",156,8.67406487474661,FALSE
+"GPT-5.6 Terra","Spike + contention",157,7.94116876063834,FALSE
+"GPT-5.6 Terra","Spike + contention",158,6.69151866060847,FALSE
+"GPT-5.6 Terra","Spike + contention",159,6.74531084126917,FALSE
+"GPT-5.6 Terra","Spike + contention",160,7.78404265293303,FALSE
+"GPT-5.6 Terra","Spike + contention",161,7.28221281789355,FALSE
+"GPT-5.6 Terra","Spike + contention",162,8.11214143074288,FALSE
+"GPT-5.6 Terra","Spike + contention",163,8.51426904063488,FALSE
+"GPT-5.6 Terra","Spike + contention",164,7.7121174695505,FALSE
+"GPT-5.6 Terra","Spike + contention",165,8.88081075862674,FALSE
+"GPT-5.6 Terra","Spike + contention",166,7.8551347061784,FALSE
+"GPT-5.6 Terra","Spike + contention",167,8.08531129979073,FALSE
+"GPT-5.6 Terra","Spike + contention",168,7.78105793283521,FALSE
+"GPT-5.6 Terra","Spike + contention",169,8.31853203425704,FALSE
+"GPT-5.6 Terra","Spike + contention",170,6.51287382023264,FALSE
+"GPT-5.6 Terra","Spike + contention",171,7.86803604497312,FALSE
+"GPT-5.6 Terra","Spike + contention",172,7.26261376185114,FALSE
+"GPT-5.6 Terra","Spike + contention",173,6.29141867512857,FALSE
+"GPT-5.6 Terra","Spike + contention",174,7.96925315008043,FALSE
+"GPT-5.6 Terra","Spike + contention",175,7.8676474032794,FALSE
+"GPT-5.6 Terra","Spike + contention",176,8.89566825542687,FALSE
+"GPT-5.6 Terra","Spike + contention",177,7.82089863350366,FALSE
+"GPT-5.6 Terra","Spike + contention",178,7.0922121392668,FALSE
+"GPT-5.6 Terra","Spike + contention",179,6.35955168192513,FALSE
+"GPT-5.6 Terra","Spike + contention",180,6.68944423803069,FALSE
+"GPT-5.6 Terra","Spike + contention",181,8.28429955947722,FALSE
+"GPT-5.6 Terra","Spike + contention",182,7.95740532268574,FALSE
+"GPT-5.6 Terra","Spike + contention",183,6.87969314744605,FALSE
+"GPT-5.6 Terra","Spike + contention",184,7.16504967867801,FALSE
+"GPT-5.6 Terra","Spike + contention",185,7.45764143669172,FALSE
+"GPT-5.6 Terra","Spike + contention",186,7.21571322308019,FALSE
+"GPT-5.6 Terra","Spike + contention",187,7.41636263035949,FALSE
+"GPT-5.6 Terra","Spike + contention",188,7.34836215485033,FALSE
+"GPT-5.6 Terra","Spike + contention",189,7.32762017813836,FALSE
+"GPT-5.6 Terra","Spike + contention",190,7.46221969556273,TRUE
+"GPT-5.6 Terra","Spike + contention",191,7.39571731212558,FALSE
+"GPT-5.6 Terra","Spike + contention",192,7.31170801055243,FALSE
+"GPT-5.6 Terra","Spike + contention",193,8.22275788040191,FALSE
+"GPT-5.6 Terra","Spike + contention",194,7.361365603007,FALSE
+"GPT-5.6 Terra","Spike + contention",195,6.75099717308077,FALSE
+"GPT-5.6 Terra","Spike + contention",196,7.32338884530364,FALSE
+"GPT-5.6 Terra","Spike + contention",197,8.40271817833636,FALSE
+"GPT-5.6 Terra","Spike + contention",198,7.97942515649686,FALSE
+"GPT-5.6 Terra","Spike + contention",199,7.52638200816555,FALSE
+"GPT-5.6 Terra","Spike + contention",200,6.95273688605791,FALSE
+"GPT-5.6 Sol","Stochastic frontier",1,10.4990303137313,FALSE
+"GPT-5.6 Sol","Stochastic frontier",2,10.5619287929614,FALSE
+"GPT-5.6 Sol","Stochastic frontier",3,8.86212977753059,FALSE
+"GPT-5.6 Sol","Stochastic frontier",4,10.4057144681689,FALSE
+"GPT-5.6 Sol","Stochastic frontier",5,10.7580696027933,FALSE
+"GPT-5.6 Sol","Stochastic frontier",6,9.86344642837525,FALSE
+"GPT-5.6 Sol","Stochastic frontier",7,10.9498785854715,FALSE
+"GPT-5.6 Sol","Stochastic frontier",8,10.7580696027859,FALSE
+"GPT-5.6 Sol","Stochastic frontier",9,9.76505418513081,FALSE
+"GPT-5.6 Sol","Stochastic frontier",10,11.0839393188667,FALSE
+"GPT-5.6 Sol","Stochastic frontier",11,10.6503068796103,FALSE
+"GPT-5.6 Sol","Stochastic frontier",12,12.6439300658741,FALSE
+"GPT-5.6 Sol","Stochastic frontier",13,9.97892493577339,FALSE
+"GPT-5.6 Sol","Stochastic frontier",14,12.1988793014654,TRUE
+"GPT-5.6 Sol","Stochastic frontier",15,10.0316891331833,FALSE
+"GPT-5.6 Sol","Stochastic frontier",16,10.9399955300244,FALSE
+"GPT-5.6 Sol","Stochastic frontier",17,11.342011661243,FALSE
+"GPT-5.6 Sol","Stochastic frontier",18,12.1987455108118,TRUE
+"GPT-5.6 Sol","Stochastic frontier",19,9.63890855978698,FALSE
+"GPT-5.6 Sol","Stochastic frontier",20,11.062414174832,FALSE
+"GPT-5.6 Sol","Stochastic frontier",21,11.7271297029136,FALSE
+"GPT-5.6 Sol","Stochastic frontier",22,10.4057144681834,FALSE
+"GPT-5.6 Sol","Stochastic frontier",23,11.4130131945697,FALSE
+"GPT-5.6 Sol","Stochastic frontier",24,10.5321371506512,FALSE
+"GPT-5.6 Sol","Stochastic frontier",25,10.6434934946283,FALSE
+"GPT-5.6 Sol","Stochastic frontier",26,10.5715013513154,FALSE
+"GPT-5.6 Sol","Stochastic frontier",27,10.1154197859235,FALSE
+"GPT-5.6 Sol","Stochastic frontier",28,10.5624506315314,FALSE
+"GPT-5.6 Sol","Stochastic frontier",29,10.8757505103342,FALSE
+"GPT-5.6 Sol","Stochastic frontier",30,12.1100646773428,FALSE
+"GPT-5.6 Sol","Stochastic frontier",31,10.7605108896296,FALSE
+"GPT-5.6 Sol","Stochastic frontier",32,11.4367952766639,FALSE
+"GPT-5.6 Sol","Stochastic frontier",33,8.31488521991981,TRUE
+"GPT-5.6 Sol","Stochastic frontier",34,11.1848796928099,FALSE
+"GPT-5.6 Sol","Stochastic frontier",35,11.4360828791314,FALSE
+"GPT-5.6 Sol","Stochastic frontier",36,10.0176008835877,FALSE
+"GPT-5.6 Sol","Stochastic frontier",37,9.63071194400698,FALSE
+"GPT-5.6 Sol","Stochastic frontier",38,10.593806081317,FALSE
+"GPT-5.6 Sol","Stochastic frontier",39,10.0838190358972,FALSE
+"GPT-5.6 Sol","Stochastic frontier",40,10.0178224522691,FALSE
+"GPT-5.6 Sol","Stochastic frontier",41,10.5151249268909,FALSE
+"GPT-5.6 Sol","Stochastic frontier",42,9.98078709321683,FALSE
+"GPT-5.6 Sol","Stochastic frontier",43,10.9400098193715,FALSE
+"GPT-5.6 Sol","Stochastic frontier",44,12.8957881816567,FALSE
+"GPT-5.6 Sol","Stochastic frontier",45,10.0314127562533,FALSE
+"GPT-5.6 Sol","Stochastic frontier",46,9.76522824337385,FALSE
+"GPT-5.6 Sol","Stochastic frontier",47,10.0640997672509,FALSE
+"GPT-5.6 Sol","Stochastic frontier",48,9.63071194400698,FALSE
+"GPT-5.6 Sol","Stochastic frontier",49,10.5617810563999,FALSE
+"GPT-5.6 Sol","Stochastic frontier",50,10.4059699511701,FALSE
+"GPT-5.6 Sol","Stochastic frontier",51,10.5617955042216,FALSE
+"GPT-5.6 Sol","Stochastic frontier",52,10.5321371506484,FALSE
+"GPT-5.6 Sol","Stochastic frontier",53,10.593970779833,FALSE
+"GPT-5.6 Sol","Stochastic frontier",54,11.4130131945683,FALSE
+"GPT-5.6 Sol","Stochastic frontier",55,11.5809683061464,FALSE
+"GPT-5.6 Sol","Stochastic frontier",56,12.6982386125102,FALSE
+"GPT-5.6 Sol","Stochastic frontier",57,11.6275555169458,FALSE
+"GPT-5.6 Sol","Stochastic frontier",58,11.1406689305991,FALSE
+"GPT-5.6 Sol","Stochastic frontier",59,11.1848796929258,FALSE
+"GPT-5.6 Sol","Stochastic frontier",60,11.2423372618314,FALSE
+"GPT-5.6 Sol","Stochastic frontier",61,12.1100646773506,FALSE
+"GPT-5.6 Sol","Stochastic frontier",62,10.8660149118273,FALSE
+"GPT-5.6 Sol","Stochastic frontier",63,11.3420116612475,FALSE
+"GPT-5.6 Sol","Stochastic frontier",64,9.98102710703311,FALSE
+"GPT-5.6 Sol","Stochastic frontier",65,9.98095133573635,FALSE
+"GPT-5.6 Sol","Stochastic frontier",66,12.6436210971357,FALSE
+"GPT-5.6 Sol","Stochastic frontier",67,10.8366974548101,FALSE
+"GPT-5.6 Sol","Stochastic frontier",68,9.14835687470817,FALSE
+"GPT-5.6 Sol","Stochastic frontier",69,10.5150312537215,FALSE
+"GPT-5.6 Sol","Stochastic frontier",70,10.9400419841714,FALSE
+"GPT-5.6 Sol","Stochastic frontier",71,11.4128951404332,FALSE
+"GPT-5.6 Sol","Stochastic frontier",72,11.0841624695833,FALSE
+"GPT-5.6 Sol","Stochastic frontier",73,10.6557622705983,FALSE
+"GPT-5.6 Sol","Stochastic frontier",74,11.2424869860154,FALSE
+"GPT-5.6 Sol","Stochastic frontier",75,10.7785142190513,FALSE
+"GPT-5.6 Sol","Stochastic frontier",76,10.4131828885382,TRUE
+"GPT-5.6 Sol","Stochastic frontier",77,12.1151821753545,FALSE
+"GPT-5.6 Sol","Stochastic frontier",78,10.4209760557339,FALSE
+"GPT-5.6 Sol","Stochastic frontier",79,12.4350277638231,FALSE
+"GPT-5.6 Sol","Stochastic frontier",80,9.60685269593947,FALSE
+"GPT-5.6 Sol","Stochastic frontier",81,8.98410410300606,FALSE
+"GPT-5.6 Sol","Stochastic frontier",82,10.4567681474699,FALSE
+"GPT-5.6 Sol","Stochastic frontier",83,9.69720852208078,TRUE
+"GPT-5.6 Sol","Stochastic frontier",84,10.1173805747002,FALSE
+"GPT-5.6 Sol","Stochastic frontier",85,10.8468796313666,FALSE
+"GPT-5.6 Sol","Stochastic frontier",86,10.787602430344,FALSE
+"GPT-5.6 Sol","Stochastic frontier",87,10.5151249269191,FALSE
+"GPT-5.6 Sol","Stochastic frontier",88,11.242337261827,FALSE
+"GPT-5.6 Sol","Stochastic frontier",89,10.4567681474734,FALSE
+"GPT-5.6 Sol","Stochastic frontier",90,10.8757505103342,FALSE
+"GPT-5.6 Sol","Stochastic frontier",91,10.1360079350627,FALSE
+"GPT-5.6 Sol","Stochastic frontier",92,10.1572571550418,FALSE
+"GPT-5.6 Sol","Stochastic frontier",93,10.6503881355094,FALSE
+"GPT-5.6 Sol","Stochastic frontier",94,12.4350277638226,FALSE
+"GPT-5.6 Sol","Stochastic frontier",95,9.97854017569646,FALSE
+"GPT-5.6 Sol","Stochastic frontier",96,10.5685761126663,FALSE
+"GPT-5.6 Sol","Stochastic frontier",97,10.456768147473,FALSE
+"GPT-5.6 Sol","Stochastic frontier",98,12.6436210971357,FALSE
+"GPT-5.6 Sol","Stochastic frontier",99,10.7785155131147,FALSE
+"GPT-5.6 Sol","Stochastic frontier",100,10.8366974547872,FALSE
+"GPT-5.6 Sol","Stochastic frontier",101,12.2434244767073,FALSE
+"GPT-5.6 Sol","Stochastic frontier",102,10.5151249268501,FALSE
+"GPT-5.6 Sol","Stochastic frontier",103,10.571304724987,FALSE
+"GPT-5.6 Sol","Stochastic frontier",104,10.4210342697039,FALSE
+"GPT-5.6 Sol","Stochastic frontier",105,10.5713047249992,FALSE
+"GPT-5.6 Sol","Stochastic frontier",106,10.8367770993267,FALSE
+"GPT-5.6 Sol","Stochastic frontier",107,10.3662943307751,TRUE
+"GPT-5.6 Sol","Stochastic frontier",108,10.2765240942289,FALSE
+"GPT-5.6 Sol","Stochastic frontier",109,10.5224876653511,FALSE
+"GPT-5.6 Sol","Stochastic frontier",110,9.76493400531867,FALSE
+"GPT-5.6 Sol","Stochastic frontier",111,10.7784987166775,FALSE
+"GPT-5.6 Sol","Stochastic frontier",112,10.0178224522828,FALSE
+"GPT-5.6 Sol","Stochastic frontier",113,10.15817710072,FALSE
+"GPT-5.6 Sol","Stochastic frontier",114,10.949878585503,FALSE
+"GPT-5.6 Sol","Stochastic frontier",115,9.98078709310831,FALSE
+"GPT-5.6 Sol","Stochastic frontier",116,10.7784987166808,FALSE
+"GPT-5.6 Sol","Stochastic frontier",117,11.412895140442,FALSE
+"GPT-5.6 Sol","Stochastic frontier",118,10.7605108264496,FALSE
+"GPT-5.6 Sol","Stochastic frontier",119,12.6982386126382,FALSE
+"GPT-5.6 Sol","Stochastic frontier",120,10.0747261233248,FALSE
+"GPT-5.6 Sol","Stochastic frontier",121,10.6161551251997,FALSE
+"GPT-5.6 Sol","Stochastic frontier",122,10.8469127769431,FALSE
+"GPT-5.6 Sol","Stochastic frontier",123,11.5809683063044,FALSE
+"GPT-5.6 Sol","Stochastic frontier",124,10.67713022254,FALSE
+"GPT-5.6 Sol","Stochastic frontier",125,9.69080908038125,FALSE
+"GPT-5.6 Sol","Stochastic frontier",126,11.3420576416315,FALSE
+"GPT-5.6 Sol","Stochastic frontier",127,10.49903031371,FALSE
+"GPT-5.6 Sol","Stochastic frontier",128,11.3420116612103,FALSE
+"GPT-5.6 Sol","Stochastic frontier",129,9.76493400526342,FALSE
+"GPT-5.6 Sol","Stochastic frontier",130,10.5148368150793,FALSE
+"GPT-5.6 Sol","Stochastic frontier",131,9.97854017571103,FALSE
+"GPT-5.6 Sol","Stochastic frontier",132,10.5652326747814,FALSE
+"GPT-5.6 Sol","Stochastic frontier",133,10.1354412250507,FALSE
+"GPT-5.6 Sol","Stochastic frontier",134,10.6527802574053,FALSE
+"GPT-5.6 Sol","Stochastic frontier",135,10.5551969850206,FALSE
+"GPT-5.6 Sol","Stochastic frontier",136,10.6527981936431,FALSE
+"GPT-5.6 Sol","Stochastic frontier",137,9.63890855978384,FALSE
+"GPT-5.6 Sol","Stochastic frontier",138,10.0838190358972,FALSE
+"GPT-5.6 Sol","Stochastic frontier",139,10.5685761126549,FALSE
+"GPT-5.6 Sol","Stochastic frontier",140,9.41510921070853,FALSE
+"GPT-5.6 Sol","Stochastic frontier",141,8.86212977758828,FALSE
+"GPT-5.6 Sol","Stochastic frontier",142,10.6771302233054,FALSE
+"GPT-5.6 Sol","Stochastic frontier",143,12.1151900469149,FALSE
+"GPT-5.6 Sol","Stochastic frontier",144,9.76493400538547,FALSE
+"GPT-5.6 Sol","Stochastic frontier",145,10.778514219046,FALSE
+"GPT-5.6 Sol","Stochastic frontier",146,10.1157179272665,FALSE
+"GPT-5.6 Sol","Stochastic frontier",147,11.0839393188647,FALSE
+"GPT-5.6 Sol","Stochastic frontier",148,10.0843397809902,FALSE
+"GPT-5.6 Sol","Stochastic frontier",149,9.34536023343366,FALSE
+"GPT-5.6 Sol","Stochastic frontier",150,12.2433762212517,FALSE
+"GPT-5.6 Sol","Stochastic frontier",151,10.5223433147014,FALSE
+"GPT-5.6 Sol","Stochastic frontier",152,11.0624141748458,FALSE
+"GPT-5.6 Sol","Stochastic frontier",153,11.412916326185,FALSE
+"GPT-5.6 Sol","Stochastic frontier",154,10.4059699511921,FALSE
+"GPT-5.6 Sol","Stochastic frontier",155,11.4129163261633,FALSE
+"GPT-5.6 Sol","Stochastic frontier",156,11.4128951404341,FALSE
+"GPT-5.6 Sol","Stochastic frontier",157,9.69964505436279,FALSE
+"GPT-5.6 Sol","Stochastic frontier",158,11.3420116612494,FALSE
+"GPT-5.6 Sol","Stochastic frontier",159,9.63081000423906,FALSE
+"GPT-5.6 Sol","Stochastic frontier",160,10.6559192446968,FALSE
+"GPT-5.6 Sol","Stochastic frontier",161,9.76522824340854,FALSE
+"GPT-5.6 Sol","Stochastic frontier",162,12.1100008497005,FALSE
+"GPT-5.6 Sol","Stochastic frontier",163,10.1173805747002,FALSE
+"GPT-5.6 Sol","Stochastic frontier",164,10.5715013512795,FALSE
+"GPT-5.6 Sol","Stochastic frontier",165,10.0748252745393,FALSE
+"GPT-5.6 Sol","Stochastic frontier",166,10.515031253843,FALSE
+"GPT-5.6 Sol","Stochastic frontier",167,10.4210342697039,FALSE
+"GPT-5.6 Sol","Stochastic frontier",168,10.8366929394115,FALSE
+"GPT-5.6 Sol","Stochastic frontier",169,10.1360079350664,FALSE
+"GPT-5.6 Sol","Stochastic frontier",170,10.928989742253,FALSE
+"GPT-5.6 Sol","Stochastic frontier",171,10.7876024303646,FALSE
+"GPT-5.6 Sol","Stochastic frontier",172,10.5151249268573,FALSE
+"GPT-5.6 Sol","Stochastic frontier",173,9.98095133564886,FALSE
+"GPT-5.6 Sol","Stochastic frontier",174,10.6528141610735,FALSE
+"GPT-5.6 Sol","Stochastic frontier",175,10.5223433147246,FALSE
+"GPT-5.6 Sol","Stochastic frontier",176,10.5148368150753,FALSE
+"GPT-5.6 Sol","Stochastic frontier",177,10.4057144682284,FALSE
+"GPT-5.6 Sol","Stochastic frontier",178,10.4057144684174,FALSE
+"GPT-5.6 Sol","Stochastic frontier",179,11.3420116612117,FALSE
+"GPT-5.6 Sol","Stochastic frontier",180,10.9222727805851,FALSE
+"GPT-5.6 Sol","Stochastic frontier",181,9.76493400528592,FALSE
+"GPT-5.6 Sol","Stochastic frontier",182,10.9499392635481,FALSE
+"GPT-5.6 Sol","Stochastic frontier",183,10.8042512687531,FALSE
+"GPT-5.6 Sol","Stochastic frontier",184,9.48952688584539,FALSE
+"GPT-5.6 Sol","Stochastic frontier",185,9.97854017569419,FALSE
+"GPT-5.6 Sol","Stochastic frontier",186,10.0838607043662,FALSE
+"GPT-5.6 Sol","Stochastic frontier",187,11.342057641561,FALSE
+"GPT-5.6 Sol","Stochastic frontier",188,9.76473923330995,FALSE
+"GPT-5.6 Sol","Stochastic frontier",189,9.44847561869101,FALSE
+"GPT-5.6 Sol","Stochastic frontier",190,10.1572705281439,FALSE
+"GPT-5.6 Sol","Stochastic frontier",191,10.7605108556461,FALSE
+"GPT-5.6 Sol","Stochastic frontier",192,10.6557622706248,FALSE
+"GPT-5.6 Sol","Stochastic frontier",193,11.7274043266351,FALSE
+"GPT-5.6 Sol","Stochastic frontier",194,10.1576552604142,FALSE
+"GPT-5.6 Sol","Stochastic frontier",195,10.1358214461048,FALSE
+"GPT-5.6 Sol","Stochastic frontier",196,11.2428139908154,FALSE
+"GPT-5.6 Sol","Stochastic frontier",197,10.0838190358986,FALSE
+"GPT-5.6 Sol","Stochastic frontier",198,9.98102710701267,FALSE
+"GPT-5.6 Sol","Stochastic frontier",199,10.4566459236678,FALSE
+"GPT-5.6 Sol","Stochastic frontier",200,12.4343653062966,FALSE
+"GPT-5.6 Sol","Spike + contention",1,10.9257225266804,FALSE
+"GPT-5.6 Sol","Spike + contention",2,9.82023737388,FALSE
+"GPT-5.6 Sol","Spike + contention",3,12.5793808411071,FALSE
+"GPT-5.6 Sol","Spike + contention",4,10.3856612192348,FALSE
+"GPT-5.6 Sol","Spike + contention",5,9.80489305152635,FALSE
+"GPT-5.6 Sol","Spike + contention",6,10.3242097794132,FALSE
+"GPT-5.6 Sol","Spike + contention",7,9.8201574463552,FALSE
+"GPT-5.6 Sol","Spike + contention",8,9.78383120222715,FALSE
+"GPT-5.6 Sol","Spike + contention",9,10.5918834651115,FALSE
+"GPT-5.6 Sol","Spike + contention",10,10.3198104462721,FALSE
+"GPT-5.6 Sol","Spike + contention",11,9.8201574495594,FALSE
+"GPT-5.6 Sol","Spike + contention",12,10.3464382496626,FALSE
+"GPT-5.6 Sol","Spike + contention",13,9.64829230250735,FALSE
+"GPT-5.6 Sol","Spike + contention",14,10.2136908952779,FALSE
+"GPT-5.6 Sol","Spike + contention",15,9.92477794228304,FALSE
+"GPT-5.6 Sol","Spike + contention",16,11.0292063336578,FALSE
+"GPT-5.6 Sol","Spike + contention",17,10.1548056472203,FALSE
+"GPT-5.6 Sol","Spike + contention",18,9.82033723307006,FALSE
+"GPT-5.6 Sol","Spike + contention",19,10.3929690119675,FALSE
+"GPT-5.6 Sol","Spike + contention",20,11.0288424772774,FALSE
+"GPT-5.6 Sol","Spike + contention",21,9.81735743654104,FALSE
+"GPT-5.6 Sol","Spike + contention",22,10.3313665687159,FALSE
+"GPT-5.6 Sol","Spike + contention",23,9.92463291414965,FALSE
+"GPT-5.6 Sol","Spike + contention",24,9.75726073921807,FALSE
+"GPT-5.6 Sol","Spike + contention",25,10.3202237627907,FALSE
+"GPT-5.6 Sol","Spike + contention",26,10.6400803477264,FALSE
+"GPT-5.6 Sol","Spike + contention",27,10.1548055577456,FALSE
+"GPT-5.6 Sol","Spike + contention",28,8.31124311134773,TRUE
+"GPT-5.6 Sol","Spike + contention",29,10.3313629185035,FALSE
+"GPT-5.6 Sol","Spike + contention",30,10.3706909945583,FALSE
+"GPT-5.6 Sol","Spike + contention",31,9.81791927425787,FALSE
+"GPT-5.6 Sol","Spike + contention",32,10.5919172681525,FALSE
+"GPT-5.6 Sol","Spike + contention",33,9.64788370334743,FALSE
+"GPT-5.6 Sol","Spike + contention",34,9.81769861777424,FALSE
+"GPT-5.6 Sol","Spike + contention",35,10.8559533864251,FALSE
+"GPT-5.6 Sol","Spike + contention",36,10.8558336764816,FALSE
+"GPT-5.6 Sol","Spike + contention",37,9.82015304488536,FALSE
+"GPT-5.6 Sol","Spike + contention",38,10.6207142538589,FALSE
+"GPT-5.6 Sol","Spike + contention",39,9.92507923952751,FALSE
+"GPT-5.6 Sol","Spike + contention",40,10.3412498015332,FALSE
+"GPT-5.6 Sol","Spike + contention",41,10.3196509654133,FALSE
+"GPT-5.6 Sol","Spike + contention",42,10.4373833040106,FALSE
+"GPT-5.6 Sol","Spike + contention",43,10.5916075885364,FALSE
+"GPT-5.6 Sol","Spike + contention",44,10.2308297688807,FALSE
+"GPT-5.6 Sol","Spike + contention",45,10.6207073557401,FALSE
+"GPT-5.6 Sol","Spike + contention",46,10.6237183328919,FALSE
+"GPT-5.6 Sol","Spike + contention",47,10.7531272418484,FALSE
+"GPT-5.6 Sol","Spike + contention",48,9.45847996848491,FALSE
+"GPT-5.6 Sol","Spike + contention",49,10.5986425408794,FALSE
+"GPT-5.6 Sol","Spike + contention",50,10.1249452948146,FALSE
+"GPT-5.6 Sol","Spike + contention",51,10.1473200901751,FALSE
+"GPT-5.6 Sol","Spike + contention",52,10.6205671889751,FALSE
+"GPT-5.6 Sol","Spike + contention",53,10.2345725080932,FALSE
+"GPT-5.6 Sol","Spike + contention",54,10.6952461732566,FALSE
+"GPT-5.6 Sol","Spike + contention",55,10.6205671385441,FALSE
+"GPT-5.6 Sol","Spike + contention",56,9.56450691566473,FALSE
+"GPT-5.6 Sol","Spike + contention",57,9.97717898089727,FALSE
+"GPT-5.6 Sol","Spike + contention",58,10.7647186515083,FALSE
+"GPT-5.6 Sol","Spike + contention",59,10.3930859387489,FALSE
+"GPT-5.6 Sol","Spike + contention",60,10.2138260270469,FALSE
+"GPT-5.6 Sol","Spike + contention",61,10.4984326677648,FALSE
+"GPT-5.6 Sol","Spike + contention",62,10.0225425589491,FALSE
+"GPT-5.6 Sol","Spike + contention",63,10.169257554194,FALSE
+"GPT-5.6 Sol","Spike + contention",64,10.1590839538897,FALSE
+"GPT-5.6 Sol","Spike + contention",65,10.3462857184973,FALSE
+"GPT-5.6 Sol","Spike + contention",66,10.4874706211781,FALSE
+"GPT-5.6 Sol","Spike + contention",67,10.6205672028126,FALSE
+"GPT-5.6 Sol","Spike + contention",68,10.362062327936,FALSE
+"GPT-5.6 Sol","Spike + contention",69,10.2308300717823,FALSE
+"GPT-5.6 Sol","Spike + contention",70,10.3463611016028,FALSE
+"GPT-5.6 Sol","Spike + contention",71,10.4485300614353,FALSE
+"GPT-5.6 Sol","Spike + contention",72,10.1509674449153,FALSE
+"GPT-5.6 Sol","Spike + contention",73,10.2545378772949,FALSE
+"GPT-5.6 Sol","Spike + contention",74,10.2545378927576,FALSE
+"GPT-5.6 Sol","Spike + contention",75,10.2347104770293,FALSE
+"GPT-5.6 Sol","Spike + contention",76,10.4984326679894,FALSE
+"GPT-5.6 Sol","Spike + contention",77,10.3314186753507,FALSE
+"GPT-5.6 Sol","Spike + contention",78,10.4987252158586,FALSE
+"GPT-5.6 Sol","Spike + contention",79,10.4522003733071,FALSE
+"GPT-5.6 Sol","Spike + contention",80,10.1698371124983,FALSE
+"GPT-5.6 Sol","Spike + contention",81,10.3298938218855,FALSE
+"GPT-5.6 Sol","Spike + contention",82,10.1254386052715,FALSE
+"GPT-5.6 Sol","Spike + contention",83,10.5987408348908,FALSE
+"GPT-5.6 Sol","Spike + contention",84,10.3210239652267,FALSE
+"GPT-5.6 Sol","Spike + contention",85,10.159084490608,FALSE
+"GPT-5.6 Sol","Spike + contention",86,10.1692599663219,FALSE
+"GPT-5.6 Sol","Spike + contention",87,9.82023712267954,FALSE
+"GPT-5.6 Sol","Spike + contention",88,10.49872491282,FALSE
+"GPT-5.6 Sol","Spike + contention",89,10.8558324221433,FALSE
+"GPT-5.6 Sol","Spike + contention",90,10.3930860601906,FALSE
+"GPT-5.6 Sol","Spike + contention",91,9.81721262351124,FALSE
+"GPT-5.6 Sol","Spike + contention",92,10.1473408285715,FALSE
+"GPT-5.6 Sol","Spike + contention",93,10.425172642362,FALSE
+"GPT-5.6 Sol","Spike + contention",94,10.7359670233916,FALSE
+"GPT-5.6 Sol","Spike + contention",95,10.4047341618573,FALSE
+"GPT-5.6 Sol","Spike + contention",96,10.2542114266169,FALSE
+"GPT-5.6 Sol","Spike + contention",97,10.4028310457437,FALSE
+"GPT-5.6 Sol","Spike + contention",98,10.6237186308156,FALSE
+"GPT-5.6 Sol","Spike + contention",99,9.73862988678897,TRUE
+"GPT-5.6 Sol","Spike + contention",100,10.2542116007318,FALSE
+"GPT-5.6 Sol","Spike + contention",101,9.72706470347692,FALSE
+"GPT-5.6 Sol","Spike + contention",102,9.97739247321197,FALSE
+"GPT-5.6 Sol","Spike + contention",103,10.4522003733071,FALSE
+"GPT-5.6 Sol","Spike + contention",104,11.0291425258425,FALSE
+"GPT-5.6 Sol","Spike + contention",105,10.393064996909,FALSE
+"GPT-5.6 Sol","Spike + contention",106,10.1527312779612,FALSE
+"GPT-5.6 Sol","Spike + contention",107,11.0292063336578,FALSE
+"GPT-5.6 Sol","Spike + contention",108,10.6400858707027,FALSE
+"GPT-5.6 Sol","Spike + contention",109,10.1509674452332,FALSE
+"GPT-5.6 Sol","Spike + contention",110,10.1529891941727,FALSE
+"GPT-5.6 Sol","Spike + contention",111,10.4984320299838,FALSE
+"GPT-5.6 Sol","Spike + contention",112,10.1550157874503,FALSE
+"GPT-5.6 Sol","Spike + contention",113,10.1703314436785,FALSE
+"GPT-5.6 Sol","Spike + contention",114,10.2448007414289,FALSE
+"GPT-5.6 Sol","Spike + contention",115,10.370690974463,FALSE
+"GPT-5.6 Sol","Spike + contention",116,10.3196211596029,FALSE
+"GPT-5.6 Sol","Spike + contention",117,10.7632532478938,FALSE
+"GPT-5.6 Sol","Spike + contention",118,9.82023642156125,FALSE
+"GPT-5.6 Sol","Spike + contention",119,10.4485794341499,FALSE
+"GPT-5.6 Sol","Spike + contention",120,9.8048930510225,FALSE
+"GPT-5.6 Sol","Spike + contention",121,9.820157496705,FALSE
+"GPT-5.6 Sol","Spike + contention",122,10.2305671237856,FALSE
+"GPT-5.6 Sol","Spike + contention",123,10.4488026358822,FALSE
+"GPT-5.6 Sol","Spike + contention",124,10.4874500626368,FALSE
+"GPT-5.6 Sol","Spike + contention",125,10.433793633573,FALSE
+"GPT-5.6 Sol","Spike + contention",126,10.4871701937763,FALSE
+"GPT-5.6 Sol","Spike + contention",127,10.8558327045408,FALSE
+"GPT-5.6 Sol","Spike + contention",128,10.3242090219224,FALSE
+"GPT-5.6 Sol","Spike + contention",129,9.92458771196409,FALSE
+"GPT-5.6 Sol","Spike + contention",130,10.3298411562726,FALSE
+"GPT-5.6 Sol","Spike + contention",131,10.4251726505809,FALSE
+"GPT-5.6 Sol","Spike + contention",132,10.6400803477264,FALSE
+"GPT-5.6 Sol","Spike + contention",133,10.4047088108694,FALSE
+"GPT-5.6 Sol","Spike + contention",134,9.80816811956032,FALSE
+"GPT-5.6 Sol","Spike + contention",135,10.2136692682657,FALSE
+"GPT-5.6 Sol","Spike + contention",136,9.81791934125672,FALSE
+"GPT-5.6 Sol","Spike + contention",137,11.0291271465518,FALSE
+"GPT-5.6 Sol","Spike + contention",138,10.1473199994722,FALSE
+"GPT-5.6 Sol","Spike + contention",139,12.8247256231946,FALSE
+"GPT-5.6 Sol","Spike + contention",140,9.81848561563986,FALSE
+"GPT-5.6 Sol","Spike + contention",141,10.6204086995124,FALSE
+"GPT-5.6 Sol","Spike + contention",142,10.4046525765842,FALSE
+"GPT-5.6 Sol","Spike + contention",143,8.05001281794642,FALSE
+"GPT-5.6 Sol","Spike + contention",144,10.4340297863722,FALSE
+"GPT-5.6 Sol","Spike + contention",145,9.92468307675817,FALSE
+"GPT-5.6 Sol","Spike + contention",146,10.1286121024652,FALSE
+"GPT-5.6 Sol","Spike + contention",147,10.4987251239999,FALSE
+"GPT-5.6 Sol","Spike + contention",148,10.3298246323247,FALSE
+"GPT-5.6 Sol","Spike + contention",149,10.3464263360476,FALSE
+"GPT-5.6 Sol","Spike + contention",150,10.764705058245,FALSE
+"GPT-5.6 Sol","Spike + contention",151,12.1995041937078,TRUE
+"GPT-5.6 Sol","Spike + contention",152,9.64842973406169,FALSE
+"GPT-5.6 Sol","Spike + contention",153,10.4584122782323,FALSE
+"GPT-5.6 Sol","Spike + contention",154,10.1642668803359,FALSE
+"GPT-5.6 Sol","Spike + contention",155,9.31309912723073,FALSE
+"GPT-5.6 Sol","Spike + contention",156,10.3706909606394,FALSE
+"GPT-5.6 Sol","Spike + contention",157,10.8666923704869,FALSE
+"GPT-5.6 Sol","Spike + contention",158,10.7633257864671,FALSE
+"GPT-5.6 Sol","Spike + contention",159,9.75741524144414,FALSE
+"GPT-5.6 Sol","Spike + contention",160,9.31300974431441,FALSE
+"GPT-5.6 Sol","Spike + contention",161,10.3464918429302,FALSE
+"GPT-5.6 Sol","Spike + contention",162,10.1812839935201,FALSE
+"GPT-5.6 Sol","Spike + contention",163,9.92507923952751,FALSE
+"GPT-5.6 Sol","Spike + contention",164,9.80474927975577,FALSE
+"GPT-5.6 Sol","Spike + contention",165,9.87202902340395,FALSE
+"GPT-5.6 Sol","Spike + contention",166,10.3241638955733,FALSE
+"GPT-5.6 Sol","Spike + contention",167,9.92523887316499,FALSE
+"GPT-5.6 Sol","Spike + contention",168,10.3313125731728,FALSE
+"GPT-5.6 Sol","Spike + contention",169,10.234710153449,FALSE
+"GPT-5.6 Sol","Spike + contention",170,10.2311485607164,FALSE
+"GPT-5.6 Sol","Spike + contention",171,10.0030836357541,FALSE
+"GPT-5.6 Sol","Spike + contention",172,10.6952129546231,FALSE
+"GPT-5.6 Sol","Spike + contention",173,10.6236925990163,FALSE
+"GPT-5.6 Sol","Spike + contention",174,10.4374604906007,FALSE
+"GPT-5.6 Sol","Spike + contention",175,7.98174506502921,FALSE
+"GPT-5.6 Sol","Spike + contention",176,10.5986425521225,FALSE
+"GPT-5.6 Sol","Spike + contention",177,10.4015978470154,TRUE
+"GPT-5.6 Sol","Spike + contention",178,10.1592023202671,FALSE
+"GPT-5.6 Sol","Spike + contention",179,8.31124311089637,TRUE
+"GPT-5.6 Sol","Spike + contention",180,9.80489305152635,FALSE
+"GPT-5.6 Sol","Spike + contention",181,10.2563713978804,FALSE
+"GPT-5.6 Sol","Spike + contention",182,10.4374190979831,FALSE
+"GPT-5.6 Sol","Spike + contention",183,9.80809414488278,FALSE
+"GPT-5.6 Sol","Spike + contention",184,10.1641865624969,FALSE
+"GPT-5.6 Sol","Spike + contention",185,10.1592023225657,FALSE
+"GPT-5.6 Sol","Spike + contention",186,10.0409618660558,FALSE
+"GPT-5.6 Sol","Spike + contention",187,9.92463243228789,FALSE
+"GPT-5.6 Sol","Spike + contention",188,10.1473408281868,FALSE
+"GPT-5.6 Sol","Spike + contention",189,10.55915334307,FALSE
+"GPT-5.6 Sol","Spike + contention",190,10.4047088108694,FALSE
+"GPT-5.6 Sol","Spike + contention",191,10.2343410646587,FALSE
+"GPT-5.6 Sol","Spike + contention",192,10.4584123342881,FALSE
+"GPT-5.6 Sol","Spike + contention",193,9.70233856055557,FALSE
+"GPT-5.6 Sol","Spike + contention",194,10.6400289560005,FALSE
+"GPT-5.6 Sol","Spike + contention",195,10.1697179976911,FALSE
+"GPT-5.6 Sol","Spike + contention",196,10.0232081847666,FALSE
+"GPT-5.6 Sol","Spike + contention",197,10.7975690376195,FALSE
+"GPT-5.6 Sol","Spike + contention",198,9.87195480530339,FALSE
+"GPT-5.6 Sol","Spike + contention",199,12.8245832726164,FALSE
+"GPT-5.6 Sol","Spike + contention",200,9.75726133556558,FALSE
+"Claude Sonnet 5","Stochastic frontier",1,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",2,0.133181169522218,FALSE
+"Claude Sonnet 5","Stochastic frontier",3,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",4,0.0244816182999704,FALSE
+"Claude Sonnet 5","Stochastic frontier",5,0.0608310212859754,FALSE
+"Claude Sonnet 5","Stochastic frontier",6,0.026667359657354,FALSE
+"Claude Sonnet 5","Stochastic frontier",7,0.62897630035801,FALSE
+"Claude Sonnet 5","Stochastic frontier",8,0.969643878700987,FALSE
+"Claude Sonnet 5","Stochastic frontier",9,0.440916773935732,FALSE
+"Claude Sonnet 5","Stochastic frontier",10,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",11,0.108076928248791,FALSE
+"Claude Sonnet 5","Stochastic frontier",12,0.480063039077689,FALSE
+"Claude Sonnet 5","Stochastic frontier",13,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",14,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",15,0.132649902440161,FALSE
+"Claude Sonnet 5","Stochastic frontier",16,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",17,0.315815776427853,FALSE
+"Claude Sonnet 5","Stochastic frontier",18,0.488955489570733,FALSE
+"Claude Sonnet 5","Stochastic frontier",19,0.521558545076987,FALSE
+"Claude Sonnet 5","Stochastic frontier",20,0.679146520451428,FALSE
+"Claude Sonnet 5","Stochastic frontier",21,0.134373888188943,FALSE
+"Claude Sonnet 5","Stochastic frontier",22,0.615061989223132,FALSE
+"Claude Sonnet 5","Stochastic frontier",23,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",24,0.848200337118194,FALSE
+"Claude Sonnet 5","Stochastic frontier",25,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",26,0.287362460193966,FALSE
+"Claude Sonnet 5","Stochastic frontier",27,0.395765568734629,FALSE
+"Claude Sonnet 5","Stochastic frontier",28,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",29,0.0430702551374813,FALSE
+"Claude Sonnet 5","Stochastic frontier",30,0.0937704180702647,FALSE
+"Claude Sonnet 5","Stochastic frontier",31,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",32,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",33,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",34,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",35,0.553496176867498,FALSE
+"Claude Sonnet 5","Stochastic frontier",36,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",37,0.726657625882859,FALSE
+"Claude Sonnet 5","Stochastic frontier",38,0.0612925741187022,FALSE
+"Claude Sonnet 5","Stochastic frontier",39,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",40,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",41,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",42,0.216404637617406,FALSE
+"Claude Sonnet 5","Stochastic frontier",43,0.574435389925454,FALSE
+"Claude Sonnet 5","Stochastic frontier",44,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",45,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",46,0.191206466415255,FALSE
+"Claude Sonnet 5","Stochastic frontier",47,1.00566113826399,FALSE
+"Claude Sonnet 5","Stochastic frontier",48,0.823648764370416,FALSE
+"Claude Sonnet 5","Stochastic frontier",49,0.347085284936576,FALSE
+"Claude Sonnet 5","Stochastic frontier",50,0.0874743397305866,FALSE
+"Claude Sonnet 5","Stochastic frontier",51,0.369321903930755,FALSE
+"Claude Sonnet 5","Stochastic frontier",52,0.143681862114941,FALSE
+"Claude Sonnet 5","Stochastic frontier",53,0.199424109118184,FALSE
+"Claude Sonnet 5","Stochastic frontier",54,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",55,0.216288566477757,FALSE
+"Claude Sonnet 5","Stochastic frontier",56,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",57,0.436925812546473,FALSE
+"Claude Sonnet 5","Stochastic frontier",58,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",59,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",60,0.517074504201552,FALSE
+"Claude Sonnet 5","Stochastic frontier",61,0.97715846070372,FALSE
+"Claude Sonnet 5","Stochastic frontier",62,0.501237795390407,FALSE
+"Claude Sonnet 5","Stochastic frontier",63,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",64,0.479507962674499,FALSE
+"Claude Sonnet 5","Stochastic frontier",65,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",66,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",67,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",68,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",69,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",70,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",71,0.927037083878283,FALSE
+"Claude Sonnet 5","Stochastic frontier",72,0.276021131441206,FALSE
+"Claude Sonnet 5","Stochastic frontier",73,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",74,0.251323208110967,FALSE
+"Claude Sonnet 5","Stochastic frontier",75,0.703321976112123,FALSE
+"Claude Sonnet 5","Stochastic frontier",76,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",77,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",78,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",79,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",80,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",81,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",82,0.12954290689658,FALSE
+"Claude Sonnet 5","Stochastic frontier",83,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",84,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",85,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",86,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",87,0.403529413991494,FALSE
+"Claude Sonnet 5","Stochastic frontier",88,0.228092602895367,FALSE
+"Claude Sonnet 5","Stochastic frontier",89,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",90,0.142041722984725,FALSE
+"Claude Sonnet 5","Stochastic frontier",91,0.0178487742883785,FALSE
+"Claude Sonnet 5","Stochastic frontier",92,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",93,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",94,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",95,0.341495388090125,FALSE
+"Claude Sonnet 5","Stochastic frontier",96,0.317773966746783,FALSE
+"Claude Sonnet 5","Stochastic frontier",97,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",98,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",99,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",100,0.988775684175649,FALSE
+"Claude Sonnet 5","Stochastic frontier",101,0.792356042622629,FALSE
+"Claude Sonnet 5","Stochastic frontier",102,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",103,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",104,0.537666951483392,FALSE
+"Claude Sonnet 5","Stochastic frontier",105,0.143402779718668,FALSE
+"Claude Sonnet 5","Stochastic frontier",106,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",107,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",108,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",109,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",110,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",111,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",112,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",113,0.363595525514637,FALSE
+"Claude Sonnet 5","Stochastic frontier",114,0.0530625598636465,FALSE
+"Claude Sonnet 5","Stochastic frontier",115,0.00406125977521345,FALSE
+"Claude Sonnet 5","Stochastic frontier",116,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",117,0.145086675699977,FALSE
+"Claude Sonnet 5","Stochastic frontier",118,0.564393069573387,FALSE
+"Claude Sonnet 5","Stochastic frontier",119,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",120,0.672919019611174,FALSE
+"Claude Sonnet 5","Stochastic frontier",121,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",122,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",123,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",124,0.343086957663037,FALSE
+"Claude Sonnet 5","Stochastic frontier",125,0.498584078198265,FALSE
+"Claude Sonnet 5","Stochastic frontier",126,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",127,0.46421872412364,FALSE
+"Claude Sonnet 5","Stochastic frontier",128,0.00302353878127571,FALSE
+"Claude Sonnet 5","Stochastic frontier",129,0.206061673653773,FALSE
+"Claude Sonnet 5","Stochastic frontier",130,0.58120887949915,FALSE
+"Claude Sonnet 5","Stochastic frontier",131,0.639118488017601,FALSE
+"Claude Sonnet 5","Stochastic frontier",132,0.225253425515646,FALSE
+"Claude Sonnet 5","Stochastic frontier",133,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",134,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",135,0.491237723036298,FALSE
+"Claude Sonnet 5","Stochastic frontier",136,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",137,0.487256658763449,FALSE
+"Claude Sonnet 5","Stochastic frontier",138,0.471983705856556,FALSE
+"Claude Sonnet 5","Stochastic frontier",139,0.0441132673561983,FALSE
+"Claude Sonnet 5","Stochastic frontier",140,0.205952885567106,FALSE
+"Claude Sonnet 5","Stochastic frontier",141,0.539145565673958,FALSE
+"Claude Sonnet 5","Stochastic frontier",142,0.121669472893761,FALSE
+"Claude Sonnet 5","Stochastic frontier",143,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",144,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",145,0.234365266612482,FALSE
+"Claude Sonnet 5","Stochastic frontier",146,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",147,0.121324541998588,FALSE
+"Claude Sonnet 5","Stochastic frontier",148,0.491190415339025,FALSE
+"Claude Sonnet 5","Stochastic frontier",149,0.277112213501477,FALSE
+"Claude Sonnet 5","Stochastic frontier",150,0.429656587500497,FALSE
+"Claude Sonnet 5","Stochastic frontier",151,0.401883759115001,FALSE
+"Claude Sonnet 5","Stochastic frontier",152,0.313278580528063,FALSE
+"Claude Sonnet 5","Stochastic frontier",153,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",154,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",155,0.300973951527976,FALSE
+"Claude Sonnet 5","Stochastic frontier",156,0.922054879625461,FALSE
+"Claude Sonnet 5","Stochastic frontier",157,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",158,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",159,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",160,0.236398937859254,FALSE
+"Claude Sonnet 5","Stochastic frontier",161,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",162,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",163,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",164,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",165,0.435527928813871,FALSE
+"Claude Sonnet 5","Stochastic frontier",166,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",167,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",168,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",169,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",170,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",171,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",172,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",173,0.229562783967995,FALSE
+"Claude Sonnet 5","Stochastic frontier",174,0.921170847992865,FALSE
+"Claude Sonnet 5","Stochastic frontier",175,0.507027162021285,FALSE
+"Claude Sonnet 5","Stochastic frontier",176,1.01895638794817,FALSE
+"Claude Sonnet 5","Stochastic frontier",177,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",178,0.418224753456991,FALSE
+"Claude Sonnet 5","Stochastic frontier",179,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",180,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",181,0.309061337782617,FALSE
+"Claude Sonnet 5","Stochastic frontier",182,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",183,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",184,0.36488028328976,FALSE
+"Claude Sonnet 5","Stochastic frontier",185,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",186,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",187,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",188,0.874106024047787,FALSE
+"Claude Sonnet 5","Stochastic frontier",189,0.369254390917899,FALSE
+"Claude Sonnet 5","Stochastic frontier",190,0.35948353780694,FALSE
+"Claude Sonnet 5","Stochastic frontier",191,0.209573130956267,FALSE
+"Claude Sonnet 5","Stochastic frontier",192,0.081834995604669,FALSE
+"Claude Sonnet 5","Stochastic frontier",193,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",194,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",195,0.794496243272023,FALSE
+"Claude Sonnet 5","Stochastic frontier",196,0.47940214877022,FALSE
+"Claude Sonnet 5","Stochastic frontier",197,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",198,0,TRUE
+"Claude Sonnet 5","Stochastic frontier",199,0.0955704912090043,FALSE
+"Claude Sonnet 5","Stochastic frontier",200,0,TRUE
+"Claude Sonnet 5","Spike + contention",1,0.270598280922955,FALSE
+"Claude Sonnet 5","Spike + contention",2,1.0794881406745,FALSE
+"Claude Sonnet 5","Spike + contention",3,0.53388645846245,FALSE
+"Claude Sonnet 5","Spike + contention",4,0,TRUE
+"Claude Sonnet 5","Spike + contention",5,0.239430804542702,FALSE
+"Claude Sonnet 5","Spike + contention",6,0,TRUE
+"Claude Sonnet 5","Spike + contention",7,0,TRUE
+"Claude Sonnet 5","Spike + contention",8,0,TRUE
+"Claude Sonnet 5","Spike + contention",9,0,TRUE
+"Claude Sonnet 5","Spike + contention",10,0.456700926991252,FALSE
+"Claude Sonnet 5","Spike + contention",11,0,TRUE
+"Claude Sonnet 5","Spike + contention",12,0.264350811412795,FALSE
+"Claude Sonnet 5","Spike + contention",13,0.354910327301734,TRUE
+"Claude Sonnet 5","Spike + contention",14,0.0680490121638329,FALSE
+"Claude Sonnet 5","Spike + contention",15,0,TRUE
+"Claude Sonnet 5","Spike + contention",16,0.0968342972799195,FALSE
+"Claude Sonnet 5","Spike + contention",17,0,TRUE
+"Claude Sonnet 5","Spike + contention",18,0,TRUE
+"Claude Sonnet 5","Spike + contention",19,0.626505759664301,FALSE
+"Claude Sonnet 5","Spike + contention",20,0.670009299411834,FALSE
+"Claude Sonnet 5","Spike + contention",21,0.0341261031571728,FALSE
+"Claude Sonnet 5","Spike + contention",22,0,TRUE
+"Claude Sonnet 5","Spike + contention",23,0,TRUE
+"Claude Sonnet 5","Spike + contention",24,0.318530894664502,FALSE
+"Claude Sonnet 5","Spike + contention",25,0,TRUE
+"Claude Sonnet 5","Spike + contention",26,0.18015580292218,FALSE
+"Claude Sonnet 5","Spike + contention",27,0,TRUE
+"Claude Sonnet 5","Spike + contention",28,0,TRUE
+"Claude Sonnet 5","Spike + contention",29,0.13280943307655,FALSE
+"Claude Sonnet 5","Spike + contention",30,0,TRUE
+"Claude Sonnet 5","Spike + contention",31,0,TRUE
+"Claude Sonnet 5","Spike + contention",32,0,TRUE
+"Claude Sonnet 5","Spike + contention",33,0,TRUE
+"Claude Sonnet 5","Spike + contention",34,0.258790168224156,FALSE
+"Claude Sonnet 5","Spike + contention",35,0,TRUE
+"Claude Sonnet 5","Spike + contention",36,0,TRUE
+"Claude Sonnet 5","Spike + contention",37,0.295866832077814,FALSE
+"Claude Sonnet 5","Spike + contention",38,0.710551368422054,FALSE
+"Claude Sonnet 5","Spike + contention",39,0.523170968709378,FALSE
+"Claude Sonnet 5","Spike + contention",40,1.50566619780202,FALSE
+"Claude Sonnet 5","Spike + contention",41,0,TRUE
+"Claude Sonnet 5","Spike + contention",42,0,TRUE
+"Claude Sonnet 5","Spike + contention",43,0,TRUE
+"Claude Sonnet 5","Spike + contention",44,0,TRUE
+"Claude Sonnet 5","Spike + contention",45,0,TRUE
+"Claude Sonnet 5","Spike + contention",46,0,TRUE
+"Claude Sonnet 5","Spike + contention",47,0,TRUE
+"Claude Sonnet 5","Spike + contention",48,0,TRUE
+"Claude Sonnet 5","Spike + contention",49,0,TRUE
+"Claude Sonnet 5","Spike + contention",50,0.331844368932912,FALSE
+"Claude Sonnet 5","Spike + contention",51,1.14804744318332,FALSE
+"Claude Sonnet 5","Spike + contention",52,1.03250934710738,TRUE
+"Claude Sonnet 5","Spike + contention",53,0,TRUE
+"Claude Sonnet 5","Spike + contention",54,0.121963714401117,FALSE
+"Claude Sonnet 5","Spike + contention",55,0,TRUE
+"Claude Sonnet 5","Spike + contention",56,0,TRUE
+"Claude Sonnet 5","Spike + contention",57,0.513293362053578,FALSE
+"Claude Sonnet 5","Spike + contention",58,0,TRUE
+"Claude Sonnet 5","Spike + contention",59,0,TRUE
+"Claude Sonnet 5","Spike + contention",60,0,TRUE
+"Claude Sonnet 5","Spike + contention",61,0,TRUE
+"Claude Sonnet 5","Spike + contention",62,0,TRUE
+"Claude Sonnet 5","Spike + contention",63,0.470333701330695,FALSE
+"Claude Sonnet 5","Spike + contention",64,0.978771870834178,FALSE
+"Claude Sonnet 5","Spike + contention",65,0.0440296405152935,FALSE
+"Claude Sonnet 5","Spike + contention",66,0,TRUE
+"Claude Sonnet 5","Spike + contention",67,0,TRUE
+"Claude Sonnet 5","Spike + contention",68,0.507443890503948,FALSE
+"Claude Sonnet 5","Spike + contention",69,0,TRUE
+"Claude Sonnet 5","Spike + contention",70,0.247943882644467,FALSE
+"Claude Sonnet 5","Spike + contention",71,0,TRUE
+"Claude Sonnet 5","Spike + contention",72,0.40695278504403,FALSE
+"Claude Sonnet 5","Spike + contention",73,0,TRUE
+"Claude Sonnet 5","Spike + contention",74,0,TRUE
+"Claude Sonnet 5","Spike + contention",75,0,TRUE
+"Claude Sonnet 5","Spike + contention",76,0.635290114995767,FALSE
+"Claude Sonnet 5","Spike + contention",77,0,TRUE
+"Claude Sonnet 5","Spike + contention",78,0,TRUE
+"Claude Sonnet 5","Spike + contention",79,0.569839485346263,TRUE
+"Claude Sonnet 5","Spike + contention",80,0,TRUE
+"Claude Sonnet 5","Spike + contention",81,0.839540362441397,FALSE
+"Claude Sonnet 5","Spike + contention",82,0,TRUE
+"Claude Sonnet 5","Spike + contention",83,1.34275134760917,FALSE
+"Claude Sonnet 5","Spike + contention",84,0.393591513191422,FALSE
+"Claude Sonnet 5","Spike + contention",85,0.172970039805867,FALSE
+"Claude Sonnet 5","Spike + contention",86,0.0699398318983595,FALSE
+"Claude Sonnet 5","Spike + contention",87,0,TRUE
+"Claude Sonnet 5","Spike + contention",88,0,TRUE
+"Claude Sonnet 5","Spike + contention",89,0,TRUE
+"Claude Sonnet 5","Spike + contention",90,0,TRUE
+"Claude Sonnet 5","Spike + contention",91,0,TRUE
+"Claude Sonnet 5","Spike + contention",92,0.899024528073817,TRUE
+"Claude Sonnet 5","Spike + contention",93,0,TRUE
+"Claude Sonnet 5","Spike + contention",94,0.0863696426662046,FALSE
+"Claude Sonnet 5","Spike + contention",95,0.293620045389099,FALSE
+"Claude Sonnet 5","Spike + contention",96,0,TRUE
+"Claude Sonnet 5","Spike + contention",97,0.253116524509381,FALSE
+"Claude Sonnet 5","Spike + contention",98,0,TRUE
+"Claude Sonnet 5","Spike + contention",99,0.229552601858854,FALSE
+"Claude Sonnet 5","Spike + contention",100,0.151694273337557,FALSE
+"Claude Sonnet 5","Spike + contention",101,0,TRUE
+"Claude Sonnet 5","Spike + contention",102,0,TRUE
+"Claude Sonnet 5","Spike + contention",103,0,TRUE
+"Claude Sonnet 5","Spike + contention",104,0.0791225774934394,FALSE
+"Claude Sonnet 5","Spike + contention",105,0.0174732370288978,TRUE
+"Claude Sonnet 5","Spike + contention",106,0.312269698244283,FALSE
+"Claude Sonnet 5","Spike + contention",107,0,TRUE
+"Claude Sonnet 5","Spike + contention",108,0,TRUE
+"Claude Sonnet 5","Spike + contention",109,0.619712009930953,FALSE
+"Claude Sonnet 5","Spike + contention",110,0.0632668578144321,FALSE
+"Claude Sonnet 5","Spike + contention",111,0.205611543872793,FALSE
+"Claude Sonnet 5","Spike + contention",112,0,TRUE
+"Claude Sonnet 5","Spike + contention",113,0.185170676738547,FALSE
+"Claude Sonnet 5","Spike + contention",114,0.634717976859145,FALSE
+"Claude Sonnet 5","Spike + contention",115,0.753071788644901,TRUE
+"Claude Sonnet 5","Spike + contention",116,0,TRUE
+"Claude Sonnet 5","Spike + contention",117,0,TRUE
+"Claude Sonnet 5","Spike + contention",118,0,TRUE
+"Claude Sonnet 5","Spike + contention",119,0,TRUE
+"Claude Sonnet 5","Spike + contention",120,0,TRUE
+"Claude Sonnet 5","Spike + contention",121,0,TRUE
+"Claude Sonnet 5","Spike + contention",122,0.319259800167278,FALSE
+"Claude Sonnet 5","Spike + contention",123,0.382653768813418,FALSE
+"Claude Sonnet 5","Spike + contention",124,0.142114061175734,FALSE
+"Claude Sonnet 5","Spike + contention",125,0.277892223941967,FALSE
+"Claude Sonnet 5","Spike + contention",126,0,TRUE
+"Claude Sonnet 5","Spike + contention",127,0.103466073168852,FALSE
+"Claude Sonnet 5","Spike + contention",128,0,TRUE
+"Claude Sonnet 5","Spike + contention",129,1.87624517542896,FALSE
+"Claude Sonnet 5","Spike + contention",130,0,TRUE
+"Claude Sonnet 5","Spike + contention",131,0,TRUE
+"Claude Sonnet 5","Spike + contention",132,0,TRUE
+"Claude Sonnet 5","Spike + contention",133,0,TRUE
+"Claude Sonnet 5","Spike + contention",134,0,TRUE
+"Claude Sonnet 5","Spike + contention",135,0,TRUE
+"Claude Sonnet 5","Spike + contention",136,0.154225515327926,TRUE
+"Claude Sonnet 5","Spike + contention",137,0,TRUE
+"Claude Sonnet 5","Spike + contention",138,0,TRUE
+"Claude Sonnet 5","Spike + contention",139,0.355262122550023,FALSE
+"Claude Sonnet 5","Spike + contention",140,0,TRUE
+"Claude Sonnet 5","Spike + contention",141,0,TRUE
+"Claude Sonnet 5","Spike + contention",142,0,TRUE
+"Claude Sonnet 5","Spike + contention",143,0,TRUE
+"Claude Sonnet 5","Spike + contention",144,0.311315490861811,FALSE
+"Claude Sonnet 5","Spike + contention",145,0,TRUE
+"Claude Sonnet 5","Spike + contention",146,0,TRUE
+"Claude Sonnet 5","Spike + contention",147,0.212907453320225,FALSE
+"Claude Sonnet 5","Spike + contention",148,0,TRUE
+"Claude Sonnet 5","Spike + contention",149,0,TRUE
+"Claude Sonnet 5","Spike + contention",150,0,TRUE
+"Claude Sonnet 5","Spike + contention",151,0,TRUE
+"Claude Sonnet 5","Spike + contention",152,0,TRUE
+"Claude Sonnet 5","Spike + contention",153,0,TRUE
+"Claude Sonnet 5","Spike + contention",154,0,TRUE
+"Claude Sonnet 5","Spike + contention",155,0,TRUE
+"Claude Sonnet 5","Spike + contention",156,0.647203881642518,FALSE
+"Claude Sonnet 5","Spike + contention",157,0,TRUE
+"Claude Sonnet 5","Spike + contention",158,0.445216399248028,TRUE
+"Claude Sonnet 5","Spike + contention",159,0,TRUE
+"Claude Sonnet 5","Spike + contention",160,0,TRUE
+"Claude Sonnet 5","Spike + contention",161,0.548883226492283,FALSE
+"Claude Sonnet 5","Spike + contention",162,0.909717901285227,FALSE
+"Claude Sonnet 5","Spike + contention",163,0,TRUE
+"Claude Sonnet 5","Spike + contention",164,0,TRUE
+"Claude Sonnet 5","Spike + contention",165,0,TRUE
+"Claude Sonnet 5","Spike + contention",166,0,TRUE
+"Claude Sonnet 5","Spike + contention",167,0.485422643059959,FALSE
+"Claude Sonnet 5","Spike + contention",168,0.172370352612273,FALSE
+"Claude Sonnet 5","Spike + contention",169,0.640189411980858,FALSE
+"Claude Sonnet 5","Spike + contention",170,0,TRUE
+"Claude Sonnet 5","Spike + contention",171,0,TRUE
+"Claude Sonnet 5","Spike + contention",172,0,TRUE
+"Claude Sonnet 5","Spike + contention",173,0,TRUE
+"Claude Sonnet 5","Spike + contention",174,0.241344351066832,FALSE
+"Claude Sonnet 5","Spike + contention",175,0.547375705978556,FALSE
+"Claude Sonnet 5","Spike + contention",176,0,TRUE
+"Claude Sonnet 5","Spike + contention",177,0,TRUE
+"Claude Sonnet 5","Spike + contention",178,0,TRUE
+"Claude Sonnet 5","Spike + contention",179,0,TRUE
+"Claude Sonnet 5","Spike + contention",180,0,TRUE
+"Claude Sonnet 5","Spike + contention",181,0,TRUE
+"Claude Sonnet 5","Spike + contention",182,0,TRUE
+"Claude Sonnet 5","Spike + contention",183,0,TRUE
+"Claude Sonnet 5","Spike + contention",184,0,TRUE
+"Claude Sonnet 5","Spike + contention",185,0,TRUE
+"Claude Sonnet 5","Spike + contention",186,0,TRUE
+"Claude Sonnet 5","Spike + contention",187,0.0111396426046695,FALSE
+"Claude Sonnet 5","Spike + contention",188,0.0721999880717407,FALSE
+"Claude Sonnet 5","Spike + contention",189,0,TRUE
+"Claude Sonnet 5","Spike + contention",190,0,TRUE
+"Claude Sonnet 5","Spike + contention",191,0.308896853948671,FALSE
+"Claude Sonnet 5","Spike + contention",192,0,TRUE
+"Claude Sonnet 5","Spike + contention",193,0,TRUE
+"Claude Sonnet 5","Spike + contention",194,0,TRUE
+"Claude Sonnet 5","Spike + contention",195,0.0307361218641823,FALSE
+"Claude Sonnet 5","Spike + contention",196,0,TRUE
+"Claude Sonnet 5","Spike + contention",197,0,TRUE
+"Claude Sonnet 5","Spike + contention",198,0.40176597006336,FALSE
+"Claude Sonnet 5","Spike + contention",199,0.188648745278089,FALSE
+"Claude Sonnet 5","Spike + contention",200,0,TRUE
+"Claude Opus 5","Stochastic frontier",1,0,TRUE
+"Claude Opus 5","Stochastic frontier",2,0,TRUE
+"Claude Opus 5","Stochastic frontier",3,0,TRUE
+"Claude Opus 5","Stochastic frontier",4,0,TRUE
+"Claude Opus 5","Stochastic frontier",5,5.05548986978435,FALSE
+"Claude Opus 5","Stochastic frontier",6,5.59714066745813,FALSE
+"Claude Opus 5","Stochastic frontier",7,0.754956691640882,FALSE
+"Claude Opus 5","Stochastic frontier",8,0,TRUE
+"Claude Opus 5","Stochastic frontier",9,0.83528834658512,FALSE
+"Claude Opus 5","Stochastic frontier",10,1.18385798185061,FALSE
+"Claude Opus 5","Stochastic frontier",11,0,TRUE
+"Claude Opus 5","Stochastic frontier",12,0,TRUE
+"Claude Opus 5","Stochastic frontier",13,0.319512471327308,FALSE
+"Claude Opus 5","Stochastic frontier",14,0,TRUE
+"Claude Opus 5","Stochastic frontier",15,0,TRUE
+"Claude Opus 5","Stochastic frontier",16,4.67060052082577,FALSE
+"Claude Opus 5","Stochastic frontier",17,0,TRUE
+"Claude Opus 5","Stochastic frontier",18,5.23904234680589,FALSE
+"Claude Opus 5","Stochastic frontier",19,1.06975913520378,FALSE
+"Claude Opus 5","Stochastic frontier",20,0,TRUE
+"Claude Opus 5","Stochastic frontier",21,1.5464077456017,FALSE
+"Claude Opus 5","Stochastic frontier",22,0.75202516351488,FALSE
+"Claude Opus 5","Stochastic frontier",23,2.08812084156789,FALSE
+"Claude Opus 5","Stochastic frontier",24,1.25649402896613,FALSE
+"Claude Opus 5","Stochastic frontier",25,0,TRUE
+"Claude Opus 5","Stochastic frontier",26,0,TRUE
+"Claude Opus 5","Stochastic frontier",27,2.72019057229511,FALSE
+"Claude Opus 5","Stochastic frontier",28,0.361999161940829,FALSE
+"Claude Opus 5","Stochastic frontier",29,0,TRUE
+"Claude Opus 5","Stochastic frontier",30,1.73810454276397,FALSE
+"Claude Opus 5","Stochastic frontier",31,0,TRUE
+"Claude Opus 5","Stochastic frontier",32,0.755231426160403,FALSE
+"Claude Opus 5","Stochastic frontier",33,5.1500864676178,FALSE
+"Claude Opus 5","Stochastic frontier",34,1.54681511534691,FALSE
+"Claude Opus 5","Stochastic frontier",35,0,TRUE
+"Claude Opus 5","Stochastic frontier",36,1.81173160754028,FALSE
+"Claude Opus 5","Stochastic frontier",37,0,TRUE
+"Claude Opus 5","Stochastic frontier",38,1.53145704995205,FALSE
+"Claude Opus 5","Stochastic frontier",39,4.63001055510484,FALSE
+"Claude Opus 5","Stochastic frontier",40,0,TRUE
+"Claude Opus 5","Stochastic frontier",41,3.96622146994549,FALSE
+"Claude Opus 5","Stochastic frontier",42,1.36619930849265,FALSE
+"Claude Opus 5","Stochastic frontier",43,0.910366558740738,FALSE
+"Claude Opus 5","Stochastic frontier",44,5.51224717948855,FALSE
+"Claude Opus 5","Stochastic frontier",45,0,TRUE
+"Claude Opus 5","Stochastic frontier",46,0,TRUE
+"Claude Opus 5","Stochastic frontier",47,3.42967128340424,FALSE
+"Claude Opus 5","Stochastic frontier",48,2.29206581796584,FALSE
+"Claude Opus 5","Stochastic frontier",49,0.0898688336277013,FALSE
+"Claude Opus 5","Stochastic frontier",50,0,TRUE
+"Claude Opus 5","Stochastic frontier",51,2.7633483570109,FALSE
+"Claude Opus 5","Stochastic frontier",52,0,TRUE
+"Claude Opus 5","Stochastic frontier",53,7.61841731202601,FALSE
+"Claude Opus 5","Stochastic frontier",54,0,TRUE
+"Claude Opus 5","Stochastic frontier",55,5.04692309424176,FALSE
+"Claude Opus 5","Stochastic frontier",56,5.05514586233285,FALSE
+"Claude Opus 5","Stochastic frontier",57,0,TRUE
+"Claude Opus 5","Stochastic frontier",58,7.6184173159718,FALSE
+"Claude Opus 5","Stochastic frontier",59,0,TRUE
+"Claude Opus 5","Stochastic frontier",60,1.26114197861739,FALSE
+"Claude Opus 5","Stochastic frontier",61,3.14670916865361,FALSE
+"Claude Opus 5","Stochastic frontier",62,0,TRUE
+"Claude Opus 5","Stochastic frontier",63,0,TRUE
+"Claude Opus 5","Stochastic frontier",64,3.26122316943595,FALSE
+"Claude Opus 5","Stochastic frontier",65,5.24088249933899,FALSE
+"Claude Opus 5","Stochastic frontier",66,0,TRUE
+"Claude Opus 5","Stochastic frontier",67,0,TRUE
+"Claude Opus 5","Stochastic frontier",68,3.19446404197097,FALSE
+"Claude Opus 5","Stochastic frontier",69,0,TRUE
+"Claude Opus 5","Stochastic frontier",70,0,TRUE
+"Claude Opus 5","Stochastic frontier",71,0,TRUE
+"Claude Opus 5","Stochastic frontier",72,0,TRUE
+"Claude Opus 5","Stochastic frontier",73,0.755631828909503,FALSE
+"Claude Opus 5","Stochastic frontier",74,0,TRUE
+"Claude Opus 5","Stochastic frontier",75,0,TRUE
+"Claude Opus 5","Stochastic frontier",76,8.73224905677196,FALSE
+"Claude Opus 5","Stochastic frontier",77,0,TRUE
+"Claude Opus 5","Stochastic frontier",78,3.96550153744279,FALSE
+"Claude Opus 5","Stochastic frontier",79,0,TRUE
+"Claude Opus 5","Stochastic frontier",80,0,TRUE
+"Claude Opus 5","Stochastic frontier",81,6.78316808096927,FALSE
+"Claude Opus 5","Stochastic frontier",82,0,TRUE
+"Claude Opus 5","Stochastic frontier",83,0,TRUE
+"Claude Opus 5","Stochastic frontier",84,2.21064200370425,FALSE
+"Claude Opus 5","Stochastic frontier",85,3.96525311622524,FALSE
+"Claude Opus 5","Stochastic frontier",86,0,TRUE
+"Claude Opus 5","Stochastic frontier",87,2.03901182456827,TRUE
+"Claude Opus 5","Stochastic frontier",88,0,TRUE
+"Claude Opus 5","Stochastic frontier",89,0.755631830879247,FALSE
+"Claude Opus 5","Stochastic frontier",90,0.0881135769886211,FALSE
+"Claude Opus 5","Stochastic frontier",91,0,TRUE
+"Claude Opus 5","Stochastic frontier",92,1.1347227395993,FALSE
+"Claude Opus 5","Stochastic frontier",93,2.37447904779384,FALSE
+"Claude Opus 5","Stochastic frontier",94,6.88462200217582,FALSE
+"Claude Opus 5","Stochastic frontier",95,0,TRUE
+"Claude Opus 5","Stochastic frontier",96,0,TRUE
+"Claude Opus 5","Stochastic frontier",97,2.08812084149146,FALSE
+"Claude Opus 5","Stochastic frontier",98,0,TRUE
+"Claude Opus 5","Stochastic frontier",99,5.57552583771016,FALSE
+"Claude Opus 5","Stochastic frontier",100,3.96525311986893,FALSE
+"Claude Opus 5","Stochastic frontier",101,0.752025163584352,FALSE
+"Claude Opus 5","Stochastic frontier",102,8.32229196592351,FALSE
+"Claude Opus 5","Stochastic frontier",103,0,TRUE
+"Claude Opus 5","Stochastic frontier",104,2.85664988324274,FALSE
+"Claude Opus 5","Stochastic frontier",105,0,TRUE
+"Claude Opus 5","Stochastic frontier",106,0,TRUE
+"Claude Opus 5","Stochastic frontier",107,0,TRUE
+"Claude Opus 5","Stochastic frontier",108,1.02223444836301,FALSE
+"Claude Opus 5","Stochastic frontier",109,0,TRUE
+"Claude Opus 5","Stochastic frontier",110,0,TRUE
+"Claude Opus 5","Stochastic frontier",111,3.80838481340569,FALSE
+"Claude Opus 5","Stochastic frontier",112,0,TRUE
+"Claude Opus 5","Stochastic frontier",113,0,TRUE
+"Claude Opus 5","Stochastic frontier",114,1.35094697651267,TRUE
+"Claude Opus 5","Stochastic frontier",115,1.29708101884213,FALSE
+"Claude Opus 5","Stochastic frontier",116,3.22457483338178,FALSE
+"Claude Opus 5","Stochastic frontier",117,0.0835006467952822,FALSE
+"Claude Opus 5","Stochastic frontier",118,5.75952176396579,FALSE
+"Claude Opus 5","Stochastic frontier",119,3.22255058237435,FALSE
+"Claude Opus 5","Stochastic frontier",120,2.72019057275076,FALSE
+"Claude Opus 5","Stochastic frontier",121,5.96743259808728,FALSE
+"Claude Opus 5","Stochastic frontier",122,1.52845132420727,FALSE
+"Claude Opus 5","Stochastic frontier",123,5.58608633042029,FALSE
+"Claude Opus 5","Stochastic frontier",124,2.34894595420722,FALSE
+"Claude Opus 5","Stochastic frontier",125,4.56558632492617,FALSE
+"Claude Opus 5","Stochastic frontier",126,6.42600271207079,FALSE
+"Claude Opus 5","Stochastic frontier",127,0,TRUE
+"Claude Opus 5","Stochastic frontier",128,0,TRUE
+"Claude Opus 5","Stochastic frontier",129,0,TRUE
+"Claude Opus 5","Stochastic frontier",130,3.77123665134637,FALSE
+"Claude Opus 5","Stochastic frontier",131,1.96272473299899,FALSE
+"Claude Opus 5","Stochastic frontier",132,10.5524329898696,FALSE
+"Claude Opus 5","Stochastic frontier",133,0,TRUE
+"Claude Opus 5","Stochastic frontier",134,0,TRUE
+"Claude Opus 5","Stochastic frontier",135,0.666709752194646,FALSE
+"Claude Opus 5","Stochastic frontier",136,3.41321755857593,FALSE
+"Claude Opus 5","Stochastic frontier",137,0,TRUE
+"Claude Opus 5","Stochastic frontier",138,1.02231142820202,FALSE
+"Claude Opus 5","Stochastic frontier",139,0,TRUE
+"Claude Opus 5","Stochastic frontier",140,5.04692309417249,FALSE
+"Claude Opus 5","Stochastic frontier",141,7.61769327617273,FALSE
+"Claude Opus 5","Stochastic frontier",142,0,TRUE
+"Claude Opus 5","Stochastic frontier",143,0,TRUE
+"Claude Opus 5","Stochastic frontier",144,0,TRUE
+"Claude Opus 5","Stochastic frontier",145,0.252647851601174,FALSE
+"Claude Opus 5","Stochastic frontier",146,1.13790645102154,FALSE
+"Claude Opus 5","Stochastic frontier",147,3.43076393349439,FALSE
+"Claude Opus 5","Stochastic frontier",148,2.72019057178768,FALSE
+"Claude Opus 5","Stochastic frontier",149,0,TRUE
+"Claude Opus 5","Stochastic frontier",150,0,TRUE
+"Claude Opus 5","Stochastic frontier",151,5.59492068366218,FALSE
+"Claude Opus 5","Stochastic frontier",152,0,TRUE
+"Claude Opus 5","Stochastic frontier",153,6.95945151459062,FALSE
+"Claude Opus 5","Stochastic frontier",154,0,TRUE
+"Claude Opus 5","Stochastic frontier",155,0,TRUE
+"Claude Opus 5","Stochastic frontier",156,8.71720996486222,FALSE
+"Claude Opus 5","Stochastic frontier",157,0,TRUE
+"Claude Opus 5","Stochastic frontier",158,0,TRUE
+"Claude Opus 5","Stochastic frontier",159,2.72030390399974,FALSE
+"Claude Opus 5","Stochastic frontier",160,0,TRUE
+"Claude Opus 5","Stochastic frontier",161,0,TRUE
+"Claude Opus 5","Stochastic frontier",162,0,TRUE
+"Claude Opus 5","Stochastic frontier",163,0,TRUE
+"Claude Opus 5","Stochastic frontier",164,0,TRUE
+"Claude Opus 5","Stochastic frontier",165,0,TRUE
+"Claude Opus 5","Stochastic frontier",166,0,TRUE
+"Claude Opus 5","Stochastic frontier",167,5.7184554326258,FALSE
+"Claude Opus 5","Stochastic frontier",168,5.50387412468591,FALSE
+"Claude Opus 5","Stochastic frontier",169,3.4132175595088,FALSE
+"Claude Opus 5","Stochastic frontier",170,3.66102297904212,FALSE
+"Claude Opus 5","Stochastic frontier",171,0,TRUE
+"Claude Opus 5","Stochastic frontier",172,1.73678469894266,FALSE
+"Claude Opus 5","Stochastic frontier",173,5.50442961674115,FALSE
+"Claude Opus 5","Stochastic frontier",174,8.73219428427972,FALSE
+"Claude Opus 5","Stochastic frontier",175,0,TRUE
+"Claude Opus 5","Stochastic frontier",176,3.73580838635767,FALSE
+"Claude Opus 5","Stochastic frontier",177,0,TRUE
+"Claude Opus 5","Stochastic frontier",178,3.58836320157049,FALSE
+"Claude Opus 5","Stochastic frontier",179,0,TRUE
+"Claude Opus 5","Stochastic frontier",180,1.02169811654235,FALSE
+"Claude Opus 5","Stochastic frontier",181,2.29141089460708,FALSE
+"Claude Opus 5","Stochastic frontier",182,0,TRUE
+"Claude Opus 5","Stochastic frontier",183,9.3625104498113,FALSE
+"Claude Opus 5","Stochastic frontier",184,0,TRUE
+"Claude Opus 5","Stochastic frontier",185,7.75619774136684,FALSE
+"Claude Opus 5","Stochastic frontier",186,6.95945151459062,FALSE
+"Claude Opus 5","Stochastic frontier",187,5.04692309384831,FALSE
+"Claude Opus 5","Stochastic frontier",188,0.361391647701719,FALSE
+"Claude Opus 5","Stochastic frontier",189,0,TRUE
+"Claude Opus 5","Stochastic frontier",190,0,TRUE
+"Claude Opus 5","Stochastic frontier",191,6.42600271199794,FALSE
+"Claude Opus 5","Stochastic frontier",192,3.19995265075327,FALSE
+"Claude Opus 5","Stochastic frontier",193,0,TRUE
+"Claude Opus 5","Stochastic frontier",194,2.13186276205688,FALSE
+"Claude Opus 5","Stochastic frontier",195,5.40977844481137,FALSE
+"Claude Opus 5","Stochastic frontier",196,0,TRUE
+"Claude Opus 5","Stochastic frontier",197,3.26135869293345,FALSE
+"Claude Opus 5","Stochastic frontier",198,0,TRUE
+"Claude Opus 5","Stochastic frontier",199,1.52845132967542,FALSE
+"Claude Opus 5","Stochastic frontier",200,1.81359870770109,FALSE
+"Claude Opus 5","Spike + contention",1,0,TRUE
+"Claude Opus 5","Spike + contention",2,0,TRUE
+"Claude Opus 5","Spike + contention",3,5.18574699462838,FALSE
+"Claude Opus 5","Spike + contention",4,0.778671648941337,FALSE
+"Claude Opus 5","Spike + contention",5,6.58081479059191,FALSE
+"Claude Opus 5","Spike + contention",6,0,TRUE
+"Claude Opus 5","Spike + contention",7,2.43723783533053,FALSE
+"Claude Opus 5","Spike + contention",8,6.58034841117339,FALSE
+"Claude Opus 5","Spike + contention",9,3.4635060059261,FALSE
+"Claude Opus 5","Spike + contention",10,0,TRUE
+"Claude Opus 5","Spike + contention",11,0.778260866966204,FALSE
+"Claude Opus 5","Spike + contention",12,1.59214811763696,FALSE
+"Claude Opus 5","Spike + contention",13,8.81178601566815,FALSE
+"Claude Opus 5","Spike + contention",14,1.53279012369766,FALSE
+"Claude Opus 5","Spike + contention",15,0,TRUE
+"Claude Opus 5","Spike + contention",16,0,TRUE
+"Claude Opus 5","Spike + contention",17,0,TRUE
+"Claude Opus 5","Spike + contention",18,0,TRUE
+"Claude Opus 5","Spike + contention",19,0,TRUE
+"Claude Opus 5","Spike + contention",20,0,TRUE
+"Claude Opus 5","Spike + contention",21,0,TRUE
+"Claude Opus 5","Spike + contention",22,0,TRUE
+"Claude Opus 5","Spike + contention",23,0,TRUE
+"Claude Opus 5","Spike + contention",24,0,TRUE
+"Claude Opus 5","Spike + contention",25,0,TRUE
+"Claude Opus 5","Spike + contention",26,6.79613348280855,FALSE
+"Claude Opus 5","Spike + contention",27,0,TRUE
+"Claude Opus 5","Spike + contention",28,0.971080116754117,FALSE
+"Claude Opus 5","Spike + contention",29,0.92043052190481,FALSE
+"Claude Opus 5","Spike + contention",30,0,TRUE
+"Claude Opus 5","Spike + contention",31,0,TRUE
+"Claude Opus 5","Spike + contention",32,1.7972013477055,FALSE
+"Claude Opus 5","Spike + contention",33,4.88080693376469,FALSE
+"Claude Opus 5","Spike + contention",34,1.51856260990634,FALSE
+"Claude Opus 5","Spike + contention",35,0.148033421796794,FALSE
+"Claude Opus 5","Spike + contention",36,2.43653682654039,FALSE
+"Claude Opus 5","Spike + contention",37,0,TRUE
+"Claude Opus 5","Spike + contention",38,3.6038527708834,FALSE
+"Claude Opus 5","Spike + contention",39,1.78947270307015,FALSE
+"Claude Opus 5","Spike + contention",40,0,TRUE
+"Claude Opus 5","Spike + contention",41,0,TRUE
+"Claude Opus 5","Spike + contention",42,0,TRUE
+"Claude Opus 5","Spike + contention",43,1.58735522863512,FALSE
+"Claude Opus 5","Spike + contention",44,0,TRUE
+"Claude Opus 5","Spike + contention",45,0,TRUE
+"Claude Opus 5","Spike + contention",46,2.08824606384137,FALSE
+"Claude Opus 5","Spike + contention",47,0,TRUE
+"Claude Opus 5","Spike + contention",48,0.235111658502203,FALSE
+"Claude Opus 5","Spike + contention",49,0,TRUE
+"Claude Opus 5","Spike + contention",50,4.12810494984363,FALSE
+"Claude Opus 5","Spike + contention",51,3.92647622581417,FALSE
+"Claude Opus 5","Spike + contention",52,0.778671648766849,FALSE
+"Claude Opus 5","Spike + contention",53,0,TRUE
+"Claude Opus 5","Spike + contention",54,1.58566569155289,FALSE
+"Claude Opus 5","Spike + contention",55,0,TRUE
+"Claude Opus 5","Spike + contention",56,0,TRUE
+"Claude Opus 5","Spike + contention",57,0,TRUE
+"Claude Opus 5","Spike + contention",58,4.60142493599175,FALSE
+"Claude Opus 5","Spike + contention",59,0,TRUE
+"Claude Opus 5","Spike + contention",60,0,TRUE
+"Claude Opus 5","Spike + contention",61,0,TRUE
+"Claude Opus 5","Spike + contention",62,0,TRUE
+"Claude Opus 5","Spike + contention",63,5.18528314537816,FALSE
+"Claude Opus 5","Spike + contention",64,8.75854133130456,FALSE
+"Claude Opus 5","Spike + contention",65,1.78947269839751,FALSE
+"Claude Opus 5","Spike + contention",66,9.11071754409798,FALSE
+"Claude Opus 5","Spike + contention",67,1.5920178908444,FALSE
+"Claude Opus 5","Spike + contention",68,0,TRUE
+"Claude Opus 5","Spike + contention",69,3.52732816261543,TRUE
+"Claude Opus 5","Spike + contention",70,0,TRUE
+"Claude Opus 5","Spike + contention",71,0,TRUE
+"Claude Opus 5","Spike + contention",72,3.55757273089134,FALSE
+"Claude Opus 5","Spike + contention",73,0.698336987983588,FALSE
+"Claude Opus 5","Spike + contention",74,0,TRUE
+"Claude Opus 5","Spike + contention",75,0,TRUE
+"Claude Opus 5","Spike + contention",76,0,TRUE
+"Claude Opus 5","Spike + contention",77,1.52180953231717,FALSE
+"Claude Opus 5","Spike + contention",78,0,TRUE
+"Claude Opus 5","Spike + contention",79,9.0944710797323,FALSE
+"Claude Opus 5","Spike + contention",80,0,TRUE
+"Claude Opus 5","Spike + contention",81,0,TRUE
+"Claude Opus 5","Spike + contention",82,3.67104122264394,FALSE
+"Claude Opus 5","Spike + contention",83,6.02678479388597,FALSE
+"Claude Opus 5","Spike + contention",84,0,TRUE
+"Claude Opus 5","Spike + contention",85,0,TRUE
+"Claude Opus 5","Spike + contention",86,4.00276091433295,TRUE
+"Claude Opus 5","Spike + contention",87,0.910847677191711,FALSE
+"Claude Opus 5","Spike + contention",88,1.11205727745544,FALSE
+"Claude Opus 5","Spike + contention",89,7.06420178048984,FALSE
+"Claude Opus 5","Spike + contention",90,0,TRUE
+"Claude Opus 5","Spike + contention",91,1.59214811844385,FALSE
+"Claude Opus 5","Spike + contention",92,0.960043257833305,FALSE
+"Claude Opus 5","Spike + contention",93,4.60161045917185,FALSE
+"Claude Opus 5","Spike + contention",94,0,TRUE
+"Claude Opus 5","Spike + contention",95,0,TRUE
+"Claude Opus 5","Spike + contention",96,0,TRUE
+"Claude Opus 5","Spike + contention",97,0,TRUE
+"Claude Opus 5","Spike + contention",98,3.2008377567613,FALSE
+"Claude Opus 5","Spike + contention",99,0,TRUE
+"Claude Opus 5","Spike + contention",100,0,TRUE
+"Claude Opus 5","Spike + contention",101,0,TRUE
+"Claude Opus 5","Spike + contention",102,0,TRUE
+"Claude Opus 5","Spike + contention",103,0,TRUE
+"Claude Opus 5","Spike + contention",104,3.02994751821077,FALSE
+"Claude Opus 5","Spike + contention",105,8.07906344466738,FALSE
+"Claude Opus 5","Spike + contention",106,0,TRUE
+"Claude Opus 5","Spike + contention",107,1.08331369451304,FALSE
+"Claude Opus 5","Spike + contention",108,0,TRUE
+"Claude Opus 5","Spike + contention",109,2.03892341654988,FALSE
+"Claude Opus 5","Spike + contention",110,0,TRUE
+"Claude Opus 5","Spike + contention",111,3.26401725948392,FALSE
+"Claude Opus 5","Spike + contention",112,1.78947270271652,FALSE
+"Claude Opus 5","Spike + contention",113,3.99164123375797,FALSE
+"Claude Opus 5","Spike + contention",114,0,TRUE
+"Claude Opus 5","Spike + contention",115,0,TRUE
+"Claude Opus 5","Spike + contention",116,1.78947270211468,FALSE
+"Claude Opus 5","Spike + contention",117,4.88527097412455,FALSE
+"Claude Opus 5","Spike + contention",118,8.22893677620021,FALSE
+"Claude Opus 5","Spike + contention",119,0,TRUE
+"Claude Opus 5","Spike + contention",120,5.5088150673816,FALSE
+"Claude Opus 5","Spike + contention",121,0,TRUE
+"Claude Opus 5","Spike + contention",122,0,TRUE
+"Claude Opus 5","Spike + contention",123,0,TRUE
+"Claude Opus 5","Spike + contention",124,0,TRUE
+"Claude Opus 5","Spike + contention",125,1.78897769702668,FALSE
+"Claude Opus 5","Spike + contention",126,3.67071966300362,FALSE
+"Claude Opus 5","Spike + contention",127,1.91931929967423,FALSE
+"Claude Opus 5","Spike + contention",128,0,TRUE
+"Claude Opus 5","Spike + contention",129,0,TRUE
+"Claude Opus 5","Spike + contention",130,0,TRUE
+"Claude Opus 5","Spike + contention",131,0.77826086688698,FALSE
+"Claude Opus 5","Spike + contention",132,6.58081493696447,FALSE
+"Claude Opus 5","Spike + contention",133,0,TRUE
+"Claude Opus 5","Spike + contention",134,7.03015337374731,FALSE
+"Claude Opus 5","Spike + contention",135,0,TRUE
+"Claude Opus 5","Spike + contention",136,0,TRUE
+"Claude Opus 5","Spike + contention",137,2.15799106790521,FALSE
+"Claude Opus 5","Spike + contention",138,0,TRUE
+"Claude Opus 5","Spike + contention",139,0,TRUE
+"Claude Opus 5","Spike + contention",140,3.20021598838507,FALSE
+"Claude Opus 5","Spike + contention",141,0,TRUE
+"Claude Opus 5","Spike + contention",142,6.32313541299416,FALSE
+"Claude Opus 5","Spike + contention",143,1.18537137227955,FALSE
+"Claude Opus 5","Spike + contention",144,2.15858741430712,FALSE
+"Claude Opus 5","Spike + contention",145,2.53091424048599,FALSE
+"Claude Opus 5","Spike + contention",146,6.79613410564724,FALSE
+"Claude Opus 5","Spike + contention",147,5.82239175255548,FALSE
+"Claude Opus 5","Spike + contention",148,0,TRUE
+"Claude Opus 5","Spike + contention",149,8.07920824970155,FALSE
+"Claude Opus 5","Spike + contention",150,0,TRUE
+"Claude Opus 5","Spike + contention",151,7.14030382473165,FALSE
+"Claude Opus 5","Spike + contention",152,8.05898638706334,FALSE
+"Claude Opus 5","Spike + contention",153,0,TRUE
+"Claude Opus 5","Spike + contention",154,2.08851790544491,FALSE
+"Claude Opus 5","Spike + contention",155,0,TRUE
+"Claude Opus 5","Spike + contention",156,8.80551266508937,FALSE
+"Claude Opus 5","Spike + contention",157,0,TRUE
+"Claude Opus 5","Spike + contention",158,4.12773242565603,FALSE
+"Claude Opus 5","Spike + contention",159,1.91931929965192,FALSE
+"Claude Opus 5","Spike + contention",160,5.30536079508745,FALSE
+"Claude Opus 5","Spike + contention",161,0,TRUE
+"Claude Opus 5","Spike + contention",162,0,TRUE
+"Claude Opus 5","Spike + contention",163,3.30796189848542,FALSE
+"Claude Opus 5","Spike + contention",164,0,TRUE
+"Claude Opus 5","Spike + contention",165,1.14033885468241,FALSE
+"Claude Opus 5","Spike + contention",166,7.97392133822117,FALSE
+"Claude Opus 5","Spike + contention",167,2.53255429493845,FALSE
+"Claude Opus 5","Spike + contention",168,0.456203991755632,FALSE
+"Claude Opus 5","Spike + contention",169,0,TRUE
+"Claude Opus 5","Spike + contention",170,2.8995495097818,FALSE
+"Claude Opus 5","Spike + contention",171,3.62264160567214,FALSE
+"Claude Opus 5","Spike + contention",172,7.79183577611989,FALSE
+"Claude Opus 5","Spike + contention",173,0.919414141628746,FALSE
+"Claude Opus 5","Spike + contention",174,0,TRUE
+"Claude Opus 5","Spike + contention",175,4.0208734357594,FALSE
+"Claude Opus 5","Spike + contention",176,8.13084963362525,FALSE
+"Claude Opus 5","Spike + contention",177,5.21068353231205,FALSE
+"Claude Opus 5","Spike + contention",178,0,TRUE
+"Claude Opus 5","Spike + contention",179,6.64967520302911,FALSE
+"Claude Opus 5","Spike + contention",180,0,TRUE
+"Claude Opus 5","Spike + contention",181,1.79657923737337,FALSE
+"Claude Opus 5","Spike + contention",182,0.235111659257141,FALSE
+"Claude Opus 5","Spike + contention",183,0,TRUE
+"Claude Opus 5","Spike + contention",184,0.578139556625015,FALSE
+"Claude Opus 5","Spike + contention",185,5.43672579475924,FALSE
+"Claude Opus 5","Spike + contention",186,1.96896068292651,FALSE
+"Claude Opus 5","Spike + contention",187,3.79814923282213,FALSE
+"Claude Opus 5","Spike + contention",188,0.577910262604705,FALSE
+"Claude Opus 5","Spike + contention",189,0.777054351363105,FALSE
+"Claude Opus 5","Spike + contention",190,0,TRUE
+"Claude Opus 5","Spike + contention",191,0,TRUE
+"Claude Opus 5","Spike + contention",192,8.18022692145238,FALSE
+"Claude Opus 5","Spike + contention",193,1.96854166433257,FALSE
+"Claude Opus 5","Spike + contention",194,5.82234158716216,FALSE
+"Claude Opus 5","Spike + contention",195,4.83645565859551,FALSE
+"Claude Opus 5","Spike + contention",196,0.588676185468392,FALSE
+"Claude Opus 5","Spike + contention",197,2.08824606454216,FALSE
+"Claude Opus 5","Spike + contention",198,0,TRUE
+"Claude Opus 5","Spike + contention",199,0,TRUE
+"Claude Opus 5","Spike + contention",200,1.78897769625344,FALSE

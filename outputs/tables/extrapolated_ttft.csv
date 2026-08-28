@@ -1,0 +1,37 @@
+"scenario","model","student_t_degree","input_tokens","ttft_seconds","ttft_minutes"
+"Primary: quadratic GPT, linear Claude","GPT-5.6 Terra",2,1e+06,14.2199281287846,0.23699880214641
+"Primary: quadratic GPT, linear Claude","GPT-5.6 Terra",2,2e+06,43.8418846713271,0.730698077855452
+"Primary: quadratic GPT, linear Claude","GPT-5.6 Terra",2,5e+06,229.025285883309,3.81708809805514
+"Primary: quadratic GPT, linear Claude","GPT-5.6 Terra",2,1e+07,858.722726517791,14.3120454419632
+"Primary: quadratic GPT, linear Claude","GPT-5.6 Sol",2,1e+06,22.5754995444688,0.376258325741147
+"Primary: quadratic GPT, linear Claude","GPT-5.6 Sol",2,2e+06,65.388905223806,1.08981508706343
+"Primary: quadratic GPT, linear Claude","GPT-5.6 Sol",2,5e+06,318.81992755023,5.3136654591705
+"Primary: quadratic GPT, linear Claude","GPT-5.6 Sol",2,1e+07,1157.84098238898,19.297349706483
+"Primary: quadratic GPT, linear Claude","Claude Sonnet 5",1,1e+06,13.4265925268349,0.223776542113915
+"Primary: quadratic GPT, linear Claude","Claude Sonnet 5",1,2e+06,26.3641773577365,0.439402955962276
+"Primary: quadratic GPT, linear Claude","Claude Sonnet 5",1,5e+06,65.1769318504415,1.08628219750736
+"Primary: quadratic GPT, linear Claude","Claude Sonnet 5",1,1e+07,129.86485600495,2.16441426674916
+"Primary: quadratic GPT, linear Claude","Claude Opus 5",1,1e+06,23.3939672580135,0.389899454300225
+"Primary: quadratic GPT, linear Claude","Claude Opus 5",1,2e+06,45.1856838368233,0.753094730613721
+"Primary: quadratic GPT, linear Claude","Claude Opus 5",1,5e+06,110.560833573253,1.84268055955421
+"Primary: quadratic GPT, linear Claude","Claude Opus 5",1,1e+07,219.519416467301,3.65865694112169
+"Opus quadratic sensitivity","Claude Opus 5",2,1e+06,23.732504065855,0.395541734430917
+"Opus quadratic sensitivity","Claude Opus 5",2,2e+06,48.8182090055957,0.813636816759928
+"Opus quadratic sensitivity","Claude Opus 5",2,5e+06,142.979726242523,2.38299543737539
+"Opus quadratic sensitivity","Claude Opus 5",2,1e+07,362.930263029755,6.04883771716258
+"Sensitivity: quadratic all models","GPT-5.6 Terra",2,1e+06,14.2199281287846,0.23699880214641
+"Sensitivity: quadratic all models","GPT-5.6 Terra",2,2e+06,43.8418846713271,0.730698077855452
+"Sensitivity: quadratic all models","GPT-5.6 Terra",2,5e+06,229.025285883309,3.81708809805514
+"Sensitivity: quadratic all models","GPT-5.6 Terra",2,1e+07,858.722726517791,14.3120454419632
+"Sensitivity: quadratic all models","GPT-5.6 Sol",2,1e+06,22.5754995444688,0.376258325741147
+"Sensitivity: quadratic all models","GPT-5.6 Sol",2,2e+06,65.388905223806,1.08981508706343
+"Sensitivity: quadratic all models","GPT-5.6 Sol",2,5e+06,318.81992755023,5.3136654591705
+"Sensitivity: quadratic all models","GPT-5.6 Sol",2,1e+07,1157.84098238898,19.297349706483
+"Sensitivity: quadratic all models","Claude Sonnet 5",2,1e+06,13.3791904928342,0.222986508213903
+"Sensitivity: quadratic all models","Claude Sonnet 5",2,2e+06,25.880187087286,0.431336451454767
+"Sensitivity: quadratic all models","Claude Sonnet 5",2,5e+06,60.9133051479459,1.01522175246577
+"Sensitivity: quadratic all models","Claude Sonnet 5",2,1e+07,111.068929506727,1.85114882511212
+"Sensitivity: quadratic all models","Claude Opus 5",2,1e+06,23.732504065855,0.395541734430917
+"Sensitivity: quadratic all models","Claude Opus 5",2,2e+06,48.8182090055957,0.813636816759928
+"Sensitivity: quadratic all models","Claude Opus 5",2,5e+06,142.979726242523,2.38299543737539
+"Sensitivity: quadratic all models","Claude Opus 5",2,1e+07,362.930263029755,6.04883771716258
