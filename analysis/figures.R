@@ -279,21 +279,24 @@ make_panel <- function(model_name, curves, y_limits, y_breaks,
     epoch_theme(show_x_title, show_y_title, show_x_ticks, show_y_ticks)
 }
 
-draw_epoch_header <- function(title, subtitle) {
+draw_epoch_header <- function(title, subtitle, subtitle_y = 0.895) {
   grid.text(
     title,
     x = unit(0.055, "npc"), y = unit(0.955, "npc"),
     just = c("left", "top"),
     gp = gpar(
-      fontfamily = font_family, fontface = "bold", fontsize = 23,
-      col = charcoal_1000
+      fontfamily = font_family, fontface = "bold", fontsize = 16,
+      col = charcoal_1000, lineheight = 1.08
     )
   )
   grid.text(
     subtitle,
-    x = unit(0.055, "npc"), y = unit(0.895, "npc"),
+    x = unit(0.055, "npc"), y = unit(subtitle_y, "npc"),
     just = c("left", "top"),
-    gp = gpar(fontfamily = font_family, fontsize = 14, col = charcoal_700)
+    gp = gpar(
+      fontfamily = font_family, fontsize = 11.5, col = charcoal_700,
+      lineheight = 1.12
+    )
   )
 }
 
@@ -547,8 +550,8 @@ figure_1_panels <- list(
 export_figure("figure_1_headline_four_model_comparison", 12.2, 9.2, function() {
   grid.newpage()
   draw_epoch_header(
-    "Time to first token across four frontier language models",
-    "Quadratic-capable Student-t fits to shared-prefix requests; each dot is one API request"
+    "GPT-5.6 TTFT curves upward with context length; Claude 5 is much closer to linear",
+    "Each dot is one API request; lines are quadratic-capable Student-t fits."
   )
   draw_panels(
     figure_1_panels, 2, 2,
@@ -582,8 +585,8 @@ figure_2_panels <- list(
 export_figure("figure_2_gpt_estimator_robustness", 11.7, 6.3, function() {
   grid.newpage()
   draw_epoch_header(
-    "GPT-5.6 latency scaling is robust across estimators",
-    "Quadratic-capable fits using three treatments of request-level latency noise"
+    "GPT-5.6 TTFT curvature persists across three estimators",
+    "Three quadratic-capable fits make different assumptions about request-level latency noise."
   )
   draw_panels(
     figure_2_panels, 1, 2,
@@ -618,8 +621,8 @@ figure_3_panels <- list(
 export_figure("figure_3_claude_estimator_robustness", 11.7, 6.3, function() {
   grid.newpage()
   draw_epoch_header(
-    "Claude latency scaling across estimators",
-    "Quadratic-capable fits using three treatments of request-level latency noise"
+    "Claude TTFT fits remain close to linear across estimators, though Opus 5 is noisier",
+    "Three quadratic-capable fits make different assumptions about request-level latency noise."
   )
   draw_panels(
     figure_3_panels, 1, 2,
@@ -707,14 +710,15 @@ extrapolation_panel <- ggplot(
 export_figure("figure_4_ttft_extrapolation_primary", 10.8, 7.2, function() {
   grid.newpage()
   draw_epoch_header(
-    "Illustrative latency extrapolation to 10 million tokens",
-    "Quadratic Student-t fits for GPT-5.6; linear Student-t fits for Claude 5"
+    "Extrapolated GPT-5.6 TTFT rises much faster than Claude 5 beyond 1 million tokens",
+    "Measured data end below 1 million tokens; beyond that, quadratic GPT-5.6 and linear Claude 5 fits\nare stress-test extrapolations, not forecasts.",
+    subtitle_y = 0.895
   )
   print(
     extrapolation_panel,
     vp = viewport(
       x = unit(0.075, "npc"), y = unit(0.16, "npc"),
-      width = unit(0.86, "npc"), height = unit(0.65, "npc"),
+      width = unit(0.86, "npc"), height = unit(0.59, "npc"),
       just = c("left", "bottom")
     )
   )
