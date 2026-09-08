@@ -67,8 +67,8 @@ To rerender figures quickly from the committed fit tables:
 make figures
 ```
 
-The original blog exports used Epoch's licensed Messina Sans files. The portable
-figure script uses the included OFL-licensed Inter font. The checked-in PNG/SVG
+The original blog exports used Epoch's Messina Sans files. The portable figure
+script uses the included Inter font. The checked-in PNG/SVG
 files are the authoritative Epoch-styled publication exports; a fresh portable
 render may differ slightly in typography while preserving data, fits, scales,
 and colors.
@@ -150,9 +150,3 @@ calls, serialization, and request construction.
 
 Accordingly, these results measure effective public-API serving latency under
 the documented protocol—not isolated accelerator execution time.
-
-## License
-
-Repository-wide licensing is pending. The included Inter font is separately
-licensed under the SIL Open Font License in `assets/fonts/Inter/OFL.txt`. Figure
-artwork marked `CC-BY` retains that marking. No Messina font files are included.

@@ -8,6 +8,6 @@
   the authoritative publication exports.
 
 The two versions use identical observations, coefficients, axes, colors, and
-layouts. Typography can shift slightly because the licensed Messina font is not
-redistributed in this repository. Portable rendering also emits PDF files; the
+layouts. Typography can shift slightly because Messina Sans is not redistributed
+in this repository. Portable rendering also emits PDF files; the
 blog release artifacts are the PNG and SVG files.
