@@ -1,13 +1,17 @@
 # Figure exports
 
-- `publication/` contains the authoritative Messina Sans PNG and SVG exports
-  used for the blog.
-- `reproduced/` contains portable Inter renders created by
-  `Rscript analysis/figures.R`.
-- The PNG and SVG files at this directory's top level are convenience copies of
-  the authoritative publication exports.
+- `figure_1_headline_four_model_comparison.*`
+- `figure_2_gpt_estimator_robustness.*`
+- `figure_3_claude_estimator_robustness.*`
+- `figure_4_ttft_extrapolation_primary.*`
 
-The two versions use identical observations, coefficients, axes, colors, and
-layouts. Typography can shift slightly because Messina Sans is not redistributed
-in this repository. Portable rendering also emits PDF files; the
-blog release artifacts are the PNG and SVG files.
+Each figure is provided as a 240 dpi PNG, SVG, and PDF. All twelve files are
+generated directly from the committed observations and fit tables by:
+
+```bash
+make figures
+```
+
+The neutral exports contain no organizational logo, website asset, or branded
+footer. They retain the models, observations, fits, scales, titles, and
+extrapolation specifications used in the report figures.

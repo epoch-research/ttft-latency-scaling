@@ -97,6 +97,23 @@ def main() -> None:
     metadata = json.loads((ROOT / "data/corpus/combined.meta.json").read_text())
     if hashlib.sha256(corpus).hexdigest() != metadata["combined_sha256"]:
         fail("combined corpus SHA-256 mismatch")
+    corpus_manifest = json.loads((ROOT / "data/corpus/manifest.json").read_text())
+    expected_documents = len(corpus_manifest["documents"])
+    corpus_text = corpus.decode("utf-8")
+    if corpus_text.count("===== DOCUMENT:") != expected_documents:
+        fail("combined corpus document count mismatch")
+    if corpus_text.count("START: FULL LICENSE") != expected_documents:
+        fail("combined corpus does not retain every full Project Gutenberg license")
+    if (
+        corpus_text.count("Section 5. General Information About Project Gutenberg")
+        != expected_documents
+    ):
+        fail("combined corpus contains a truncated Project Gutenberg license")
+    for index, document in enumerate(corpus_text.split("===== DOCUMENT:")[1:], start=1):
+        work_start = document.find("*** START OF THE PROJECT GUTENBERG EBOOK")
+        opening = document[:work_start] if work_start >= 0 else ""
+        if "this ebook is for the use of anyone" not in opening.lower():
+            fail(f"combined corpus document {index} lacks its opening use notice")
 
     print(f"Validated {len(manifest)} sessions and the pinned corpus.")
 

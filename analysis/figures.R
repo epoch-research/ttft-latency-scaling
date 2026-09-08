@@ -1,10 +1,10 @@
 #!/usr/bin/env Rscript
 
-# Portable Epoch-styled static exports of the finalized TTFT figures.
+# Portable, neutrally branded static exports of the finalized TTFT figures.
 #
 # This deliberately preserves the fitted coefficients, request-level observations,
-# panel scales, and extrapolation forms from the source analysis. Only presentation
-# is changed to follow the visual language of Epoch Data Insight exports.
+# panel scales, and extrapolation forms from the source analysis. The rendering is
+# deliberately organization-neutral so downstream users can reproduce and reuse it.
 
 suppressPackageStartupMessages({
   library(ggplot2)
@@ -25,12 +25,11 @@ repo_root <- normalizePath(file.path(script_dir, ".."))
 output_dir <- if (length(args)) {
   normalizePath(args[[1]], mustWork = FALSE)
 } else {
-  normalizePath(file.path(repo_root, "figures/reproduced"), mustWork = FALSE)
+  normalizePath(file.path(repo_root, "figures"), mustWork = FALSE)
 }
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
-# Make the site's bundled Messina fonts available to Cairo without installing
-# them globally on the workstation.
+# Make the bundled Inter fonts available to Cairo without installing them globally.
 font_dir <- normalizePath(file.path(repo_root, "assets/fonts/Inter"))
 font_config <- tempfile(fileext = ".conf")
 font_cache <- tempfile(pattern = "fontconfig-cache-")
@@ -103,27 +102,19 @@ prepare_fits <- function(data) {
 quadratic_fits <- prepare_fits(quadratic_fits)
 linear_fits <- prepare_fits(linear_fits)
 
-# Epoch design tokens, mirrored from legacy/common/colors.ts.
-charcoal_1000 <- "#090C0C"
-charcoal_900 <- "#212A2A"
-charcoal_700 <- "#536565"
-charcoal_500 <- "#8B9999"
-charcoal_300 <- "#C7CACA"
-gray_500 <- "#5C737B"
-gray_400 <- "#90A5AB"
-gray_300 <- "#CCD8D9"
-gray_200 <- "#E2EEEE"
-teal <- "#00A5A6"
-pink <- "#E03D90"
-orange <- "#FC6538"
-purple <- "#6A3ECB"
+# Neutral publication palette. Curve colors follow the color-blind-friendly
+# Okabe-Ito family; grays are conventional interface-neutral tones.
+text_color <- "#111827"
+muted_text_color <- "#4B5563"
+axis_color <- "#9CA3AF"
+grid_color <- "#E5E7EB"
 
-raw_color <- gray_500
-single_fit_color <- pink
+raw_color <- "#4B5563"
+single_fit_color <- "#D97706"
 estimator_colors <- c(
-  "Student-t" = teal,
-  "Frontier" = pink,
-  "Spike + contention" = orange
+  "Student-t" = "#0072B2",
+  "Frontier" = "#D55E00",
+  "Spike + contention" = "#009E73"
 )
 estimator_linetypes <- c(
   "Student-t" = "solid",
@@ -131,10 +122,10 @@ estimator_linetypes <- c(
   "Spike + contention" = "dotted"
 )
 model_colors <- c(
-  "GPT-5.6 Terra" = pink,
-  "GPT-5.6 Sol" = orange,
-  "Claude Sonnet 5" = teal,
-  "Claude Opus 5" = purple
+  "GPT-5.6 Terra" = "#D55E00",
+  "GPT-5.6 Sol" = "#CC79A7",
+  "Claude Sonnet 5" = "#0072B2",
+  "Claude Opus 5" = "#009E73"
 )
 
 curve_rows <- function(fits, methods = unique(fits$method)) {
@@ -178,25 +169,25 @@ all_estimator_curves <- curve_rows(
   c("Student-t", "Frontier", "Spike + contention")
 )
 
-epoch_theme <- function(show_x_title = TRUE, show_y_title = TRUE,
-                        show_x_ticks = TRUE, show_y_ticks = TRUE) {
+publication_theme <- function(show_x_title = TRUE, show_y_title = TRUE,
+                              show_x_ticks = TRUE, show_y_ticks = TRUE) {
   theme_classic(base_size = 12, base_family = font_family) +
     theme(
       plot.background = element_rect(fill = "white", color = NA),
       panel.background = element_rect(fill = "white", color = NA),
-      panel.grid.major = element_line(color = gray_200, linewidth = 0.45),
+      panel.grid.major = element_line(color = grid_color, linewidth = 0.45),
       panel.grid.minor = element_blank(),
-      axis.line = element_line(color = gray_400, linewidth = 0.45),
-      axis.ticks = element_line(color = gray_400, linewidth = 0.45),
+      axis.line = element_line(color = axis_color, linewidth = 0.45),
+      axis.ticks = element_line(color = axis_color, linewidth = 0.45),
       axis.ticks.length = unit(3.5, "pt"),
-      axis.text = element_text(size = 10.5, color = charcoal_700),
+      axis.text = element_text(size = 10.5, color = muted_text_color),
       axis.text.x = if (show_x_ticks) element_text() else element_blank(),
       axis.text.y = if (show_y_ticks) element_text() else element_blank(),
       axis.ticks.x = if (show_x_ticks) element_line() else element_blank(),
       axis.ticks.y = if (show_y_ticks) element_line() else element_blank(),
       axis.title.x = if (show_x_title) {
         element_text(
-          size = 11.5, face = "bold", color = charcoal_1000,
+          size = 11.5, face = "bold", color = text_color,
           margin = margin(t = 9, unit = "pt")
         )
       } else {
@@ -204,14 +195,14 @@ epoch_theme <- function(show_x_title = TRUE, show_y_title = TRUE,
       },
       axis.title.y = if (show_y_title) {
         element_text(
-          size = 11.5, face = "bold", color = charcoal_1000,
+          size = 11.5, face = "bold", color = text_color,
           margin = margin(r = 9, unit = "pt")
         )
       } else {
         element_blank()
       },
       plot.title = element_text(
-        size = 14, face = "bold", color = charcoal_1000,
+        size = 14, face = "bold", color = text_color,
         hjust = 0, margin = margin(b = 8, unit = "pt")
       ),
       legend.position = "none",
@@ -276,17 +267,17 @@ make_panel <- function(model_name, curves, y_limits, y_breaks,
       x = "Input context (thousand tokens)",
       y = "Time to first token (s)"
     ) +
-    epoch_theme(show_x_title, show_y_title, show_x_ticks, show_y_ticks)
+    publication_theme(show_x_title, show_y_title, show_x_ticks, show_y_ticks)
 }
 
-draw_epoch_header <- function(title, subtitle, subtitle_y = 0.895) {
+draw_figure_header <- function(title, subtitle, subtitle_y = 0.895) {
   grid.text(
     title,
     x = unit(0.055, "npc"), y = unit(0.955, "npc"),
     just = c("left", "top"),
     gp = gpar(
       fontfamily = font_family, fontface = "bold", fontsize = 16,
-      col = charcoal_1000, lineheight = 1.08
+      col = text_color, lineheight = 1.08
     )
   )
   grid.text(
@@ -294,142 +285,9 @@ draw_epoch_header <- function(title, subtitle, subtitle_y = 0.895) {
     x = unit(0.055, "npc"), y = unit(subtitle_y, "npc"),
     just = c("left", "top"),
     gp = gpar(
-      fontfamily = font_family, fontsize = 11.5, col = charcoal_700,
+      fontfamily = font_family, fontsize = 11.5, col = muted_text_color,
       lineheight = 1.12
     )
-  )
-}
-
-# Draw the official Epoch wordmark as vector geometry.  The source asset is
-# copied from epoch.ai's epoch-full-standard.svg so every export format uses the
-# real logo rather than a hand-drawn approximation.
-parse_svg_path <- function(path_data, curve_steps = 18) {
-  token_pattern <- "[A-Za-z]|[-+]?(?:[0-9]*\\.[0-9]+|[0-9]+\\.?)(?:[eE][-+]?[0-9]+)?"
-  tokens <- regmatches(path_data, gregexpr(token_pattern, path_data, perl = TRUE))[[1]]
-  paths <- list()
-  active <- NULL
-  current <- c(0, 0)
-  start <- c(0, 0)
-  command <- NULL
-  index <- 1
-
-  finish_path <- function() {
-    if (!is.null(active) && nrow(active) >= 3) paths[[length(paths) + 1]] <<- active
-    active <<- NULL
-  }
-  add_point <- function(point) {
-    active <<- rbind(active, point)
-    current <<- point
-  }
-  number <- function(offset = 0) as.numeric(tokens[[index + offset]])
-
-  while (index <= length(tokens)) {
-    if (grepl("^[A-Za-z]$", tokens[[index]])) {
-      command <- tokens[[index]]
-      index <- index + 1
-      if (command == "Z") {
-        if (!is.null(active) && any(active[nrow(active), ] != start)) active <- rbind(active, start)
-        current <- start
-        finish_path()
-        command <- NULL
-      }
-      next
-    }
-    if (command == "M") {
-      finish_path()
-      point <- c(number(), number(1))
-      index <- index + 2
-      active <- matrix(point, nrow = 1)
-      current <- point
-      start <- point
-      command <- "L"
-    } else if (command == "L") {
-      add_point(c(number(), number(1)))
-      index <- index + 2
-    } else if (command == "H") {
-      add_point(c(number(), current[[2]]))
-      index <- index + 1
-    } else if (command == "V") {
-      add_point(c(current[[1]], number()))
-      index <- index + 1
-    } else if (command == "C") {
-      control_1 <- c(number(), number(1))
-      control_2 <- c(number(2), number(3))
-      endpoint <- c(number(4), number(5))
-      origin <- current
-      for (time in seq(1 / curve_steps, 1, length.out = curve_steps)) {
-        add_point(
-          (1 - time)^3 * origin +
-            3 * (1 - time)^2 * time * control_1 +
-            3 * (1 - time) * time^2 * control_2 +
-            time^3 * endpoint
-        )
-      }
-      index <- index + 6
-    } else {
-      stop(sprintf("Unsupported SVG path command: %s", command))
-    }
-  }
-  finish_path()
-  paths
-}
-
-load_epoch_wordmark <- function() {
-  logo_path <- file.path(repo_root, "assets/epoch-full-standard.svg")
-  svg <- paste(readLines(logo_path, warn = FALSE), collapse = "")
-  path_tags <- regmatches(svg, gregexpr("<path\\b[^>]*>", svg, perl = TRUE))[[1]]
-  lapply(path_tags, function(tag) {
-    list(
-      paths = parse_svg_path(sub('.*\\bd="([^"]+)".*', "\\1", tag)),
-      fill = sub('.*\\bfill="([^"]+)".*', "\\1", tag)
-    )
-  })
-}
-
-epoch_wordmark <- load_epoch_wordmark()
-
-draw_epoch_wordmark <- function(x, y, height = unit(17 / 96, "in")) {
-  width <- height * (75 / 13)
-  pushViewport(viewport(
-    x = x, y = y, just = c("left", "center"),
-    width = width, height = height,
-    xscale = c(0, 75), yscale = c(0, 13)
-  ))
-  for (shape in epoch_wordmark) {
-    coordinates <- do.call(rbind, shape$paths)
-    path_ids <- rep(seq_along(shape$paths), vapply(shape$paths, nrow, integer(1)))
-    grid.path(
-      x = unit(coordinates[, 1], "native"),
-      y = unit(13 - coordinates[, 2], "native"),
-      id = path_ids,
-      rule = "evenodd",
-      gp = gpar(fill = shape$fill, col = NA)
-    )
-  }
-  popViewport()
-  invisible(width)
-}
-
-draw_epoch_footer <- function() {
-  footer_x <- unit(0.055, "npc")
-  footer_y <- unit(0.046, "npc")
-  logo_width <- draw_epoch_wordmark(footer_x, footer_y)
-  separator <- textGrob(
-    "|", gp = gpar(fontfamily = font_family, fontsize = 10.5, col = charcoal_500)
-  )
-  separator_x <- footer_x + logo_width + unit(10 / 96, "in")
-  grid.draw(editGrob(separator, x = separator_x, y = footer_y, just = c("left", "center")))
-  grid.text(
-    "CC-BY",
-    x = separator_x + grobWidth(separator) + unit(6 / 96, "in"), y = footer_y,
-    just = c("left", "center"),
-    gp = gpar(fontfamily = font_family, fontsize = 10.5, col = charcoal_500)
-  )
-  grid.text(
-    "epoch.ai",
-    x = unit(0.955, "npc"), y = footer_y,
-    just = c("right", "center"),
-    gp = gpar(fontfamily = font_family, fontsize = 11, col = gray_500)
   )
 }
 
@@ -469,7 +327,7 @@ draw_shared_legend <- function(labels, colors, linetypes, point_flags,
       labels[[index]],
       x = unit(cursor + handle_width + text_gap, "npc"), y = unit(y, "npc"),
       just = c("left", "center"),
-      gp = gpar(fontfamily = font_family, fontsize = fontsize, col = charcoal_900)
+      gp = gpar(fontfamily = font_family, fontsize = fontsize, col = text_color)
     )
     cursor <- cursor + entry_width[[index]] + column_gap
   }
@@ -549,7 +407,7 @@ figure_1_panels <- list(
 
 export_figure("figure_1_headline_four_model_comparison", 12.2, 9.2, function() {
   grid.newpage()
-  draw_epoch_header(
+  draw_figure_header(
     "GPT-5.6 TTFT curves upward with context length; Claude 5 is much closer to linear",
     "Each dot is one API request; lines are quadratic-capable Student-t fits."
   )
@@ -565,7 +423,6 @@ export_figure("figure_1_headline_four_model_comparison", 12.2, 9.2, function() {
     c(TRUE, FALSE),
     y = 0.105
   )
-  draw_epoch_footer()
 })
 
 # Figure 2: GPT estimator robustness.
@@ -584,7 +441,7 @@ figure_2_panels <- list(
 
 export_figure("figure_2_gpt_estimator_robustness", 11.7, 6.3, function() {
   grid.newpage()
-  draw_epoch_header(
+  draw_figure_header(
     "GPT-5.6 TTFT curvature persists across three estimators",
     "Three quadratic-capable fits make different assumptions about request-level latency noise."
   )
@@ -601,7 +458,6 @@ export_figure("figure_2_gpt_estimator_robustness", 11.7, 6.3, function() {
     y = 0.135,
     fontsize = 10.2
   )
-  draw_epoch_footer()
 })
 
 # Figure 3: Claude estimator robustness.
@@ -620,7 +476,7 @@ figure_3_panels <- list(
 
 export_figure("figure_3_claude_estimator_robustness", 11.7, 6.3, function() {
   grid.newpage()
-  draw_epoch_header(
+  draw_figure_header(
     "Claude TTFT fits remain close to linear across estimators, though Opus 5 is noisier",
     "Three quadratic-capable fits make different assumptions about request-level latency noise."
   )
@@ -637,7 +493,6 @@ export_figure("figure_3_claude_estimator_robustness", 11.7, 6.3, function() {
     y = 0.135,
     fontsize = 10.2
   )
-  draw_epoch_footer()
 })
 
 # Figure 4: illustrative extrapolation, quadratic GPT and linear Claude.
@@ -704,12 +559,12 @@ extrapolation_panel <- ggplot(
     x = "Input context (million tokens)",
     y = "Time to first token (minutes)"
   ) +
-  epoch_theme(TRUE, TRUE, TRUE, TRUE) +
+  publication_theme(TRUE, TRUE, TRUE, TRUE) +
   theme(plot.margin = margin(6, 155, 6, 3, unit = "pt"))
 
 export_figure("figure_4_ttft_extrapolation_primary", 10.8, 7.2, function() {
   grid.newpage()
-  draw_epoch_header(
+  draw_figure_header(
     "Extrapolated GPT-5.6 TTFT rises much faster than Claude 5 beyond 1 million tokens",
     "Measured data end below 1 million tokens; beyond that, quadratic GPT-5.6 and linear Claude 5 fits\nare stress-test extrapolations, not forecasts.",
     subtitle_y = 0.895
@@ -722,7 +577,6 @@ export_figure("figure_4_ttft_extrapolation_primary", 10.8, 7.2, function() {
       just = c("left", "bottom")
     )
   )
-  draw_epoch_footer()
 })
 
-cat("Generated Epoch-styled TTFT figures in", output_dir, "\n")
+cat("Generated neutral TTFT figures in", output_dir, "\n")

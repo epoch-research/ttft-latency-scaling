@@ -26,7 +26,7 @@ data/corpus/           exact combined Gutenberg corpus and hashes
 data/prompts/          provider token-count cut points used by the collector
 data/schedules/        observed request order for each released session
 docs/                  collection, prompt, statistical, and numerical details
-figures/               publication Figures 1–4 in PNG and SVG
+figures/               reproducible neutral Figures 1–4 in PNG, SVG, and PDF
 outputs/               authoritative generated tables and bootstrap draws
 src/ttft_bench/        optional paid API collection client
 ```
@@ -54,7 +54,8 @@ make validate
 ```
 
 Regenerate all fits, the 5,000-replicate Huber bootstrap, the 200-replicate
-frontier/mixture bootstraps, numerical documentation, and the four figures:
+frontier/mixture bootstraps, numerical documentation, and the four neutral
+figures:
 
 ```bash
 make reproduce
@@ -67,11 +68,11 @@ To rerender figures quickly from the committed fit tables:
 make figures
 ```
 
-The original blog exports used Epoch's Messina Sans files. The portable figure
-script uses the included Inter font. The checked-in PNG/SVG
-files are the authoritative Epoch-styled publication exports; a fresh portable
-render may differ slightly in typography while preserving data, fits, scales,
-and colors.
+The checked-in PNG, SVG, and PDF figures are generated directly by
+`analysis/figures.R` using the included Inter font. Running `make figures`
+recreates those files in place from the committed observations and fit tables.
+The plots are intentionally organization-neutral and contain no logo, branded
+footer, or website asset.
 
 ## Statistical record
 
@@ -150,3 +151,9 @@ calls, serialization, and request construction.
 
 Accordingly, these results measure effective public-API serving latency under
 the documented protocol—not isolated accelerator execution time.
+
+## License
+
+Except for the third-party materials identified in
+[`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md), Epoch-authored contents of
+this repository are available under the MIT License. See [`LICENSE`](LICENSE).
