@@ -5,3 +5,5 @@ final,Claude Sonnet 5,anthropic,claude-sonnet-5,20260814T154718Z-5dc271b9,data/r
 final,Claude Opus 5,anthropic,claude-opus-5,20260813T163222Z-b3406d60,data/raw/final/20260813T163222Z-b3406d60.jsonl,48,6,"50000;100000;175000;250000;375000;550000;750000;900000"
 supporting,Claude Sonnet 5,anthropic,claude-sonnet-5,20260812T191605Z-bae8e752,data/raw/supporting/20260812T191605Z-bae8e752.jsonl,4,1,"100000;250000;500000;750000"
 supporting,Claude Sonnet 5,anthropic,claude-sonnet-5,20260812T192643Z-50c12a81,data/raw/supporting/20260812T192643Z-50c12a81.jsonl,16,4,"100000;250000;500000;750000"
+astra-api,GPT-6 Astra,openai,gpt-6-astra,20260909T123307Z-1c49feec,data/raw/astra-api/20260909T123307Z-1c49feec.jsonl,6,1,"50000;150000;250000;300000;550000;900000"
+astra-api,GPT-6 Astra,openai,gpt-6-astra,20260909T124315Z-c70b34b7,data/raw/astra-api/20260909T124315Z-c70b34b7.jsonl,18,3,"50000;150000;250000;300000;550000;900000"

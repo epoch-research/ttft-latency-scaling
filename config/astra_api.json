@@ -1,0 +1,61 @@
+{
+  "model_label": "GPT-6 Astra",
+  "api_model": "gpt-6-astra",
+  "sessions": [
+    {
+      "session_id": "20260909T123307Z-1c49feec",
+      "path": "data/raw/astra-api/20260909T123307Z-1c49feec.jsonl",
+      "planned_blocks": 5,
+      "completed_blocks": 1,
+      "measured_requests": 6,
+      "status": "interrupted; no session_end record"
+    },
+    {
+      "session_id": "20260909T124315Z-c70b34b7",
+      "path": "data/raw/astra-api/20260909T124315Z-c70b34b7.jsonl",
+      "planned_blocks": 3,
+      "completed_blocks": 3,
+      "measured_requests": 18,
+      "status": "complete"
+    }
+  ],
+  "nominal_context_tokens": [50000, 150000, 250000, 300000, 550000, 900000],
+  "inclusion": "Every valid measured request in a complete six-length block; cache_setup excluded",
+  "primary_fit": "Student-t quadratic with session-qualified sum-to-zero block effects",
+  "x_units": "provider-reported total_input_tokens / 1000000",
+  "y_units": "ttft_ns / 1000000000",
+  "student_t_df": 4,
+  "optimizer": {"method": "BFGS", "maxit": 3000, "reltol": 1e-11},
+  "huber_bootstrap": {
+    "replicates": 5000,
+    "seed": 20260817,
+    "rng_kind": ["Mersenne-Twister", "Inversion", "Rejection"],
+    "psi_k": 1.345,
+    "maxit": 200,
+    "confidence_level": 0.95,
+    "quantile_type": 7,
+    "resampling_unit": "whole session-qualified chronological block, with replacement",
+    "interval_estimator": "Huber quadratic gamma, not Student-t MLE gamma"
+  },
+  "protocol": {
+    "endpoint": "https://api.openai.com/v1/responses",
+    "stream": true,
+    "store": false,
+    "reasoning": {"effort": "low"},
+    "max_output_tokens": 512,
+    "service_tier": "default",
+    "temperature": "omitted",
+    "top_p": "omitted",
+    "shared_prefix_requested_tokens": 2048,
+    "observed_measured_cache_read_tokens": 2051,
+    "observed_measured_cache_write_tokens": 0,
+    "observed_measured_reasoning_tokens": 0,
+    "minimum_iteration_start_interval_seconds": 4,
+    "sequential": true,
+    "checkpoint_after_each_block": true,
+    "fixed_output": "OK",
+    "nonce_position": "new_input_start",
+    "prompt_cache_options": {"mode": "explicit"},
+    "prefix_block_prompt_cache_breakpoint": {"mode": "explicit"}
+  }
+}

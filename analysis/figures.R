@@ -12,6 +12,8 @@ suppressPackageStartupMessages({
 })
 
 args <- commandArgs(trailingOnly = TRUE)
+astra_mode <- "--astra-api" %in% args
+args <- args[args != "--astra-api"]
 script_arg <- commandArgs(trailingOnly = FALSE)
 script_flag <- grep("^--file=", script_arg, value = TRUE)
 script_path <- if (length(script_flag)) {
@@ -25,7 +27,7 @@ repo_root <- normalizePath(file.path(script_dir, ".."))
 output_dir <- if (length(args)) {
   normalizePath(args[[1]], mustWork = FALSE)
 } else {
-  normalizePath(file.path(repo_root, "figures"), mustWork = FALSE)
+  normalizePath(file.path(repo_root, if (astra_mode) "figures/astra-api" else "figures"), mustWork = FALSE)
 }
 dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 
@@ -48,15 +50,17 @@ on.exit(unlink(c(font_config, font_cache), recursive = TRUE), add = TRUE)
 
 font_family <- "Inter"
 
+table_directory <- if (astra_mode) "outputs/astra-api" else "outputs/tables"
 points <- read.csv(
-  file.path(repo_root, "outputs/tables/request_observations.csv"),
+  file.path(repo_root, table_directory, "request_observations.csv"),
   check.names = FALSE
 )
 all_fits <- read.csv(
-  file.path(repo_root, "outputs/tables/fit_coefficients.csv"),
+  file.path(repo_root, table_directory, "fit_coefficients.csv"),
   check.names = FALSE
 )
 points$model_label <- points$model
+if (astra_mode) points$ttft_seconds <- points$y
 to_figure_fits <- function(data) {
   data.frame(
     dataset = data$model,
@@ -88,6 +92,10 @@ dataset_map <- c(
   "Claude Sonnet 5" = "Claude Sonnet 5",
   "Claude Opus 5" = "Claude Opus 5"
 )
+if (astra_mode) {
+  model_order <- "GPT-6 Astra"
+  dataset_map <- c("GPT-6 Astra" = "GPT-6 Astra")
+}
 
 points <- points[points$model_label %in% model_order, ]
 points$model_label <- factor(points$model_label, levels = model_order)
@@ -164,7 +172,7 @@ curve_rows <- function(fits, methods = unique(fits$method)) {
 }
 
 student_curves <- curve_rows(quadratic_fits, "Student-t")
-all_estimator_curves <- curve_rows(
+all_estimator_curves <- if (astra_mode) NULL else curve_rows(
   quadratic_fits,
   c("Student-t", "Frontier", "Spike + contention")
 )
@@ -292,11 +300,17 @@ draw_figure_header <- function(title, subtitle, subtitle_y = 0.895) {
 }
 
 draw_shared_legend <- function(labels, colors, linetypes, point_flags,
-                               y = 0.105, fontsize = 10.8) {
+                               y = 0.105, fontsize = 10.8, measure_text = FALSE) {
   handle_width <- 0.025
   text_gap <- 0.009
   column_gap <- 0.035
   approximate_text_width <- nchar(labels) * 0.0062
+  if (measure_text) {
+    approximate_text_width <- vapply(labels, function(label) {
+      convertWidth(grobWidth(textGrob(label,
+        gp = gpar(fontfamily = font_family, fontsize = fontsize))), "npc", valueOnly = TRUE)
+    }, numeric(1))
+  }
   entry_width <- handle_width + text_gap + approximate_text_width
   total_width <- sum(entry_width) + column_gap * (length(labels) - 1)
   cursor <- (1 - total_width) / 2
@@ -379,6 +393,23 @@ export_figure <- function(stem, width, height, draw) {
   )
   draw()
   dev.off()
+}
+
+if (astra_mode) {
+  panel <- make_panel("GPT-6 Astra", student_curves, c(0, 30), c(0, 10, 20, 30),
+    show_x_title = TRUE, show_y_title = TRUE, single_fit = TRUE)
+  export_figure("astra_api_student_t", 8.4, 6.3, function() {
+    grid.newpage()
+    draw_figure_header(
+      "GPT-6 Astra TTFT curves upward with context length",
+      "24 API requests; quadratic-capable Student-t fit."
+    )
+    draw_panels(list(panel), 1, 1,
+      list(left = 0.072, right = 0.965, top = 0.785, bottom = 0.185), wspace = 0)
+    draw_shared_legend(c("Raw request", "Student-t fit"), c(raw_color, single_fit_color),
+      c("solid", "solid"), c(TRUE, FALSE), y = 0.095, measure_text = TRUE)
+  })
+  quit(save = "no", status = 0)
 }
 
 # Figure 1: common quadratic-capable Student-t fit.

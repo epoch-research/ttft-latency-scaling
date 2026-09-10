@@ -21,6 +21,8 @@ SESSIONS = {
     "20260813T163222Z-b3406d60": ("final", "claude-opus-5"),
     "20260812T191605Z-bae8e752": ("supporting", "claude-sonnet-5"),
     "20260812T192643Z-50c12a81": ("supporting", "claude-sonnet-5"),
+    "20260909T123307Z-1c49feec": ("astra-api", "gpt-6-astra"),
+    "20260909T124315Z-c70b34b7": ("astra-api", "gpt-6-astra"),
 }
 
 REDACTED_FIELDS = {
@@ -42,12 +44,16 @@ def main() -> None:
         default=Path(__file__).resolve().parents[1],
         help="Reproducibility-repository root",
     )
+    parser.add_argument("--sessions", nargs="+", choices=list(SESSIONS),
+                        help="Release only these sessions; leave other logs untouched")
     args = parser.parse_args()
 
     schedule_dir = args.root / "data" / "schedules"
     schedule_dir.mkdir(parents=True, exist_ok=True)
 
     for session_id, (role, _model) in SESSIONS.items():
+        if args.sessions and session_id not in args.sessions:
+            continue
         source = args.source / f"{session_id}.jsonl"
         destination = args.root / "data" / "raw" / role / source.name
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -57,6 +63,9 @@ def main() -> None:
             for record in records:
                 for field in REDACTED_FIELDS:
                     record.pop(field, None)
+                if role == "astra-api":
+                    for field in ("network_label", "platform", "hard_cost_limit_usd"):
+                        record.pop(field, None)
                 handle.write(json.dumps(record, separators=(",", ":")) + "\n")
 
         measured = [
@@ -69,6 +78,7 @@ def main() -> None:
         ) as handle:
             writer = csv.DictWriter(
                 handle,
+                lineterminator="\n" if role == "astra-api" else "\r\n",
                 fieldnames=[
                     "sequence",
                     "block",

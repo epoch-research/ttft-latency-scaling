@@ -19,3 +19,13 @@ are retained because they document the experimental setup without revealing API
 credentials. API keys were loaded from `.env` and were never written to the logs.
 
 The original private logs remain outside this repository.
+
+## September 2026 Astra API supplement
+
+The two `data/raw/astra-api/` logs apply the same redactions. They additionally
+omit `network_label`, `platform`, and the operator's `hard_cost_limit_usd` from
+the session header. Measured request bodies and authorization headers were not
+logged; the logs contain prompt/cache hashes, not API credentials. Timestamps,
+model/generation settings, all completed measurements, and both cache-setup
+records are retained. The interrupted session is not given an invented
+`session_end` record. Only direct API sessions are included.
