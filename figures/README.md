@@ -15,3 +15,12 @@ make figures
 The neutral exports contain no organizational logo, website asset, or branded
 footer. They retain the models, observations, fits, scales, titles, and
 extrapolation specifications used in the report figures.
+
+## Astra API supplement
+
+`astra-api/astra_api_student_t.{png,svg,pdf}` is a separate single-model figure
+using all 24 September 9 Astra API measurements and their Student-t quadratic fit.
+It follows the same neutral styling and uses no additional assets. Run
+`make astra` to refit and render, or `make astra-figures` to render from the
+committed tables. See [`docs/astra-api.md`](../docs/astra-api.md) for provenance
+and the treatment of the interrupted initial session and excluded setup requests.

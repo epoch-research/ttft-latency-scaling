@@ -4,10 +4,14 @@ This repository contains the evidence and code behind the comparison of
 long-context time-to-first-token (TTFT) scaling for GPT-5.6 Terra, GPT-5.6 Sol,
 Claude Sonnet 5, and Claude Opus 5.
 
+A separate [GPT-6 Astra API supplement](docs/astra-api.md) adds the September 9,
+2026 measurements and an Astra-only Student-t plot. It does not replace or pool
+with the original four-model results.
+
 It supports two separate tasks:
 
 1. **Offline reproduction:** refit the released observations and regenerate all
-   reported tables and Figures 1–4 without API keys or paid requests.
+   reported tables, Figures 1–4, and the Astra supplement without API keys or paid requests.
 2. **Fresh collection:** inspect or rerun the API protocol using your own keys,
    subject to current model availability, pricing, and provider behavior.
 
@@ -28,6 +32,9 @@ data/schedules/        observed request order for each released session
 docs/                  collection, prompt, statistical, and numerical details
 figures/               reproducible neutral Figures 1–4 in PNG, SVG, and PDF
 outputs/               authoritative generated tables and bootstrap draws
+data/raw/astra-api/     two sanitized Astra API logs (24 measurements + 2 setup requests)
+outputs/astra-api/      independently regenerated Astra fit and observation tables
+figures/astra-api/      additional neutral Astra-only plot
 src/ttft_bench/        optional paid API collection client
 ```
 
@@ -68,9 +75,21 @@ To rerender figures quickly from the committed fit tables:
 make figures
 ```
 
+To reproduce only the Astra supplement, without paid requests:
+
+```bash
+make astra
+```
+
+This validates the release, refits Astra's linear and quadratic Student-t models,
+and exports the Astra-only figure in PNG, SVG, and PDF. `make astra-figures`
+rerenders it from committed tables. `make reproduce` also includes this supplement.
+The original Figures 1–4 and their tables remain separate and unchanged.
+
 The checked-in PNG, SVG, and PDF figures are generated directly by
 `analysis/figures.R` using the included Inter font. Running `make figures`
-recreates those files in place from the committed observations and fit tables.
+recreates Figures 1–4 in place from the committed observations and fit tables;
+`make astra-figures` recreates the additional Astra figure.
 The plots are intentionally organization-neutral and contain no logo, branded
 footer, or website asset.
 

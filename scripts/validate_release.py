@@ -62,6 +62,50 @@ def main() -> None:
             fail(f"{path}: context-length set mismatch")
         expected_blocks = int(specification["expected_blocks"])
         counts = Counter(sample["target_tokens"] for sample in samples)
+        if specification["role"] == "astra-api":
+            if header["corpus_sha256"] != "075768889cfef63bcbb967fa0204b6048201fdfe896124915f75e8dadc8b9e75":
+                fail(f"{path}: Astra corpus hash mismatch")
+            if set(counts.values()) != {expected_blocks}:
+                fail(f"{path}: Astra measurements are not balanced")
+            blocks = {}
+            for sample in samples:
+                blocks.setdefault(sample["repetition"], []).append(sample["target_tokens"])
+                if not sample.get("valid") or sample.get("model") != "gpt-6-astra":
+                    fail(f"{path}: invalid or non-Astra measurement")
+                if sample.get("provider") != "openai" or sample.get("mode") != "shared_prefix_cached":
+                    fail(f"{path}: unexpected collection route")
+                expected = {"cache_read_tokens": 2051, "cache_write_tokens": 0,
+                            "reasoning_tokens": 0, "output_tokens": 5,
+                            "max_output_tokens": 512, "reasoning_effort": "low",
+                            "output_preview": "OK", "status_code": 200,
+                            "returned_model": "gpt-6-astra",
+                            "requested_service_tier": "default",
+                            "returned_service_tier": "default"}
+                for key, value in expected.items():
+                    if sample.get(key) != value:
+                        fail(f"{path}: unexpected {key}")
+                if sample["total_input_tokens"] != sample["target_tokens"] - 2:
+                    fail(f"{path}: input token count mismatch")
+                if sample["new_input_tokens"] + sample["cache_read_tokens"] != sample["total_input_tokens"]:
+                    fail(f"{path}: token accounting mismatch")
+                if not 0 < sample["ttft_ns"] <= sample["total_ns"]:
+                    fail(f"{path}: invalid timing interval")
+            if len(blocks) != expected_blocks or any(
+                len(v) != len(expected_lengths) or set(v) != expected_lengths
+                for v in blocks.values()
+            ):
+                fail(f"{path}: incomplete Astra block")
+            setup = [r for r in records if r.get("kind") == "cache_setup"]
+            if len(setup) != 1 or setup[0].get("cache_write_tokens") != 2051:
+                fail(f"{path}: expected one excluded cache-setup request")
+            if specification["session_id"] == "20260909T123307Z-1c49feec":
+                if any(r.get("type") == "session_end" for r in records):
+                    fail(f"{path}: interrupted session unexpectedly has session_end")
+            elif records[-1].get("status") != "complete":
+                fail(f"{path}: continuation is not complete")
+            for record in records:
+                if any(k in record for k in ("network_label", "platform", "hard_cost_limit_usd", "thread", "usage")):
+                    fail(f"{path}: private metadata or non-API schema")
         if specification["role"] == "final":
             if set(counts.values()) != {expected_blocks}:
                 fail(f"{path}: final session is not balanced by length")
@@ -92,6 +136,12 @@ def main() -> None:
             sample["target_tokens"] for sample in samples
         ]:
             fail(f"{schedule_path}: schedule order mismatch")
+        if specification["role"] == "astra-api":
+            for row, sample in zip(schedule, samples):
+                if (int(row["block"]) != sample["repetition"] + 1 or
+                    row["request_started_at"] != sample["request_started_at"] or
+                    row["request_completed_at"] != sample["request_completed_at"]):
+                    fail(f"{schedule_path}: chronology differs from raw log")
 
     corpus = (ROOT / "data/corpus/combined.txt").read_bytes()
     metadata = json.loads((ROOT / "data/corpus/combined.meta.json").read_text())
