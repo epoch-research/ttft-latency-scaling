@@ -155,10 +155,58 @@ independent-error model conditional on blocks; it is **not** a block-robust or
 finite-sample calibrated significance claim. The small block count, possible
 nonconstant variance, and uncertain noise mechanism warrant caution.
 
-This scoped addition releases the plotted Student-t coefficients and their
-linear comparator; it does not add Astra bootstrap CIs, asymmetric fits,
-content experiments, or extrapolations. Do not reuse the original four models'
-bootstrap intervals as Astra intervals.
+### Whole-block Huber curvature bootstrap
+
+The supplement also reproduces the original analysis's **Huber quadratic
+whole-block bootstrap**, separately from the Student-t likelihood test. The
+bootstrap interval is for the Huber coefficient, **not** a Student-t MLE interval.
+
+| Quantity | Value |
+|---|---:|
+| Huber point estimate of gamma (s/Mtoken²) | 11.90870284039497 |
+| Bootstrap 95% percentile interval, lower | 8.619149832837026 |
+| Bootstrap 95% percentile interval, upper | 16.23913316573795 |
+| Requested / converged replicates | 5,000 / 5,000 |
+| Excluded replicates | 0 |
+| Fraction of converged, finite gamma estimates strictly above zero | 1 (5,000/5,000) |
+
+The exact refit is `MASS::rlm(y ~ x + I(x^2) + block)` with `psi.huber`,
+`k=1.345`, `method="M"`, `scale.est="MAD"`, `init="ls"`, `maxit=200`,
+`acc=1e-4`, and `test.vec="resid"`. Alpha, beta, and gamma are unconstrained.
+For standardized residual `u`, the Huber loss is `u²/2` when `|u| <= k`, and
+`k*|u| - k²/2` otherwise. IRLS updates the residual scale using the `rlm` MAD
+procedure. Blocks use explicit treatment contrasts in these Huber fits,
+matching the historical Huber formula's default; this spans the same additive
+block-effect space as the Student-t sum-to-zero coding and does not change gamma.
+
+Each replicate samples **four whole blocks with replacement** from the four
+session-qualified blocks. All six requests and their within-block order stay
+together. Sampled occurrences receive fresh labels `boot_1` through `boot_4`,
+including when an original block is selected more than once; each occurrence
+therefore has its own block-effect coefficient. Sampling is not stratified by
+session. `bootstrap_block_index.csv` records the original block ordering, and
+`huber_block_bootstrap.csv` records every selected block index, gamma, and
+convergence flag. Fits that error, fail to converge, or yield nonfinite gamma
+are excluded from the interval and counted explicitly; none did so here. This
+convergence check is stricter than the original script's finite-value-only check.
+
+The interval uses R `quantile(..., probs=c(0.025, 0.975), type=7)`. The positive
+fraction is `mean(gamma > 0)` over converged finite replicates. An independent
+Astra-only stream uses `set.seed(20260817)` and
+`RNGkind("Mersenne-Twister", "Inversion", "Rejection")`; it does not depend on RNG
+state consumed by exploratory datasets. The configuration records these settings.
+
+All 5,000 positive draws support positive curvature under this resampling scheme;
+they do **not** establish a calibrated p-value of zero (or less than 1/5,000).
+Resampling preserves dependence within an observed block but assumes blocks are
+representative resampling units. With only four blocks from two nearby sessions,
+the bootstrap has a very limited set of empirical block combinations. Repeating
+the resampling 5,000 times does not create 5,000 independent experimental blocks
+or establish coverage under unobserved time-of-day/session effects.
+
+This addition does not include Astra asymmetric fits, content experiments, or
+extrapolations. The original four models' coefficients and intervals remain
+separate and unchanged.
 
 ## Files
 
@@ -168,6 +216,9 @@ bootstrap intervals as Astra intervals.
 - `outputs/astra-api/fit_coefficients.csv` and `student_fits.json`: both fits.
 - `outputs/astra-api/fit_block_effects.csv`: all four offsets for each fit.
 - `outputs/astra-api/linear_quadratic_comparison.csv`: LR and AICc comparison.
+- `outputs/astra-api/bootstrap_intervals.csv`: Huber gamma and bootstrap summary.
+- `outputs/astra-api/huber_block_bootstrap.csv`: all 5,000 refits and sampled indices.
+- `outputs/astra-api/bootstrap_block_index.csv`: index-to-original-block mapping.
 - `outputs/astra-api/quadratic_curve.csv`: the 300-point plotted baseline.
 - `figures/astra-api/astra_api_student_t.{png,svg,pdf}`: neutral figure exports.
 

@@ -1,0 +1,2 @@
+"model","estimator","parameter","estimate","ci_low","ci_high","confidence_level","interval","fraction_gamma_positive","requested_replicates","converged_replicates","excluded_replicates","blocks","seed","psi_k","note"
+"GPT-6 Astra","Huber quadratic","gamma",11.908702840395,8.61914983283703,16.239133165738,0.95,"whole-block pairs bootstrap; percentile type 7",1,5000,5000,0,4,20260817,1.345,"fraction positive is not a calibrated p-value; only four observed blocks"

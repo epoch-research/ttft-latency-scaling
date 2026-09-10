@@ -83,3 +83,58 @@ write.csv(comparison, file.path(output, "linear_quadratic_comparison.csv"), row.
 write.csv(curve, file.path(output, "quadratic_curve.csv"), row.names = FALSE)
 write_json(fits, file.path(output, "student_fits.json"), pretty = TRUE, auto_unbox = TRUE, digits = 16)
 print(coefficients, row.names = FALSE)
+
+# Same whole-block Huber procedure as the original four-model analysis.
+# This release uses an independent API-only seeded stream, not the incidental
+# RNG state left by unrelated exploratory fits. Save every sampled block index.
+boot_spec <- spec$huber_bootstrap
+huber_fit <- function(data) {
+  data$block <- droplevels(factor(data$block))
+  rlm(y ~ x + I(x^2) + block, data = data, psi = psi.huber, k = boot_spec$psi_k,
+    method = "M", scale.est = "MAD", init = "ls", maxit = boot_spec$maxit,
+    acc = 1e-4, test.vec = "resid",
+    contrasts = list(block = contr.treatment(nlevels(data$block))))
+}
+point_fit <- huber_fit(d)
+stopifnot(point_fit$converged)
+RNGkind(kind = boot_spec$rng_kind[[1]], normal.kind = boot_spec$rng_kind[[2]],
+  sample.kind = boot_spec$rng_kind[[3]])
+set.seed(boot_spec$seed)
+B <- boot_spec$replicates
+block_levels <- levels(d$block)
+draws <- lapply(seq_len(B), function(i) {
+  selected <- sample(seq_along(block_levels), length(block_levels), replace = TRUE)
+  pieces <- Map(function(index, copy_index) {
+    piece <- d[d$block == block_levels[index], ]
+    piece$block <- paste0("boot_", copy_index)
+    piece
+  }, selected, seq_along(selected))
+  sampled <- do.call(rbind, pieces)
+  sampled$block <- factor(sampled$block)
+  rownames(sampled) <- NULL
+  fit <- tryCatch(suppressWarnings(huber_fit(sampled)), error = function(e) NULL)
+  data.frame(replicate = i, sampled_block_1 = selected[1],
+    sampled_block_2 = selected[2], sampled_block_3 = selected[3], sampled_block_4 = selected[4],
+    gamma = if (is.null(fit)) NA_real_ else unname(coef(fit)["I(x^2)"]),
+    converged = !is.null(fit) && isTRUE(fit$converged))
+})
+draws <- do.call(rbind, draws)
+good <- draws$converged & is.finite(draws$gamma)
+stopifnot(any(good))
+tail_probability <- (1 - boot_spec$confidence_level) / 2
+ci <- quantile(draws$gamma[good], c(tail_probability, 1 - tail_probability),
+  type = boot_spec$quantile_type, names = FALSE)
+interval <- data.frame(model = "GPT-6 Astra", estimator = "Huber quadratic",
+  parameter = "gamma", estimate = unname(coef(point_fit)["I(x^2)"]),
+  ci_low = ci[1], ci_high = ci[2], confidence_level = boot_spec$confidence_level,
+  interval = "whole-block pairs bootstrap; percentile type 7",
+  fraction_gamma_positive = mean(draws$gamma[good] > 0),
+  requested_replicates = B, converged_replicates = sum(good),
+  excluded_replicates = sum(!good), blocks = nlevels(d$block),
+  seed = boot_spec$seed, psi_k = boot_spec$psi_k,
+  note = "fraction positive is not a calibrated p-value; only four observed blocks")
+write.csv(draws, file.path(output, "huber_block_bootstrap.csv"), row.names = FALSE)
+write.csv(data.frame(block_index = seq_along(block_levels), block = block_levels),
+  file.path(output, "bootstrap_block_index.csv"), row.names = FALSE)
+write.csv(interval, file.path(output, "bootstrap_intervals.csv"), row.names = FALSE)
+print(interval, row.names = FALSE)

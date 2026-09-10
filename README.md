@@ -82,7 +82,9 @@ make astra
 ```
 
 This validates the release, refits Astra's linear and quadratic Student-t models,
-and exports the Astra-only figure in PNG, SVG, and PDF. `make astra-figures`
+recomputes its LR comparison and 5,000-replicate whole-block Huber curvature
+bootstrap, and exports the Astra-only figure in PNG, SVG, and PDF. Saved bootstrap
+draws and confidence intervals are in `outputs/astra-api/`. `make astra-figures`
 rerenders it from committed tables. `make reproduce` also includes this supplement.
 The original Figures 1–4 and their tables remain separate and unchanged.
 

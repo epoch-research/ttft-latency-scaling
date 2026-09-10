@@ -26,6 +26,17 @@
   "y_units": "ttft_ns / 1000000000",
   "student_t_df": 4,
   "optimizer": {"method": "BFGS", "maxit": 3000, "reltol": 1e-11},
+  "huber_bootstrap": {
+    "replicates": 5000,
+    "seed": 20260817,
+    "rng_kind": ["Mersenne-Twister", "Inversion", "Rejection"],
+    "psi_k": 1.345,
+    "maxit": 200,
+    "confidence_level": 0.95,
+    "quantile_type": 7,
+    "resampling_unit": "whole session-qualified chronological block, with replacement",
+    "interval_estimator": "Huber quadratic gamma, not Student-t MLE gamma"
+  },
   "protocol": {
     "endpoint": "https://api.openai.com/v1/responses",
     "stream": true,
